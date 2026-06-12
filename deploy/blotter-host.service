@@ -1,0 +1,37 @@
+# /etc/systemd/system/blotter-host.service
+#
+# 2026-06-06: paths adjusted for current install — project lives at
+# /root/blotter-host (not /opt) and runs as root (not www-data).
+# If you ever move the project to /opt/blotter-host and create a
+# dedicated user, restore User=www-data + WorkingDirectory=/opt/blotter-host.
+[Unit]
+Description=blotter.host multi-tenant router
+Documentation=https://github.com/your-org/blotter-host
+After=network.target
+# StartLimitBurst/Interval cap the restart loop if the app is truly broken
+# (e.g. syntax error) so systemd doesn't hammer the journal.
+StartLimitIntervalSec=60
+StartLimitBurst=10
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/root/blotter-host
+ExecStart=/root/.nvm/versions/node/v24.14.1/bin/node /root/blotter-host/server.js
+Restart=always
+RestartSec=3
+# Hardening
+# 2026-06-06: ProtectHome/ProtectSystem dropped for current install —
+# project lives at /root/blotter-host and writes to data/control.db.
+# Re-enable with a ReadWritePaths allowlist if the project is ever
+# moved to /opt/blotter-host.
+NoNewPrivileges=true
+PrivateTmp=true
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=blotter-host
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2933">
+  <title>My alerts - blotter.host</title>
+  <meta name="description" content="Manage your blotter.host alerts.">
+  <link rel="canonical" href="https://blotter.host/me/alerts">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="apex-topbar" role="banner">
+    <a class="apex-topbar__brand" href="/">blotter.host</a>
+    <nav class="apex-topbar__nav" aria-label="Apex">
+      <a href="/">Home</a>
+      <a href="/network">Network</a>
+      <a href="/about">About</a>
+      <a href="/subscribe">Subscribe</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero hero--landing">
+      <p class="hero__eyebrow">blotter.host</p>
+      <h1 class="hero__title">My alerts</h1>
+      <p class="hero__tagline">Get a daily or weekly digest when new public-safety reports match a county or keyword.</p>
+
+      <div class="hero__actions" id="join">
+        <a class="hero__button" href="/me">Back to account</a>
+        <a class="hero__button hero__button--ghost" href="/logout">Sign out</a>
+      </div>
+    </section>
+
+    {{{NOTICE_HTML}}}
+
+    <section class="landing-panel landing-panel--auth" aria-labelledby="create-h">
+      <h2 id="create-h" class="section-heading">Create an alert</h2>
+      <form action="/me/alerts" method="post" class="subscribe-form">
+        <label>
+          <span>Alert type</span>
+          <select name="alert_type" required>
+            <option value="county">County</option>
+            <option value="keyword">Keyword</option>
+          </select>
+        </label>
+        <label>
+          <span>Target</span>
+          <input type="text" name="target" required placeholder="e.g. ada or domestic violence">
+        </label>
+        <label>
+          <span>Frequency</span>
+          <select name="frequency" required>
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+          </select>
+        </label>
+        <button type="submit" class="search__submit">Create alert</button>
+      </form>
+      <p class="landing-panel__note">
+        County targets should be the slug used in URLs (e.g. <code>los-angeles</code>).
+        Keyword targets match against headline and summary text. Maximum 10 alerts per account.
+      </p>
+    </section>
+
+    <section class="landing-panel" aria-labelledby="list-h">
+      <div class="landing-panel__head">
+        <h2 id="list-h" class="section-heading">Active alerts</h2>
+      </div>
+      <div class="board__scroll" role="region" aria-label="Active alerts" tabindex="0">
+        <table class="board-table">
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Target</th>
+              <th scope="col">Frequency</th>
+              <th scope="col" class="actions-col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{{ALERTS_ROWS_HTML}}}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="apex-footer">
+      <a class="apex-footer__link" href="/admin/login">Operators</a>
+    </footer>
+  </main>
+</body>
+</html>

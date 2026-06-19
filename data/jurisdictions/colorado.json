@@ -1,0 +1,331 @@
+{
+  "state": "Colorado",
+  "abbreviation": "CO",
+  "subdomain": "colorado.blotter.host",
+  "metadata": {
+    "total_counties": 64,
+    "capital": "Denver"
+  },
+  "counties": [
+    {
+      "name": "Adams County",
+      "seat": "Brighton",
+      "major_cities_and_towns": ["Aurora", "Thornton", "Westminster", "Brighton", "Commerce City", "Federal Heights", "Northglenn", "Bennett", "Strasburg", "Hudson", "Lochbuie"]
+    },
+    {
+      "name": "Alamosa County",
+      "seat": "Alamosa",
+      "major_cities_and_towns": ["Alamosa", "Blanca", "La Jara", "Mosca"]
+    },
+    {
+      "name": "Arapahoe County",
+      "seat": "Littleton",
+      "major_cities_and_towns": ["Aurora", "Littleton", "Centennial", "Englewood", "Sheridan", "Cherry Hills Village", "Glendale", "Foxfield", "Columbine Valley", "Bow Mar", "Deer Trail", "Bennett"]
+    },
+    {
+      "name": "Archuleta County",
+      "seat": "Pagosa Springs",
+      "major_cities_and_towns": ["Pagosa Springs", "Arboles", "Edgewood", "Chromo"]
+    },
+    {
+      "name": "Baca County",
+      "seat": "Springfield",
+      "major_cities_and_towns": ["Springfield", "Walsh", "Vilas", "Two Buttes"]
+    },
+    {
+      "name": "Bent County",
+      "seat": "Las Animas",
+      "major_cities_and_towns": ["Las Animas", "La Junta", "McClave", "Hasty"]
+    },
+    {
+      "name": "Boulder County",
+      "seat": "Boulder",
+      "major_cities_and_towns": ["Boulder", "Longmont", "Broomfield", "Louisville", "Lafayette", "Superior", "Erie", "Lyons", "Nederland", "Ward", "Jamestown", "Niwot"]
+    },
+    {
+      "name": "Broomfield County",
+      "seat": "Broomfield",
+      "major_cities_and_towns": ["Broomfield", "Interlocken", "Anthem"]
+    },
+    {
+      "name": "Chaffee County",
+      "seat": "Salida",
+      "major_cities_and_towns": ["Salida", "Buena Vista", "Poncha Springs", "Maysville", "Moffat"]
+    },
+    {
+      "name": "Cheyenne County",
+      "seat": "Cheyenne Wells",
+      "major_cities_and_towns": ["Cheyenne Wells", "Kit Carson", "Arapahoe"]
+    },
+    {
+      "name": "Clear Creek County",
+      "seat": "Georgetown",
+      "major_cities_and_towns": ["Idaho Springs", "Georgetown", "Silver Plume", "Dumont", "Empire"]
+    },
+    {
+      "name": "Conejos County",
+      "seat": "Conejos",
+      "major_cities_and_towns": ["La Jara", "Antonito", "Capulin", "Mogote", "Romeo"]
+    },
+    {
+      "name": "Costilla County",
+      "seat": "San Luis",
+      "major_cities_and_towns": ["San Luis", "Fort Garland", "Blanca", "La Veta"]
+    },
+    {
+      "name": "Crowley County",
+      "seat": "Ordway",
+      "major_cities_and_towns": ["Ordway", "Olney Springs", "Sugar City", "Crowley"]
+    },
+    {
+      "name": "Custer County",
+      "seat": "Westcliffe",
+      "major_cities_and_towns": ["Westcliffe", "Silver Cliff", "Silverdale"]
+    },
+    {
+      "name": "Delta County",
+      "seat": "Delta",
+      "major_cities_and_towns": ["Delta", "Montrose", "Cedaredge", "Orchard City", "Paonia", "Crawford", "Hotchkiss"]
+    },
+    {
+      "name": "Denver County",
+      "seat": "Denver",
+      "major_cities_and_towns": ["Denver", "Stapleton", "Globeville", "Montbello", "Westwood", "Barnum", "Berkeley", "Goldsmith", "Congress Park", "Hilltop"]
+    },
+    {
+      "name": "Dolores County",
+      "seat": "Dove Creek",
+      "major_cities_and_towns": ["Dove Creek", "Rico", "Dolores"]
+    },
+    {
+      "name": "Douglas County",
+      "seat": "Castle Rock",
+      "major_cities_and_towns": ["Lone Tree", "Castle Rock", "Parker", "Highlands Ranch", "Roxborough Park", "Franktown", "Larkspur", "Castle Pines"]
+    },
+    {
+      "name": "Eagle County",
+      "seat": "Eagle",
+      "major_cities_and_towns": ["Vail", "Avon", "Eagle", "Gypsum", "Minturn", "Basalt", "Edwards", "El Jebel", "Wolcott"]
+    },
+    {
+      "name": "El Paso County",
+      "seat": "Colorado Springs",
+      "major_cities_and_towns": ["Colorado Springs", "Fountain", "Monument", "Palmer Lake", "Manitou Springs", "Black Forest", "Falcon", "Peyton", "Calhan", "Security-Widefield", "Cimarron Hills", "Stratmoor", "Woodland Park"]
+    },
+    {
+      "name": "Elbert County",
+      "seat": "Kiowa",
+      "major_cities_and_towns": ["Kiowa", "Elizabeth", "Elbert", "Simla", "Matheson", "Agate"]
+    },
+    {
+      "name": "Fremont County",
+      "seat": "Canon City",
+      "major_cities_and_towns": ["Canon City", "Florence", "Penrose", "Coal Creek", "Rockvale", "Brookside", "Williamsburg"]
+    },
+    {
+      "name": "Garfield County",
+      "seat": "Glenwood Springs",
+      "major_cities_and_towns": ["Glenwood Springs", "Rifle", "Carbondale", "Silt", "Parachute", "New Castle", "Battlement Mesa"]
+    },
+    {
+      "name": "Gilpin County",
+      "seat": "Central City",
+      "major_cities_and_towns": ["Central City", "Black Hawk", "Rollinsville"]
+    },
+    {
+      "name": "Grand County",
+      "seat": "Hot Sulphur Springs",
+      "major_cities_and_towns": ["Granby", "Kremmling", "Grand Lake", "Winter Park", "Fraser", "Hot Sulphur Springs", "Tabernash"]
+    },
+    {
+      "name": "Gunnison County",
+      "seat": "Gunnison",
+      "major_cities_and_towns": ["Gunnison", "Crested Butte", "Almont", "Parlin", "Sargents", "Marble"]
+    },
+    {
+      "name": "Hinsdale County",
+      "seat": "Lake City",
+      "major_cities_and_towns": ["Lake City", "Powderhorn"]
+    },
+    {
+      "name": "Huerfano County",
+      "seat": "Walsenburg",
+      "major_cities_and_towns": ["Walsenburg", "La Veta", "Ludlow", "Aguilar", "Gardner"]
+    },
+    {
+      "name": "Jackson County",
+      "seat": "Walden",
+      "major_cities_and_towns": ["Walden", "Cowdrey", "Rand"]
+    },
+    {
+      "name": "Jefferson County",
+      "seat": "Golden",
+      "major_cities_and_towns": ["Lakewood", "Arvada", "Westminster", "Golden", "Wheat Ridge", "Littleton", "Edgewater", "Morrison", "Evergreen", "Genesee", "Conifer", "Ken Caryl", "Indian Hills", "Bergen Park"]
+    },
+    {
+      "name": "Kiowa County",
+      "seat": "Eads",
+      "major_cities_and_towns": ["Eads", "Haswell", "Arlington", "Sheridan Lake"]
+    },
+    {
+      "name": "Kit Carson County",
+      "seat": "Burlington",
+      "major_cities_and_towns": ["Burlington", "Flagler", "Seibert", "Stratton", "Bethune"]
+    },
+    {
+      "name": "La Plata County",
+      "seat": "Durango",
+      "major_cities_and_towns": ["Durango", "Bayfield", "Ignacio", "Hesperus", "Breen", "Edgemont"]
+    },
+    {
+      "name": "Lake County",
+      "seat": "Leadville",
+      "major_cities_and_towns": ["Leadville", "Buena Vista", "Tabor", "Twin Lakes"]
+    },
+    {
+      "name": "Larimer County",
+      "seat": "Fort Collins",
+      "major_cities_and_towns": ["Fort Collins", "Loveland", "Greeley", "Windsor", "Estes Park", "Timnath", "Wellington", "Laporte", "Bellvue", "Poudre Park", "Virginia Dale", "Red Feather Lakes"]
+    },
+    {
+      "name": "Las Animas County",
+      "seat": "Trinidad",
+      "major_cities_and_towns": ["Trinidad", "Aguilar", "Ludlow", "Starkville", "Weston", "Model"]
+    },
+    {
+      "name": "Lincoln County",
+      "seat": "Hugo",
+      "major_cities_and_towns": ["Hugo", "Limon", "Genoa", "Flagler", "Arriba"]
+    },
+    {
+      "name": "Logan County",
+      "seat": "Sterling",
+      "major_cities_and_towns": ["Sterling", "Fleming", "Iliff", "Merino", "Atwood", "Haxtun"]
+    },
+    {
+      "name": "Mesa County",
+      "seat": "Grand Junction",
+      "major_cities_and_towns": ["Grand Junction", "Fruita", "Palisade", "Collbran", "De Beque", "Gateway", "Loma", "Clifton", "Orchard Mesa"]
+    },
+    {
+      "name": "Mineral County",
+      "seat": "Creede",
+      "major_cities_and_towns": ["Creede", "South Fork", "Wagon Wheel Gap"]
+    },
+    {
+      "name": "Moffat County",
+      "seat": "Craig",
+      "major_cities_and_towns": ["Craig", "Steamboat Springs", "Maybell", "Dinosaur", "Meeker"]
+    },
+    {
+      "name": "Montezuma County",
+      "seat": "Cortez",
+      "major_cities_and_towns": ["Cortez", "Dolores", "Mancos", "Mesa Verde", "Towaoc"]
+    },
+    {
+      "name": "Montrose County",
+      "seat": "Montrose",
+      "major_cities_and_towns": ["Montrose", "Olathe", "Naturita", "Nucla", "Norwood", "Delta"]
+    },
+    {
+      "name": "Morgan County",
+      "seat": "Fort Morgan",
+      "major_cities_and_towns": ["Fort Morgan", "Wiggins", "Brush", "Akron", "Goodrich", "Log Lane Village", "Snyder"]
+    },
+    {
+      "name": "Otero County",
+      "seat": "La Junta",
+      "major_cities_and_towns": ["La Junta", "Rocky Ford", "Manzanola", "Swink", "Cheraw", "Fowler", "Olney Springs"]
+    },
+    {
+      "name": "Ouray County",
+      "seat": "Ouray",
+      "major_cities_and_towns": ["Ouray", "Ridgway", "Colona", "Portland"]
+    },
+    {
+      "name": "Park County",
+      "seat": "Fairplay",
+      "major_cities_and_towns": ["Fairplay", "Alma", "Hartsel", "Bailey", "Grant", "Lake George", "Florissant"]
+    },
+    {
+      "name": "Phillips County",
+      "seat": "Holyoke",
+      "major_cities_and_towns": ["Holyoke", "Haxtun", "Amherst", "Paoli"]
+    },
+    {
+      "name": "Pitkin County",
+      "seat": "Aspen",
+      "major_cities_and_towns": ["Aspen", "Snowmass Village", "Basalt", "Marble", "Lenado"]
+    },
+    {
+      "name": "Prowers County",
+      "seat": "Lamar",
+      "major_cities_and_towns": ["Lamar", "La Junta", "Holly", "Granada", "Wiley", "Hartman", "Bristol"]
+    },
+    {
+      "name": "Pueblo County",
+      "seat": "Pueblo",
+      "major_cities_and_towns": ["Pueblo", "Pueblo West", "Boone", "Avondale", "Beulah Valley", "Salt Creek"]
+    },
+    {
+      "name": "Rio Blanco County",
+      "seat": "Meeker",
+      "major_cities_and_towns": ["Meeker", "Rangely", "Buford", "Collbran"]
+    },
+    {
+      "name": "Rio Grande County",
+      "seat": "Del Norte",
+      "major_cities_and_towns": ["Del Norte", "Monte Vista", "Center", "Saguache", "Alamosa"]
+    },
+    {
+      "name": "Routt County",
+      "seat": "Steamboat Springs",
+      "major_cities_and_towns": ["Steamboat Springs", "Hayden", "Oak Creek", "Yampa", "Craig", "Milner", "Clark"]
+    },
+    {
+      "name": "Saguache County",
+      "seat": "Saguache",
+      "major_cities_and_towns": ["Saguache", "Center", "Moffat", "Moffat Creek", "Villa Grove"]
+    },
+    {
+      "name": "San Juan County",
+      "seat": "Silverton",
+      "major_cities_and_towns": ["Silverton", "Howardsville", "Eureka"]
+    },
+    {
+      "name": "San Miguel County",
+      "seat": "Telluride",
+      "major_cities_and_towns": ["Telluride", "Norwood", "Placerville", "Sawpit", "Ophir"]
+    },
+    {
+      "name": "Sedgwick County",
+      "seat": "Julesburg",
+      "major_cities_and_towns": ["Julesburg", "Ovid", "Sedgwick", "Crook", "Lodgepole"]
+    },
+    {
+      "name": "Summit County",
+      "seat": "Breckenridge",
+      "major_cities_and_towns": ["Breckenridge", "Frisco", "Silverthorne", "Dillon", "Keystone", "Montezuma", "Blue River"]
+    },
+    {
+      "name": "Teller County",
+      "seat": "Cripple Creek",
+      "major_cities_and_towns": ["Cripple Creek", "Victor", "Woodland Park", "Divide", "Florissant", "Green Mountain Falls", "Chipita Park"]
+    },
+    {
+      "name": "Washington County",
+      "seat": "Akron",
+      "major_cities_and_towns": ["Akron", "Otis", "Woodrow", "Lindon", "Anton"]
+    },
+    {
+      "name": "Weld County",
+      "seat": "Greeley",
+      "major_cities_and_towns": ["Greeley", "Loveland", "Windsor", "Longmont", "Evans", "Milliken", "Firestone", "Frederick", "Dacono", "Fort Lupton", "Johnstown", "Platteville", "Kersey", "Eaton", "Ault", "Pierce", "Galeton", "Nunn", "Grover", "Severance", "Gill"]
+    },
+    {
+      "name": "Yuma County",
+      "seat": "Wray",
+      "major_cities_and_towns": ["Wray", "Yuma", "Eckley", "Idalia", "Joes"]
+    }
+  ]
+}

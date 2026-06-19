@@ -1,0 +1,386 @@
+{
+  "state": "Arkansas",
+  "abbreviation": "AR",
+  "subdomain": "arkansas.blotter.host",
+  "metadata": {
+    "total_counties": 75,
+    "capital": "Little Rock"
+  },
+  "counties": [
+    {
+      "name": "Arkansas County",
+      "seat": "DeWitt",
+      "major_cities_and_towns": ["Stuttgart", "DeWitt", "Almyra", "Gillett", "Humphrey", "St. Charles"]
+    },
+    {
+      "name": "Ashley County",
+      "seat": "Hamburg",
+      "major_cities_and_towns": ["Hamburg", "Crossett", "Fountain Hill", "Montrose", "Wilmot", "Parkdale"]
+    },
+    {
+      "name": "Baxter County",
+      "seat": "Mountain Home",
+      "major_cities_and_towns": ["Mountain Home", "Gassville", "Cotter", "Lakeview", "Norfork", "Midway", "Salesville"]
+    },
+    {
+      "name": "Benton County",
+      "seat": "Bentonville",
+      "major_cities_and_towns": ["Bentonville", "Fayetteville", "Rogers", "Springdale", "Siloam Springs", "Bella Vista", "Cave Springs", "Centerton", "Lowell", "Pea Ridge", "Gravette", "Highfill", "Bethel Heights", "Little Flock", "Garfield"]
+    },
+    {
+      "name": "Boone County",
+      "seat": "Harrison",
+      "major_cities_and_towns": ["Harrison", "Berryville", "Omaha", "Diamond City", "Lead Hill", "Western Grove"]
+    },
+    {
+      "name": "Bradley County",
+      "seat": "Warren",
+      "major_cities_and_towns": ["Warren", "Banks", "Hermitage", "Tinsman"]
+    },
+    {
+      "name": "Calhoun County",
+      "seat": "Hampton",
+      "major_cities_and_towns": ["Hampton", "Harrell", "Thornton", "Fordyce"]
+    },
+    {
+      "name": "Carroll County",
+      "seat": "Berryville",
+      "major_cities_and_towns": ["Berryville", "Eureka Springs", "Green Forest", "Alpena", "Beaver", "Blue Eye"]
+    },
+    {
+      "name": "Chicot County",
+      "seat": "Lake Village",
+      "major_cities_and_towns": ["Lake Village", "Eudora", "Dermott", "Mc Gehee", "Chicot"]
+    },
+    {
+      "name": "Clark County",
+      "seat": "Arkadelphia",
+      "major_cities_and_towns": ["Arkadelphia", "Gurdon", "Caddo Valley", "Gum Springs", "Amity"]
+    },
+    {
+      "name": "Clay County",
+      "seat": "Piggott",
+      "major_cities_and_towns": ["Piggott", "Corning", "Rector", "Knobel", "Pollard", "Success"]
+    },
+    {
+      "name": "Cleburne County",
+      "seat": "Heber Springs",
+      "major_cities_and_towns": ["Heber Springs", "Greers Ferry", "Drasco", "Quitman", "Edgemont"]
+    },
+    {
+      "name": "Cleveland County",
+      "seat": "Rison",
+      "major_cities_and_towns": ["Rison", "Kingsland", "New Edinburg"]
+    },
+    {
+      "name": "Columbia County",
+      "seat": "Magnolia",
+      "major_cities_and_towns": ["Magnolia", "Emerson", "McNeil", "Waldo", "Taylor"]
+    },
+    {
+      "name": "Conway County",
+      "seat": "Morrilton",
+      "major_cities_and_towns": ["Morrilton", "Plummerville", "Menifee", "Solgohachia", "Oppelo"]
+    },
+    {
+      "name": "Craighead County",
+      "seat": "Jonesboro",
+      "major_cities_and_towns": ["Jonesboro", "Caraway", "Lake City", "Brookland", "Bono", "Bay", "Monette", "Cash"]
+    },
+    {
+      "name": "Crawford County",
+      "seat": "Van Buren",
+      "major_cities_and_towns": ["Van Buren", "Fort Smith", "Alma", "Mulberry", "Chester", "Cedarville", "Mountainburg", "Dyer", "Rudy"]
+    },
+    {
+      "name": "Crittenden County",
+      "seat": "Marion",
+      "major_cities_and_towns": ["West Memphis", "Marion", "Earle", "Turrell", "Edmondson", "Gilmore", "Horseshoe Lake", "Jericho", "Proctor", "Sunset"]
+    },
+    {
+      "name": "Cross County",
+      "seat": "Wynne",
+      "major_cities_and_towns": ["Wynne", "Parkin", "Cherry Valley", "Fair Oaks", "Vanndale"]
+    },
+    {
+      "name": "Dallas County",
+      "seat": "Fordyce",
+      "major_cities_and_towns": ["Fordyce", "Carthage", "Sparkman", "Whelen Springs"]
+    },
+    {
+      "name": "Desha County",
+      "seat": "Arkansas City",
+      "major_cities_and_towns": ["McGehee", "Dumas", "Arkansas City", "Rohwer", "Watson"]
+    },
+    {
+      "name": "Drew County",
+      "seat": "Monticello",
+      "major_cities_and_towns": ["Monticello", "Wilmar", "Tillar", "Cominto", "Kellys Store"]
+    },
+    {
+      "name": "Faulkner County",
+      "seat": "Conway",
+      "major_cities_and_towns": ["Conway", "Vilonia", "Greenbrier", "Mayflower", "Wooster", "Guy", "Enola", "Springfield"]
+    },
+    {
+      "name": "Franklin County",
+      "seat": "Ozark",
+      "major_cities_and_towns": ["Ozark", "Charleston", "Altus", "Clarksville", "Branch", "Wiederkehr Village"]
+    },
+    {
+      "name": "Fulton County",
+      "seat": "Salem",
+      "major_cities_and_towns": ["Salem", "Mammoth Spring", "Hardy", "Viola", "Ash Flat"]
+    },
+    {
+      "name": "Garland County",
+      "seat": "Hot Springs",
+      "major_cities_and_towns": ["Hot Springs", "Hot Springs Village", "Jessieville", "Mountain Pine", "Fountain Lake", "Lonsdale", "Rockwell"]
+    },
+    {
+      "name": "Grant County",
+      "seat": "Sheridan",
+      "major_cities_and_towns": ["Sheridan", "Leola", "Prattsville", "Tull"]
+    },
+    {
+      "name": "Greene County",
+      "seat": "Paragould",
+      "major_cities_and_towns": ["Paragould", "Marmaduke", "Delaplaine", "Lafe", "Beech Grove"]
+    },
+    {
+      "name": "Hempstead County",
+      "seat": "Hope",
+      "major_cities_and_towns": ["Hope", "Washington", "Ozan", "Saratoga", "Blevins", "Emmet"]
+    },
+    {
+      "name": "Hot Spring County",
+      "seat": "Malvern",
+      "major_cities_and_towns": ["Malvern", "Bismarck", "Donaldson", "Grapevine", "Magnet Cove"]
+    },
+    {
+      "name": "Howard County",
+      "seat": "Nashville",
+      "major_cities_and_towns": ["Nashville", "Mineral Springs", "Dierks", "Umpire"]
+    },
+    {
+      "name": "Independence County",
+      "seat": "Batesville",
+      "major_cities_and_towns": ["Batesville", "Cord", "Cushman", "Newark", "Moorefield", "Cave City"]
+    },
+    {
+      "name": "Izard County",
+      "seat": "Melbourne",
+      "major_cities_and_towns": ["Melbourne", "Calico Rock", "Horseshoe Bend", "Ash Flat", "Wiseman"]
+    },
+    {
+      "name": "Jackson County",
+      "seat": "Newport",
+      "major_cities_and_towns": ["Newport", "Tuckerman", "Swifton", "Bald Knob", "Diaz", "Oil Trough"]
+    },
+    {
+      "name": "Jefferson County",
+      "seat": "Pine Bluff",
+      "major_cities_and_towns": ["Pine Bluff", "White Hall", "Dollarway", "Altheimer", "Humphrey", "Jefferson", "Redfield", "Sherrill"]
+    },
+    {
+      "name": "Johnson County",
+      "seat": "Clarksville",
+      "major_cities_and_towns": ["Clarksville", "Lamar", "Hartman", "Hagarville", "Coal Hill"]
+    },
+    {
+      "name": "Lafayette County",
+      "seat": "Lewisville",
+      "major_cities_and_towns": ["Lewisville", "Bradley", "Stamps", "Buckner"]
+    },
+    {
+      "name": "Lawrence County",
+      "seat": "Walnut Ridge",
+      "major_cities_and_towns": ["Walnut Ridge", "Hoxie", "Powhatan", "Imboden", "Lynn", "Black Rock"]
+    },
+    {
+      "name": "Lee County",
+      "seat": "Marianna",
+      "major_cities_and_towns": ["Marianna", "Marvell", "Elaine", "Helena-West Helena"]
+    },
+    {
+      "name": "Lincoln County",
+      "seat": "Star City",
+      "major_cities_and_towns": ["Star City", "Grady", "Varner", "Gould"]
+    },
+    {
+      "name": "Little River County",
+      "seat": "Ashdown",
+      "major_cities_and_towns": ["Ashdown", "Foreman", "Ogden", "Richmond", "Wilton"]
+    },
+    {
+      "name": "Logan County",
+      "seat": "Paris",
+      "major_cities_and_towns": ["Paris", "Booneville", "Scranton", "Magazine", "Subiaco", "Ratcliff"]
+    },
+    {
+      "name": "Lonoke County",
+      "seat": "Lonoke",
+      "major_cities_and_towns": ["Lonoke", "Cabot", "Carlisle", "Austin", "England", "Ward", "Remington", "Humnoke"]
+    },
+    {
+      "name": "Madison County",
+      "seat": "Huntsville",
+      "major_cities_and_towns": ["Huntsville", "Elkins", "Wesley", "Kingston", "Hindsville"]
+    },
+    {
+      "name": "Marion County",
+      "seat": "Yellville",
+      "major_cities_and_towns": ["Yellville", "Bull Shoals", "Flippin", "Pyatt", "Peel", "Summit"]
+    },
+    {
+      "name": "Miller County",
+      "seat": "Texarkana",
+      "major_cities_and_towns": ["Texarkana", "Fouke", "Doddridge", "Garland City", "Mandeville"]
+    },
+    {
+      "name": "Mississippi County",
+      "seat": "Blytheville",
+      "major_cities_and_towns": ["Blytheville", "Osceola", "Luxora", "Gosnell", "Manila", "Dell", "Burdette", "Leachville"]
+    },
+    {
+      "name": "Monroe County",
+      "seat": "Clarendon",
+      "major_cities_and_towns": ["Clarendon", "Brinkley", "Holly Grove", "Roe", "Tollette"]
+    },
+    {
+      "name": "Montgomery County",
+      "seat": "Mount Ida",
+      "major_cities_and_towns": ["Mount Ida", "Norman", "Pencil Bluff", "Sims"]
+    },
+    {
+      "name": "Nevada County",
+      "seat": "Prescott",
+      "major_cities_and_towns": ["Prescott", "Bluff City", "Rosston", "Bodcaw"]
+    },
+    {
+      "name": "Newton County",
+      "seat": "Jasper",
+      "major_cities_and_towns": ["Jasper", "Gilbert", "Boxley", "Harrison"]
+    },
+    {
+      "name": "Ouachita County",
+      "seat": "Camden",
+      "major_cities_and_towns": ["Camden", "Bearden", "Stephens", "Chidester", "Louann"]
+    },
+    {
+      "name": "Perry County",
+      "seat": "Perryville",
+      "major_cities_and_towns": ["Perryville", "Casa", "Houston", "Bigelow"]
+    },
+    {
+      "name": "Phillips County",
+      "seat": "Helena-West Helena",
+      "major_cities_and_towns": ["Helena-West Helena", "Marvell", "Elaine", "Lexa", "Turner"]
+    },
+    {
+      "name": "Pike County",
+      "seat": "Murfreesboro",
+      "major_cities_and_towns": ["Murfreesboro", "Kirby", "Glenwood", "Antoine"]
+    },
+    {
+      "name": "Poinsett County",
+      "seat": "Harrisburg",
+      "major_cities_and_towns": ["Harrisburg", "Trumann", "Marked Tree", "Tyronza", "Weiner"]
+    },
+    {
+      "name": "Polk County",
+      "seat": "Mena",
+      "major_cities_and_towns": ["Mena", "Cove", "Hatfield", "Wickes", "Vandervoort", "Grannis"]
+    },
+    {
+      "name": "Pope County",
+      "seat": "Russellville",
+      "major_cities_and_towns": ["Russellville", "Atkins", "Dardanelle", "Dover", "London", "Pottsville", "Hector", "Pelsor"]
+    },
+    {
+      "name": "Prairie County",
+      "seat": "Des Arc",
+      "major_cities_and_towns": ["Des Arc", "De Valls Bluff", "Hazen", "Biscoe"]
+    },
+    {
+      "name": "Pulaski County",
+      "seat": "Little Rock",
+      "major_cities_and_towns": ["Little Rock", "North Little Rock", "Conway", "Maumelle", "Sherwood", "Jacksonville", "Cabot", "Alexander", "Scott", "Wrightsville", "Roland", "Hensley", "Sweet Home"]
+    },
+    {
+      "name": "Randolph County",
+      "seat": "Pocahontas",
+      "major_cities_and_towns": ["Pocahontas", "Maynard", "Biggers", "Ravenden", "Dalton"]
+    },
+    {
+      "name": "Saline County",
+      "seat": "Benton",
+      "major_cities_and_towns": ["Benton", "Bryant", "Bauxite", "Haskell", "Traskwood", "Shannon Hills", "Sardis"]
+    },
+    {
+      "name": "Scott County",
+      "seat": "Waldron",
+      "major_cities_and_towns": ["Waldron", "Booneville", "Mansfield", "Hartford", "Huntington"]
+    },
+    {
+      "name": "Searcy County",
+      "seat": "Marshall",
+      "major_cities_and_towns": ["Marshall", "Leslie", "Harriet", "Pindall", "St. Joe"]
+    },
+    {
+      "name": "Sebastian County",
+      "seat": "Fort Smith",
+      "major_cities_and_towns": ["Fort Smith", "Greenwood", "Barling", "Lavaca", "Huntington", "Mansfield", "Charleston"]
+    },
+    {
+      "name": "Sevier County",
+      "seat": "De Queen",
+      "major_cities_and_towns": ["De Queen", "Horatio", "Lockesburg", "Gillham"]
+    },
+    {
+      "name": "Sharp County",
+      "seat": "Ash Flat",
+      "major_cities_and_towns": ["Ash Flat", "Hardy", "Cave City", "Evening Shade", "Cherokee Village", "Williford"]
+    },
+    {
+      "name": "St. Francis County",
+      "seat": "Forrest City",
+      "major_cities_and_towns": ["Forrest City", "Wynne", "Palestine", "Madison", "Caldwell"]
+    },
+    {
+      "name": "Stone County",
+      "seat": "Mountain View",
+      "major_cities_and_towns": ["Mountain View", "Fox", "Fifty-Six", "Timbo", "Guion"]
+    },
+    {
+      "name": "Union County",
+      "seat": "El Dorado",
+      "major_cities_and_towns": ["El Dorado", "Smackover", "Magnolia", "Junction City", "Norphlet", "Strong", "Huttig"]
+    },
+    {
+      "name": "Van Buren County",
+      "seat": "Clinton",
+      "major_cities_and_towns": ["Clinton", "Shirley", "Choctaw", "Bee Branch", "Fairfield Bay", "Damascus"]
+    },
+    {
+      "name": "Washington County",
+      "seat": "Fayetteville",
+      "major_cities_and_towns": ["Fayetteville", "Springdale", "Rogers", "Bentonville", "Farmington", "Elkins", "Lincoln", "West Fork", "Greenland", "Prairie Grove", "Winslow", "Tontitown", "Goshen", "Johnson", "Centerton"]
+    },
+    {
+      "name": "White County",
+      "seat": "Searcy",
+      "major_cities_and_towns": ["Searcy", "Beebe", "Judsonia", "Kensett", "Bradford", "Pangburn", "Bald Knob", "McRae", "Griffithville"]
+    },
+    {
+      "name": "Woodruff County",
+      "seat": "Augusta",
+      "major_cities_and_towns": ["Augusta", "McCrory", "Cotton Plant", "Patterson"]
+    },
+    {
+      "name": "Yell County",
+      "seat": "Danville",
+      "major_cities_and_towns": ["Danville", "Dardanelle", "Ola", "Belleville", "Plainview", "Havana"]
+    }
+  ]
+}

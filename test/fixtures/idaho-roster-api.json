@@ -1,0 +1,17 @@
+{
+  "inmates": [
+    {
+      "name": "SMITH, JANE",
+      "age": "28",
+      "bookingDate": "2026-06-06T08:15:00-06:00",
+      "charges": [
+        { "description": "DUI" },
+        { "offense": "Driving Without Privileges" }
+      ],
+      "bondAmount": "1500.00",
+      "bondType": "Cash or Surety",
+      "mugshotUrl": "https://example.test/mugshots/456.jpg",
+      "arrestingAgency": "Boise Police Department"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{{PAGE_TITLE}}</title>
+  <link rel="stylesheet" href="/static/css/admin.css?v=2">
+  {{{EXTRA_HEAD_HTML}}}
+</head>
+<body class="{{BODY_CLASS}}">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="admin-shell">
+    <aside class="admin-sidebar" aria-label="Admin navigation">
+      <div class="admin-sidebar__brand">
+        <p class="admin-sidebar__name">blotter.host</p>
+        <p class="admin-sidebar__tagline">Control Desk</p>
+      </div>
+      <nav class="admin-sidebar__nav" aria-label="Primary">
+        <a href="/admin">
+          <span aria-hidden="true">◎</span> Wire Room
+        </a>
+        <a href="/admin/network">
+          <span aria-hidden="true">☎</span> Network
+        </a>
+        <a href="/admin/news-sources">
+          <span aria-hidden="true">📰</span> News Sources
+        </a>
+      </nav>
+      <div class="admin-sidebar__footer">
+        <form method="post" action="/admin/logout">
+          <button type="submit">Log out</button>
+        </form>
+      </div>
+    </aside>
+    <div class="admin-main">

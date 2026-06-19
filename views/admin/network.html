@@ -1,0 +1,204 @@
+{{> partials/header}}
+
+<header class="page-header" role="banner">
+  <div class="page-header__inner">
+    <div>
+      <p class="page-header__eyebrow">blotter.host</p>
+      <h1 class="page-header__title">Network</h1>
+    </div>
+    <p class="page-header__meta">Fleet-wide status and tenant controls</p>
+  </div>
+</header>
+
+<div class="admin-content">
+  <main id="main" class="control-room">
+    <section class="metrics" aria-labelledby="mn-heading">
+      <h2 id="mn-heading" class="section-heading">Network at a glance</h2>
+      <dl class="metric-grid" id="admin-network-metrics">
+        <li>Loading network metrics…</li>
+      </dl>
+    </section>
+
+    <section class="state-status" aria-labelledby="ms-heading">
+      <div class="state-status__head">
+        <h2 id="ms-heading" class="section-heading">State status</h2>
+        <p class="state-status__summary" id="admin-network-summary">Loading…</p>
+      </div>
+
+      <div class="state-status__table-wrap" role="region" aria-label="State status table" tabindex="0">
+        <table class="state-status__table">
+          <caption class="visually-hidden">
+            One row per tenant subdomain with status, record count, database size, scraper, and last successful run.
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">State</th>
+              <th scope="col">Status</th>
+              <th scope="col" class="num">Records</th>
+              <th scope="col" class="num">DB size</th>
+              <th scope="col">Scraper</th>
+              <th scope="col">Last successful run</th>
+              <th scope="col" class="admin-controls-col">Control</th>
+            </tr>
+          </thead>
+          <tbody id="admin-network-tenants">
+            <tr><td colspan="7" class="board-table__loading">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+(function() {
+  const escapeHtml = function(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  };
+
+  const formatBytes = function(n) {
+    if (n == null) return '—';
+    if (n < 1024) return String(n) + ' B';
+    if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+    return (n / (1024 * 1024)).toFixed(1) + ' MB';
+  };
+
+  const formatNumber = function(n) {
+    if (n == null) return '—';
+    return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  };
+
+  function fmtTime(iso) {
+    if (!iso) return '—';
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return '—';
+    return d.toISOString().replace('T', ' ').replace(/\.\d+Z$/, 'Z');
+  }
+
+  function fmtRelative(iso) {
+    if (!iso) return '—';
+    const t = new Date(iso).getTime();
+    if (!Number.isFinite(t)) return '—';
+    const s = Math.max(0, Math.floor((Date.now() - t) / 1000));
+    if (s < 60) return s + 's ago';
+    if (s < 3600) return Math.floor(s / 60) + 'm ago';
+    if (s < 86400) return Math.floor(s / 3600) + 'h ago';
+    return Math.floor(s / 86400) + 'd ago';
+  }
+
+  function renderMetric(label, valueDisplay, valueTitle, hint) {
+    const item = document.createElement('div');
+    item.className = 'metric';
+    item.innerHTML =
+      '<dt class="metric__label">' + escapeHtml(label) + '</dt>' +
+      '<dd class="metric__value" title="' + escapeHtml(valueTitle || valueDisplay) + '">' + escapeHtml(valueDisplay) + '</dd>' +
+      (hint ? '<dd class="metric__hint">' + escapeHtml(hint) + '</dd>' : '');
+    return item;
+  }
+
+  function statusPill(status) {
+    const active = status === 'active';
+    return '<span class="status-pill status-pill--' + (active ? 'active' : 'offline') + '"><span class="status-pill__dot" aria-hidden="true"></span><span class="status-pill__label">' + (active ? 'Active' : 'Offline') + '</span></span>';
+  }
+
+  async function adminJson(path, init) {
+    const res = await fetch(path, {
+      method: init ? (init.method || 'GET') : 'GET',
+      headers: Object.assign({ 'X-Requested-With': 'XMLHttpRequest' }, init ? init.headers : {}),
+      credentials: 'same-origin',
+      body: init && init.body ? JSON.stringify(init.body) : undefined,
+    });
+    const text = await res.text();
+    let body = {};
+    try { body = JSON.parse(text); } catch (_e) {}
+    if (!res.ok || !body.ok) throw new Error(body.error || ('HTTP ' + res.status));
+    return body;
+  }
+
+  async function loadMetrics() {
+    try {
+      const body = await adminJson('/admin/api/metrics');
+      const n = body.network;
+      const list = document.getElementById('admin-network-metrics');
+      if (!list) return;
+      list.innerHTML = '';
+      list.appendChild(renderMetric('Records across the network', formatNumber(n.totalRecords), String(n.totalRecords.toLocaleString('en-US')) + ' records', n.tenantCount + ' tenant' + (n.tenantCount === 1 ? '' : 's') + ' configured'));
+      list.appendChild(renderMetric('Total database size', formatBytes(n.totalDbSizeBytes), String(n.totalDbSizeBytes.toLocaleString('en-US')) + ' bytes', 'sum of all tenant blotter.db files'));
+      list.appendChild(renderMetric('Active scrapers', String(n.activeScrapers) + ' / ' + String(n.configuredScrapers), n.activeScrapers + ' currently running of ' + n.configuredScrapers + ' configured', 'scrapers left running across the fleet'));
+    } catch (err) {
+      const list = document.getElementById('admin-network-metrics');
+      if (!list) return;
+      list.innerHTML = '<li class="readiness-item readiness-item--warn"><span class="readiness-item__detail">' + escapeHtml(err.message) + '</span></li>';
+    }
+  }
+
+  async function loadTenants() {
+    try {
+      const body = await adminJson('/admin/api/tenants');
+      const status = await adminJson('/admin/api/metrics');
+
+      const tbody = document.getElementById('admin-network-tenants');
+      const opsRows = new Map((body.tenants || []).map(function(t) { return [t.slug, t]; }));
+      const tenants = (status.tenants || []).map(function(t) {
+        var o = opsRows.get(t.slug) || {};
+        return Object.assign({}, t, { paused: !!o.paused, isRunning: !!o.isRunning, hasCommand: !!o.hasCommand });
+      });
+
+      const activeCount = tenants.filter(function(x) { return x.status === 'active'; }).length;
+      document.getElementById('admin-network-summary').textContent = activeCount + ' of ' + tenants.length + ' configured tenant' + (tenants.length === 1 ? '' : 's') + ' active · network overview';
+
+      if (!tbody) return;
+      tbody.innerHTML = tenants.map(function(t) {
+        var cls = ['tenant-row', t.paused ? 'is-paused' : '', t.isRunning ? 'is-running' : ''].filter(Boolean).join(' ');
+        var actionHtml = '';
+        if (t.isRunning) {
+          actionHtml = '<button class="btn btn--ghost" disabled>Running</button>';
+        } else if (t.paused) {
+          actionHtml = '<button class="btn btn--primary" data-admin-network-slug="' + escapeHtml(t.slug) + '" data-admin-network-action="resume">Resume</button>';
+        } else {
+          actionHtml = '<button class="btn btn--primary" data-admin-network-slug="' + escapeHtml(t.slug) + '" data-admin-network-action="run">Run now</button>' +
+            '<button class="btn btn--danger" data-admin-network-slug="' + escapeHtml(t.slug) + '" data-admin-network-action="pause">Pause</button>';
+        }
+        return '<tr class="' + cls + '">' +
+          '<th scope="row"><span class="tenant-row__name">' + escapeHtml(t.name) + '</span><span class="tenant-row__host">' + escapeHtml(t.host) + '</span></th>' +
+          '<td>' + statusPill(t.status) + '</td>' +
+          '<td class="num">' + formatNumber(t.records) + '</td>' +
+          '<td class="num">' + formatBytes(t.dbSizeBytes) + '</td>' +
+          '<td><code class="tenant-row__scraper-name">' + escapeHtml(t.hasCommand ? t.scraperName : 'none') + '</code></td>' +
+          '<td><time datetime="' + escapeHtml(t.lastSuccessfulRun || '') + '" title="' + escapeHtml(t.lastSuccessfulRun || '') + '">' + escapeHtml(t.lastSuccessfulRun ? fmtRelative(t.lastSuccessfulRun) + ' (' + fmtTime(t.lastSuccessfulRun) + ')' : 'never') + '</time></td>' +
+          '<td class="admin-controls-col"><div class="action-row">' + actionHtml + '</div></td>' +
+        '</tr>';
+      }).join('');
+    } catch (err) {
+      const tbody = document.getElementById('admin-network-tenants');
+      if (!tbody) return;
+      tbody.innerHTML = '<tr><td colspan="7" class="board-table__loading">Failed to load: ' + escapeHtml(err.message) + '</td></tr>';
+    }
+  }
+
+  document.getElementById('admin-network-tenants').addEventListener('click', function(ev) {
+    var btn = ev.target.closest('button[data-admin-network-action]');
+    if (!btn) return;
+    var slug = btn.getAttribute('data-admin-network-slug');
+    var action = btn.getAttribute('data-admin-network-action');
+    if (!slug) return;
+    function disable() { btn.disabled = true; }
+    function enable() { btn.disabled = false; loadTenants(); }
+    if (action === 'run') { disable(); fetch('/admin/api/tenants/' + encodeURIComponent(slug) + '/scraper/run', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' }, credentials: 'same-origin', body: '{}' }).then(function(r) { return r.json(); }).then(function(body) { if (!body || !body.ok) alert(body && body.error ? body.error : 'Run failed'); }).catch(function(err) { alert('Run error: ' + err.message); }).finally(function() { enable(); }); }
+    else if (action === 'pause') { fetch('/admin/api/tenants/' + encodeURIComponent(slug) + '/scraper/pause', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' }, credentials: 'same-origin', body: JSON.stringify({ paused: true }) }).then(function() { loadTenants(); }).catch(function(err) { alert(err.message); }); }
+    else if (action === 'resume') { fetch('/admin/api/tenants/' + encodeURIComponent(slug) + '/scraper/pause', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' }, credentials: 'same-origin', body: JSON.stringify({ paused: false }) }).then(function() { loadTenants(); }).catch(function(err) { alert(err.message); }); }
+  });
+
+  loadMetrics();
+  loadTenants();
+  setInterval(function() { loadMetrics(); }, 30000);
+  setInterval(function() { loadTenants(); }, 15000);
+})();
+</script>
+
+{{> partials/footer}}

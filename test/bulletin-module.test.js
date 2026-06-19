@@ -34,9 +34,14 @@ test('ingestBulletin returns duplicate when ON CONFLICT skips the insert', async
     assert.equal(result.inserted, false);
     assert.equal(result.duplicate, true);
     assert.equal(result.id, null);
-    assert.equal(calls.length, 1);
-    assert.match(calls[0].sql, /INSERT INTO raw_records/);
-    assert.match(calls[0].sql, /ON CONFLICT \(state, fingerprint\) DO NOTHING/);
+    assert.equal(calls.length, 2);
+    const recentCall = calls.find((c) => c.sql.includes('make_interval'));
+    const insertCall = calls.find((c) => c.sql.startsWith('INSERT INTO raw_records'));
+    assert.ok(recentCall, 'should check for a recent source_url row');
+    assert.equal(recentCall.params[0], 'wa');
+    assert.equal(recentCall.params[1], 'https://example.test/bulletin');
+    assert.ok(insertCall);
+    assert.match(insertCall.sql, /ON CONFLICT \(state, fingerprint\) DO NOTHING/);
   } finally {
     db.adminQuery = original;
   }
@@ -66,8 +71,12 @@ test('ingestBulletin inserts a new bulletin record with a sha256 fingerprint', a
     assert.equal(result.duplicate, false);
     assert.equal(result.id, 42);
     assert.equal(result.fingerprint.length, 64);
-    assert.equal(calls.length, 1);
-    assert.match(calls[0].sql, /INSERT INTO raw_records/);
+    assert.equal(calls.length, 2);
+    const recentCall = calls.find((c) => c.sql.includes('make_interval'));
+    const insertCall = calls.find((c) => c.sql.startsWith('INSERT INTO raw_records'));
+    assert.ok(recentCall, 'should check for a recent source_url row');
+    assert.ok(insertCall);
+    assert.match(insertCall.sql, /INSERT INTO raw_records/);
   } finally {
     db.adminQuery = original;
   }
@@ -103,7 +112,8 @@ test('ingestBulletin allows the same fingerprint to be inserted for a different 
     assert.equal(orResult.fingerprint, idResult.fingerprint);
     assert.notEqual(waResult.id, orResult.id);
     assert.notEqual(orResult.id, idResult.id);
-    assert.equal(calls.length, 3);
+    // Each state gets one recent-record check + one insert = 6 total calls.
+    assert.equal(calls.length, 6);
   } finally {
     db.adminQuery = original;
   }
@@ -139,5 +149,53 @@ test('fingerprintExists scopes the lookup to the given state', async () => {
     assert.deepEqual(calls[0].params, ['wa', 'fp_hash']);
   } finally {
     db.adminQuery = original;
+  }
+});
+
+test('ingestBulletin skips insert when a recent source_url row exists', async () => {
+  const original = db.adminQuery;
+  const calls = [];
+  db.adminQuery = async (sql, params) => {
+    calls.push({ sql, params });
+    if (sql.includes('make_interval')) {
+      return { ok: true, rows: [{ id: 777 }], rowCount: 1 };
+    }
+    return { ok: true, rows: [], rowCount: 0 };
+  };
+
+  try {
+    const result = await bulletin.ingestBulletin({
+      state: 'wa',
+      sourceType: 'bulletin',
+      sourceUrl: 'https://example.test/bulletin',
+      sourceName: 'Example Agency',
+      text: 'Hello again',
+    });
+
+    assert.equal(result.inserted, false);
+    assert.equal(result.duplicate, true);
+    assert.equal(result.reason, 'recent_source_url');
+    assert.equal(result.existing_raw_record_id, 777);
+    assert.equal(result.id, null);
+    assert.equal(calls.length, 1);
+    assert.match(calls[0].sql, /make_interval/);
+    assert.equal(calls[0].params[0], 'wa');
+    assert.equal(calls[0].params[1], 'https://example.test/bulletin');
+  } finally {
+    db.adminQuery = original;
+  }
+});
+
+test('resolveRecentSourceUrlWindowHours returns default and respects env', () => {
+  const original = process.env.RECENT_SOURCE_URL_WINDOW_HOURS;
+  try {
+    delete process.env.RECENT_SOURCE_URL_WINDOW_HOURS;
+    assert.equal(bulletin.resolveRecentSourceUrlWindowHours(), 6);
+    process.env.RECENT_SOURCE_URL_WINDOW_HOURS = '12';
+    assert.equal(bulletin.resolveRecentSourceUrlWindowHours(), 12);
+    process.env.RECENT_SOURCE_URL_WINDOW_HOURS = 'bad';
+    assert.equal(bulletin.resolveRecentSourceUrlWindowHours(), 6);
+  } finally {
+    process.env.RECENT_SOURCE_URL_WINDOW_HOURS = original;
   }
 });

@@ -9,3 +9,18 @@ yarn-debug.log*
 yarn-error.log*
 .vscode/
 .idea/
+
+# Runtime data / local state
+data/control.db*
+data/settings.json
+data/ingest/*/.scraper_heartbeat
+.superpowers/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+**/venv/
+
+# Backups
+*.bak.*

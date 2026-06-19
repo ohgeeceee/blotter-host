@@ -1,0 +1,51 @@
+{
+  "state": "Connecticut",
+  "abbreviation": "CT",
+  "subdomain": "connecticut.blotter.host",
+  "metadata": {
+    "total_counties": 8,
+    "capital": "Hartford"
+  },
+  "counties": [
+    {
+      "name": "Fairfield County",
+      "seat": "Bridgeport",
+      "major_cities_and_towns": ["Bridgeport", "Stamford", "Norwalk", "Greenwich", "Danbury", "New Haven", "Waterbury", "Stratford", "Trumbull", "Milford", "Shelton", "Fairfield", "Darien", "New Canaan", "Westport", "Wilton", "Ridgefield", "Easton", "Weston", "Monroe", "Newtown", "Redding", "Bethel", "Brookfield", "Sherman", "New Fairfield", "Southbury"]
+    },
+    {
+      "name": "Hartford County",
+      "seat": "Hartford",
+      "major_cities_and_towns": ["Hartford", "New Britain", "Enfield", "Bristol", "Glastonbury", "West Hartford", "Southington", "Simsbury", "Windsor", "East Hartford", "Manchester", "Farmington", "Bloomfield", "Newington", "Wethersfield", "Berlin", "Rocky Hill", "Granby", "Canton", "Avon", "Burlington", "Plainville", "Suffield", "Windsor Locks", "East Granby", "East Windsor", "Marlborough"]
+    },
+    {
+      "name": "Litchfield County",
+      "seat": "Litchfield",
+      "major_cities_and_towns": ["Torrington", "Litchfield", "New Milford", "Naugatuck", "Watertown", "Ansonia", "Winsted", "Thomaston", "Colebrook", "Goshen", "Morris", "Roxbury", "Cornwall", "Kent", "Sharon", "Canaan", "Norfolk", "Barkhamsted", "Hartland", "Winchester", "Woodbury", "Bethlehem", "Warren"]
+    },
+    {
+      "name": "Middlesex County",
+      "seat": "Middletown",
+      "major_cities_and_towns": ["Middletown", "Middlefield", "Chester", "Clinton", "Cromwell", "Durham", "East Haddam", "East Hampton", "Essex", "Haddam", "Killingworth", "Old Saybrook", "Portland", "Westbrook", "Deep River"]
+    },
+    {
+      "name": "New Haven County",
+      "seat": "New Haven",
+      "major_cities_and_towns": ["New Haven", "Waterbury", "Meriden", "Milford", "West Haven", "Derby", "Ansonia", "Shelton", "Naugatuck", "Seymour", "Cheshire", "North Haven", "Hamden", "East Haven", "Orange", "Wallingford", "Woodbridge", "Bethany", "Branford", "North Branford", "Guilford", "Madison", "Beacon Falls", "Oxford", "Prospect", "Wolcott"]
+    },
+    {
+      "name": "New London County",
+      "seat": "New London",
+      "major_cities_and_towns": ["New London", "Norwich", "Groton", "Waterford", "East Lyme", "Salem", "Montville", "Ledyard", "Stonington", "North Stonington", "Sprague", "Bozrah", "Colchester", "Franklin", "Griswold", "Lebanon", "Lisbon", "Lyme", "Old Lyme", "Preston", "Voluntown"]
+    },
+    {
+      "name": "Tolland County",
+      "seat": "Tolland",
+      "major_cities_and_towns": ["Vernon", "Ellington", "Tolland", "Coventry", "Hebron", "Andover", "Bolton", "Columbia", "Mansfield", "Somers", "Stafford", "Union", "Willington"]
+    },
+    {
+      "name": "Windham County",
+      "seat": "Putnam",
+      "major_cities_and_towns": ["Putnam", "Windham", "Killingly", "Thompson", "Plainfield", "Brooklyn", "Canterbury", "Eastford", "Hampton", "Pomfret", "Scotland", "Sterling", "Woodstock", "Chaplin"]
+    }
+  ]
+}

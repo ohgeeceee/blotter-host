@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2933">
+  <title>{{AUTH_TITLE}} - blotter.host</title>
+  <meta name="description" content="Login or register for blotter.host reader access.">
+  <link rel="canonical" href="https://blotter.host{{REQUEST_PATH}}">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="apex-topbar" role="banner">
+    <a class="apex-topbar__brand" href="/">blotter.host</a>
+    <nav class="apex-topbar__nav" aria-label="Apex">
+      <a href="/">Home</a>
+      <a href="/network">Network</a>
+      <a href="/about">About</a>
+      <a href="/subscribe">Subscribe</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero hero--landing">
+      <p class="hero__eyebrow">blotter.host</p>
+      <h1 class="hero__title">{{AUTH_TITLE}}</h1>
+      <p class="hero__tagline">{{AUTH_HINT}}</p>
+
+      <div class="hero__actions" id="join">
+        <a class="hero__button" href="/">Back to blotter.host</a>
+        <a class="hero__button hero__button--ghost" href="/subscribe">Subscribe</a>
+      </div>
+    </section>
+
+    {{{NOTICE_HTML}}}
+
+    <section class="landing-panel landing-panel--auth" aria-labelledby="auth-h">
+      <h2 id="auth-h" class="section-heading">{{AUTH_TITLE}} to the network</h2>
+      <form action="{{AUTH_ACTION}}" method="post" class="subscribe-form auth-form">
+        <label>
+          <span>Email address</span>
+          <input type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password" autocomplete="current-password" required placeholder="••••••••••••" minlength="12">
+        </label>
+        {{#if HONEYPOT_NAME}}
+        <label class="auth-form__honeypot" aria-hidden="true">
+          <span>Leave this field blank</span>
+          <input type="text" name="{{HONEYPOT_NAME}}" tabindex="-1" autocomplete="off">
+        </label>
+        {{/if}}
+        <label>
+          <span>State preference <em class="auth-form__optional">(optional)</em></span>
+          <select name="state" {{#if STATE_REQUIRED}}required{{/if}}>
+            <option value="">Choose a state</option>
+            {{{STATE_OPTIONS_HTML}}}
+          </select>
+        </label>
+        <button type="submit" class="search__submit">{{AUTH_TITLE}}</button>
+      </form>
+      <p class="landing-panel__note">
+        This is the reader side of blotter.host, built for people who want a clean way to follow state-level coverage.
+        Passwords must be at least 12 characters and cannot be a commonly used phrase.
+      </p>
+    </section>
+
+    <section class="landing-panel landing-panel--states" aria-labelledby="browse-h">
+      <div class="landing-panel__head">
+        <h2 id="browse-h" class="section-heading">Browse state news</h2>
+        <p class="landing-panel__eyebrow">Jump directly into any state feed from the network front door.</p>
+      </div>
+      <div class="state-grid">
+        {{{STATE_CARDS_HTML}}}
+      </div>
+    </section>
+
+    <footer class="apex-footer">
+      <a class="apex-footer__link" href="/admin/login">Operators</a>
+    </footer>
+  </main>
+</body>
+</html>

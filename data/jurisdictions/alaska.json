@@ -1,0 +1,161 @@
+{
+  "state": "Alaska",
+  "abbreviation": "AK",
+  "subdomain": "alaska.blotter.host",
+  "metadata": {
+    "total_counties": 30,
+    "capital": "Juneau"
+  },
+  "counties": [
+    {
+      "name": "Aleutians East Borough",
+      "seat": "King Cove",
+      "major_cities_and_towns": ["King Cove", "Cold Bay", "False Pass", "Nelson Lagoon", "Sand Point", "Akutan"]
+    },
+    {
+      "name": "Aleutians West Census Area",
+      "seat": "Unalaska",
+      "major_cities_and_towns": ["Unalaska", "Adak", "Atka", "Nikolski", "St. George", "St. Paul"]
+    },
+    {
+      "name": "Anchorage Municipality",
+      "seat": "Anchorage",
+      "major_cities_and_towns": ["Anchorage", "Eagle River", "Girdwood", "Chugiak", "Muldoon", "Midtown", "Sand Lake"]
+    },
+    {
+      "name": "Bethel Census Area",
+      "seat": "Bethel",
+      "major_cities_and_towns": ["Bethel", "Akiachak", "Akiak", "Chevak", "Eek", "Goodnews Bay", "Kipnuk", "Kongiganak", "Kwethluk", "Kwigillingok", "Napakiak", "Napaskiak", "Nightmute", "Oscarville", "Quinhagak", "Tuntutuliak", "Tununak", "Atmautluak"]
+    },
+    {
+      "name": "Bristol Bay Borough",
+      "seat": "Naknek",
+      "major_cities_and_towns": ["Naknek", "South Naknek", "King Salmon"]
+    },
+    {
+      "name": "Bristol Bay Census Area",
+      "seat": "Dillingham",
+      "major_cities_and_towns": ["Dillingham", "Aleknagik", "Clark's Point", "Ekuk", "Koliganek", "Manokotak", "New Stuyahok", "Portage Creek", "Togiak", "Twin Hills"]
+    },
+    {
+      "name": "Chugach Census Area",
+      "seat": "Valdez",
+      "major_cities_and_towns": ["Valdez", "Whittier", "Tatitlek", "Chenega Bay"]
+    },
+    {
+      "name": "Copper River Census Area",
+      "seat": "Glennallen",
+      "major_cities_and_towns": ["Glennallen", "Copper Center", "Chitina", "Kenny Lake", "Tazlina", "Mentasta Lake", "Gakona"]
+    },
+    {
+      "name": "Denali Borough",
+      "seat": "Healy",
+      "major_cities_and_towns": ["Healy", "Anderson", "Cantwell", "McKinley Park"]
+    },
+    {
+      "name": "Dillingham Census Area",
+      "seat": "Dillingham",
+      "major_cities_and_towns": ["Dillingham", "Manokotak", "Togiak", "Aleknagik", "Ekwok", "New Stuyahok"]
+    },
+    {
+      "name": "Fairbanks North Star Borough",
+      "seat": "Fairbanks",
+      "major_cities_and_towns": ["Fairbanks", "North Pole", "Salcha", "Ester", "Two Rivers", "Fox", "College", "Badger", "Moose Creek"]
+    },
+    {
+      "name": "Haines Borough",
+      "seat": "Haines",
+      "major_cities_and_towns": ["Haines", "Klukwan", "Skagway"]
+    },
+    {
+      "name": "Juneau City and Borough",
+      "seat": "Juneau",
+      "major_cities_and_towns": ["Juneau", "Douglas", "Auke Bay", "Lemon Creek", "Mendenhall Valley"]
+    },
+    {
+      "name": "Kenai Peninsula Borough",
+      "seat": "Soldotna",
+      "major_cities_and_towns": ["Kenai", "Soldotna", "Homer", "Seward", "Seldovia", "Anchor Point", "Nikiski", "Sterling", "Funny River", "Kasilof", "Clam Gulch", "Nanwalek", "Ninilchik", "Port Graham"]
+    },
+    {
+      "name": "Ketchikan Gateway Borough",
+      "seat": "Ketchikan",
+      "major_cities_and_towns": ["Ketchikan", "Saxman", "Metlakatla", "Ward Cove", "Herring Cove"]
+    },
+    {
+      "name": "Kodiak Island Borough",
+      "seat": "Kodiak",
+      "major_cities_and_towns": ["Kodiak", "Akhiok", "Karluk", "Larsen Bay", "Old Harbor", "Ouzinkie", "Port Lions"]
+    },
+    {
+      "name": "Kusilvak Census Area",
+      "seat": "Emmonak",
+      "major_cities_and_towns": ["Emmonak", "Alakanuk", "Chevak", "Hooper Bay", "Marshall", "Mekoryuk", "Mountain Village", "Pilot Station", "Russian Mission", "Scammon Bay", "St. Mary's", "Toksook Bay", "Nunap"]
+    },
+    {
+      "name": "Lake and Peninsula Borough",
+      "seat": "King Salmon",
+      "major_cities_and_towns": ["King Salmon", "Chignik", "Chignik Lake", "Chignik Lagoon", "Egegik", "Igiugig", "Iliamna", "Kokhanok", "Newhalen", "Nondalton", "Perryville", "Pilot Point", "Port Heiden", "Ugashik"]
+    },
+    {
+      "name": "Matanuska-Susitna Borough",
+      "seat": "Palmer",
+      "major_cities_and_towns": ["Wasilla", "Palmer", "Big Lake", "Sutton-Alpine", "Houston", "Willow", "Talkeetna", "Fishhook", "Meadow Lakes", "Lazy Mountain", "Butte", "Chickaloon", "Trapper Creek", "Peters Creek"]
+    },
+    {
+      "name": "Nome Census Area",
+      "seat": "Nome",
+      "major_cities_and_towns": ["Nome", "Brevig Mission", "Council", "Elim", "Gambell", "Golovin", "Koyuk", "Saint Michael", "Savoonga", "Shaktoolik", "Solomon", "Stebbins", "Teller", "Unalakleet", "Wales", "White Mountain"]
+    },
+    {
+      "name": "North Slope Borough",
+      "seat": "Utqiagvik",
+      "major_cities_and_towns": ["Utqiagvik", "Anaktuvuk Pass", "Atqasuk", "Kaktovik", "Nuiqsut", "Point Hope", "Point Lay", "Wainwright"]
+    },
+    {
+      "name": "Northwest Arctic Borough",
+      "seat": "Kotzebue",
+      "major_cities_and_towns": ["Kotzebue", "Ambler", "Buckland", "Deering", "Kiana", "Kivalina", "Kobuk", "Noatak", "Noorvik", "Selawik", "Shungnak"]
+    },
+    {
+      "name": "Petersburg Borough",
+      "seat": "Petersburg",
+      "major_cities_and_towns": ["Petersburg", "Kupreanof"]
+    },
+    {
+      "name": "Prince of Wales-Hyder Census Area",
+      "seat": "Craig",
+      "major_cities_and_towns": ["Craig", "Klawock", "Hydaburg", "Hyder", "Kasaan", "Point Baker", "Port Protection", "Thorne Bay", "Coffman Cove"]
+    },
+    {
+      "name": "Sitka City and Borough",
+      "seat": "Sitka",
+      "major_cities_and_towns": ["Sitka", "Mosquito Cove", "Sawmill Creek"]
+    },
+    {
+      "name": "Skagway Municipality",
+      "seat": "Skagway",
+      "major_cities_and_towns": ["Skagway"]
+    },
+    {
+      "name": "Southeast Fairbanks Census Area",
+      "seat": "Delta Junction",
+      "major_cities_and_towns": ["Delta Junction", "Tok", "Chicken", "Eagle", "Dot Lake", "Northway"]
+    },
+    {
+      "name": "Valdez-Cordova Census Area",
+      "seat": "Valdez",
+      "major_cities_and_towns": ["Valdez", "Cordova", "Glennallen", "Copper Center", "Chitina"]
+    },
+    {
+      "name": "Wrangell City and Borough",
+      "seat": "Wrangell",
+      "major_cities_and_towns": ["Wrangell"]
+    },
+    {
+      "name": "Yakutat City and Borough",
+      "seat": "Yakutat",
+      "major_cities_and_towns": ["Yakutat"]
+    }
+  ]
+}

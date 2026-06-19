@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{STATE_NAME}} Blotter</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #f6f4ef; color: #1f2933; }
+    main { max-width: 960px; margin: 0 auto; padding: 32px 20px 64px; }
+    header { margin-bottom: 24px; }
+    .news-card { background: #fff; border: 1px solid #ded7c8; border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; }
+    .news-card__header { margin-bottom: 12px; }
+    .news-card__headline { margin: 0 0 6px; font-size: 1.15rem; }
+    .news-card__time { display: block; font-size: 12px; color: #7c6f5b; }
+    .news-card__body { line-height: 1.6; }
+    .news-card__footer { margin-top: 14px; }
+    .news-card__link { color: #0f4c81; text-decoration: none; font-weight: 600; }
+    .empty-state { color: #7c6f5b; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p>{{STATE_SLUG}}</p>
+      <h1>{{STATE_NAME}} Blotter</h1>
+      <p>{{ARTICLE_COUNT}} recent article(s)</p>
+    </header>
+    <section>
+      {{{ARTICLES_HTML}}}
+    </section>
+  </main>
+</body>
+</html>

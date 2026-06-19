@@ -1,0 +1,32 @@
+<section class="hero hero--state">
+  <p class="hero__eyebrow">{{AGENCY}}</p>
+  <h1 class="hero__title">{{STATE_NAME}} Blotter</h1>
+  <p class="hero__tagline">{{TAGLINE}}</p>
+</section>
+
+<section class="blotters blotters--state" aria-labelledby="recent-heading">
+  <div class="blotters__head">
+    <h2 id="recent-heading" class="blotters__heading">Recent reports</h2>
+    <a class="blotters__archive" href="/archive">View archive &rarr;</a>
+  </div>
+  {{{CATEGORY_FILTER_HTML}}}
+  {{{COUNTY_FILTER_HTML}}}
+  <ul class="blotters__list">
+    {{{BLOTTER_LIST_HTML}}}
+  </ul>
+</section>
+
+<section class="info">
+  <h2 class="info__heading">What is this?</h2>
+  <p>
+    A daily, plain-language summary of public-safety activity across
+    {{STATE_NAME}}. We pull from the state's major regional news outlets,
+    then rewrite them in a single consistent voice. No accusations are
+    ever repeated that haven't been officially recorded.
+  </p>
+  <p>
+    This site is part of the
+    <a href="https://blotter.host">blotter.host</a> network &mdash; one
+    subdomain per state, all running the same transparency pipeline.
+  </p>
+</section>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ARTICLE_HEADLINE}}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #f6f4ef; color: #1f2933; }
+    main { max-width: 800px; margin: 0 auto; padding: 32px 20px 64px; }
+    .article { background: #fff; border: 1px solid #ded7c8; border-radius: 14px; padding: 24px; }
+    .article__meta { color: #7c6f5b; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .article__body { margin-top: 18px; line-height: 1.7; }
+    .article__source { margin-top: 24px; font-size: 14px; color: #4b5563; }
+    .article__source a { color: #0f4c81; text-decoration: none; }
+    .article__raw { margin-top: 28px; padding-top: 18px; border-top: 1px solid #ece4d8; }
+    details { background: #faf8f4; border: 1px solid #e8dfd0; border-radius: 12px; padding: 14px 16px; }
+    summary { cursor: pointer; font-weight: 700; color: #1f2933; }
+    .article__raw-body { margin-top: 12px; white-space: pre-wrap; color: #6b7280; font-size: 14px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="article">
+      <p class="article__meta">{{ARTICLE_SOURCE_TYPE}} · {{STATE_NAME}}</p>
+      <h1>{{ARTICLE_HEADLINE}}</h1>
+      <div class="article__body">
+        {{{ARTICLE_BODY_HTML}}}
+      </div>
+      <p class="article__source">
+        {{#if ARTICLE_SOURCE_URL}}
+          Source:
+          <a href="{{ARTICLE_SOURCE_URL}}" rel="noopener noreferrer" target="_blank">{{ARTICLE_SOURCE_NAME}}</a>
+        {{/if}}
+      </p>
+      <div class="article__raw">
+        <details>
+          <summary>View Raw Public Record</summary>
+          <div class="article__raw-body">{{{RAW_TEXT_ESCAPED}}}</div>
+        </details>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ACCENT_COLOR}}">
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="description" content="{{PAGE_DESCRIPTION}}">
+  <link rel="canonical" href="https://{{CANONICAL_HOST}}{{REQUEST_PATH}}">
+  <link rel="stylesheet" href="/css/main.css">
+  <meta property="og:title" content="{{PAGE_TITLE}}">
+  <meta property="og:description" content="{{PAGE_DESCRIPTION}}">
+  <meta property="og:url" content="https://{{CANONICAL_HOST}}{{REQUEST_PATH}}">
+  <meta property="og:site_name" content="{{STATE_NAME}} Blotter">
+  <meta property="og:type" content="website">
+</head>
+<body class="state-{{STATE_SLUG}}" style="--accent: {{ACCENT_COLOR}};">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header site-header--authority">
+    <div class="site-header__inner">
+      <a class="site-header__brand" href="/">
+        <span class="site-header__state">{{STATE_NAME}}</span>
+        <span class="site-header__word">Blotter</span>
+      </a>
+      <button class="nav-toggle nav-toggle--authority" type="button" aria-controls="primary-nav" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle__label">Browse</span>
+        <span class="nav-toggle__subtext">Network</span>
+        <span class="nav-toggle__caret" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav site-nav--authority" id="primary-nav" data-nav>
+        <a class="site-nav__link" href="/">Today</a>
+        <a class="site-nav__link" href="/archive">Archive</a>
+        <a class="site-nav__link" href="/transparency">Transparency</a>
+        <a class="site-nav__link" href="/about">About</a>
+        <a class="site-nav__link" href="https://blotter.host">Network</a>
+      </nav>
+    </div>
+    <p class="site-header__agency">Sourced from {{AGENCY}}</p>
+  </header>
+  <main id="main" class="site-main">

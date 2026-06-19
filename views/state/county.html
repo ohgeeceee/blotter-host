@@ -1,0 +1,24 @@
+<section class="hero hero--state">
+  <p class="hero__eyebrow"><a href="/">{{STATE_NAME}}</a></p>
+  <h1 class="hero__title">{{COUNTY_NAME}} County</h1>
+  <p class="hero__tagline">Recent public-safety reports from {{COUNTY_NAME}} County, {{STATE_NAME}}.</p>
+</section>
+
+<section class="blotters blotters--state" aria-labelledby="recent-heading">
+  <div class="blotters__head">
+    <h2 id="recent-heading" class="blotters__heading">Recent reports</h2>
+    <a class="blotters__archive" href="/">Back to {{STATE_NAME}} &rarr;</a>
+  </div>
+  <ul class="blotters__list">
+    {{{BLOTTER_LIST_HTML}}}
+  </ul>
+</section>
+
+<section class="info">
+  <h2 class="info__heading">Stay updated</h2>
+  <p>
+    <a href="https://blotter.host/login">Sign in</a> or
+    <a href="https://blotter.host/register">create an account</a> to get
+    alerts for {{COUNTY_NAME}} County.
+  </p>
+</section>

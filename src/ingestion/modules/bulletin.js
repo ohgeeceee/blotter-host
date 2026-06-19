@@ -24,6 +24,37 @@ function buildPayload(input) {
   };
 }
 
+function resolveRecentSourceUrlWindowHours() {
+  const raw = String(process.env.RECENT_SOURCE_URL_WINDOW_HOURS || '').trim();
+  if (!raw) return 6;
+  const parsed = parseInt(raw, 10);
+  return Number.isFinite(parsed) && parsed >= 0 ? parsed : 6;
+}
+
+async function findRecentRawRecord(state, sourceUrl, hours) {
+  const normalizedState = String(state || '').trim();
+  const normalizedUrl = String(sourceUrl || '').trim();
+  const windowHours = Number.isFinite(hours) && hours >= 0 ? hours : resolveRecentSourceUrlWindowHours();
+
+  if (!normalizedState || !normalizedUrl || windowHours <= 0) {
+    return null;
+  }
+
+  const result = await db.adminQuery(
+    `SELECT id FROM raw_records
+     WHERE state = $1 AND source_url = $2
+       AND created_at > NOW() - make_interval(hours => $3)
+     ORDER BY created_at DESC
+     LIMIT 1`,
+    [normalizedState, normalizedUrl, windowHours]
+  );
+
+  if (!result.ok) {
+    throw new Error(result.error || 'recent raw_records lookup failed');
+  }
+  return result.rows[0] || null;
+}
+
 async function fingerprintExists(fingerprint, state) {
   const normalizedFingerprint = String(fingerprint || '').trim();
   const normalizedState = String(state || '').trim();
@@ -54,6 +85,23 @@ async function insertBulletinRecord(input) {
   }
   if (!payload.raw_text) {
     throw new Error('raw_text is required');
+  }
+
+  const recent = await findRecentRawRecord(
+    payload.state,
+    payload.source_url,
+    resolveRecentSourceUrlWindowHours()
+  );
+  if (recent) {
+    return {
+      ok: true,
+      inserted: false,
+      duplicate: true,
+      reason: 'recent_source_url',
+      existing_raw_record_id: recent.id,
+      id: null,
+      state: payload.state,
+    };
   }
 
   const fingerprint = sha256Fingerprint(payload.raw_text);
@@ -142,6 +190,8 @@ module.exports = {
   cleanBulletinText,
   buildPayload,
   fingerprintExists,
+  findRecentRawRecord,
+  resolveRecentSourceUrlWindowHours,
   insertBulletinRecord,
   ingestBulletin,
   runScheduledIngestion,

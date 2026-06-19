@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2933">
+  <title>My account - blotter.host</title>
+  <meta name="description" content="Manage your blotter.host reader account.">
+  <link rel="canonical" href="https://blotter.host/me">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="apex-topbar" role="banner">
+    <a class="apex-topbar__brand" href="/">blotter.host</a>
+    <nav class="apex-topbar__nav" aria-label="Apex">
+      <a href="/">Home</a>
+      <a href="/network">Network</a>
+      <a href="/about">About</a>
+      <a href="/subscribe">Subscribe</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero hero--landing">
+      <p class="hero__eyebrow">blotter.host</p>
+      <h1 class="hero__title">My account</h1>
+      <p class="hero__tagline">Signed in as {{READER_EMAIL}}.</p>
+
+      <div class="hero__actions" id="join">
+        <a class="hero__button" href="/me/alerts">Manage alerts</a>
+        <a class="hero__button hero__button--ghost" href="/logout">Sign out</a>
+      </div>
+    </section>
+
+    <section class="landing-panel" aria-labelledby="alerts-h">
+      <div class="landing-panel__head">
+        <h2 id="alerts-h" class="section-heading">My alerts</h2>
+      </div>
+      {{{ALERTS_HTML}}}
+    </section>
+
+    <footer class="apex-footer">
+      <a class="apex-footer__link" href="/admin/login">Operators</a>
+    </footer>
+  </main>
+</body>
+</html>

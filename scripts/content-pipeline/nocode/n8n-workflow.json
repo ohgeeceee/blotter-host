@@ -1,0 +1,143 @@
+{
+  "name": "blotter.host Content Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "minutesInterval": 60
+            }
+          ]
+        }
+      },
+      "id": "trigger",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://news.google.com/rss/search?q=Montana+local+news",
+        "options": {}
+      },
+      "id": "rss",
+      "name": "RSS Feed",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "create",
+        "model": "moonshot-v1-8k",
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "You are an objective state-news journalist for blotter.host. Return only valid JSON."
+            },
+            {
+              "role": "user",
+              "content": "=\"Turn this into a JSON object with keys: primary_category, primary_tag, geographic_tag, headline, article_brief. Use 2026 for temporal references. Do not invent facts.\\n\\nTitle: \" + $json.title + \"\\nSummary: \" + $json.description + \"\\nLink: \" + $json.link + \"\\nDefault region: Montana\""
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.3
+        }
+      },
+      "id": "kimi",
+      "name": "Kimi API",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1,
+      "position": [650, 300],
+      "credentials": {
+        "openAiApi": {
+          "id": "kimi-openai-credentials",
+          "name": "Kimi OpenAI Credentials"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const content = $json.content || $json.message?.content || '{}';\nconst clean = content.toString().replace(/^```json\\s*/, '').replace(/\\s*```$/, '').trim();\nconst parsed = JSON.parse(clean);\nreturn [parsed];"
+      },
+      "id": "parse",
+      "name": "Parse JSON",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "resource": "post",
+        "operation": "create",
+        "title": "={{ $json.headline }}",
+        "content": "=<p>{{ $json.article_brief }}</p><p><a href=\"{{ $json.link }}\" target=\"_blank\">Read original source &rarr;</a></p>",
+        "status": "publish",
+        "additionalFields": {
+          "categories": ["={{ $json.primary_category }}"],
+          "tags": ["={{ $json.primary_tag }}", "={{ $json.geographic_tag }}"]
+        }
+      },
+      "id": "wordpress",
+      "name": "WordPress",
+      "type": "n8n-nodes-base.wordpress",
+      "typeVersion": 1,
+      "position": [1050, 300]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "RSS Feed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "RSS Feed": {
+      "main": [
+        [
+          {
+            "node": "Kimi API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Kimi API": {
+      "main": [
+        [
+          {
+            "node": "Parse JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse JSON": {
+      "main": [
+        [
+          {
+            "node": "WordPress",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

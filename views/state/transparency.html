@@ -1,0 +1,24 @@
+<section class="hero hero--state">
+  <h1 class="hero__title">{{STATE_NAME}} Transparency Scorecard</h1>
+  <p class="hero__tagline">How open and current public-safety reporting is across {{STATE_NAME}}.</p>
+</section>
+
+<section class="scorecard-section" aria-labelledby="scorecard-heading">
+  <h2 id="scorecard-heading" class="scorecard-section__heading">Scorecard</h2>
+  <p class="scorecard-section__intro">
+    Scores are calculated automatically from the articles we publish. No manual
+    grading. <a href="/methodology">Read the methodology</a>.
+  </p>
+  {{{SCORECARD_HTML}}}
+</section>
+
+<section class="info">
+  <h2 class="info__heading">What do these scores mean?</h2>
+  <ul class="scorecard-legend">
+    <li><strong>Coverage</strong> — share of {{STATE_NAME}} counties that have at least one published report.</li>
+    <li><strong>Freshness</strong> — share of published reports from the last 7 days.</li>
+    <li><strong>Source diversity</strong> — variety of public-safety data sources feeding the pipeline.</li>
+    <li><strong>Publishing velocity</strong> — average number of reports published per day.</li>
+    <li><strong>Recency</strong> — how recently a new report was published.</li>
+  </ul>
+</section>

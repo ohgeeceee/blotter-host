@@ -1,0 +1,26 @@
+{
+  "state": "Delaware",
+  "abbreviation": "DE",
+  "subdomain": "delaware.blotter.host",
+  "metadata": {
+    "total_counties": 3,
+    "capital": "Dover"
+  },
+  "counties": [
+    {
+      "name": "Kent County",
+      "seat": "Dover",
+      "major_cities_and_towns": ["Dover", "Milford", "Harrington", "Smyrna", "Camden", "Wyoming", "Clayton", "Cheswold", "Woodside", "Felton", "Frederica", "Houston", "Bowers", "Little Creek", "Leipsic", "Magnolia", "Viola", "Rising Sun-Lebanon", "Rodney Village", "Riverview"]
+    },
+    {
+      "name": "New Castle County",
+      "seat": "Wilmington",
+      "major_cities_and_towns": ["Wilmington", "Newark", "Middletown", "Dover", "Pike Creek", "Brookside", "Bear", "Hockessin", "Glasgow", "New Castle", "Wilmington Manor", "Newport", "Elsmere", "Claymont", "Stanton", "Edgemoor", "Talleyville", "Pike Creek Valley", "Milltown", "Odessa", "Townsend", "Smyrna", "Ardencroft", "Arden", "Ardentown"]
+    },
+    {
+      "name": "Sussex County",
+      "seat": "Georgetown",
+      "major_cities_and_towns": ["Georgetown", "Rehoboth Beach", "Lewes", "Milford", "Seaford", "Laurel", "Bridgeville", "Millsboro", "Selbyville", "Bethany Beach", "Ocean View", "South Bethany", "Dewey Beach", "Long Neck", "Dagsboro", "Milton", "Frankford", "Greenwood", "Ellendale", "Delmar", "Blades", "Slaughter Beach"]
+    }
+  ]
+}

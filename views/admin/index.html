@@ -1,0 +1,218 @@
+{{> partials/header}}
+
+<header class="page-header" role="banner">
+  <div class="page-header__inner">
+    <div>
+      <p class="page-header__eyebrow">blotter.host</p>
+      <h1 class="page-header__title">Wire Room</h1>
+    </div>
+    <p class="page-header__meta">
+      <time datetime="{{GENERATED_AT_ISO}}" id="masthead-time">{{GENERATED_AT_HUMAN}}</time>
+      <span id="masthead-tenant-count">—</span>
+      <span id="masthead-state-count">—</span>
+      <span id="masthead-posture">—</span>
+      <span id="masthead-readiness">—</span>
+    </p>
+  </div>
+</header>
+
+<div class="admin-content">
+  <main id="main" class="wire-room">
+    <!-- Command Surface: three-column layout -->
+    <div class="command-surface">
+      <!-- State Desk (left rail) -->
+      <section class="state-desk" aria-labelledby="state-desk-h">
+        <h2 id="state-desk-h" class="desk-heading">State Desk</h2>
+        <div id="state-desk-list" class="state-desk__list" role="region" aria-label="State launch status">
+          <p class="state-desk__loading">Loading…</p>
+        </div>
+      </section>
+
+      <!-- Assignment Board (center column) -->
+      <section class="assignment-board" aria-labelledby="board-h">
+        <div class="board__head">
+          <h2 id="board-h" class="desk-heading">Assignment Board</h2>
+          <button id="tenants-refresh" type="button" class="btn btn--ghost">↻ Refresh</button>
+        </div>
+        <div class="board__scroll" role="region" aria-label="Tenants table" tabindex="0">
+          <table class="board-table">
+            <caption class="visually-hidden">Per-tenant control row with pause toggle, trigger button, last heartbeat, and running state.</caption>
+            <thead>
+              <tr>
+                <th scope="col">Tenant</th>
+                <th scope="col">Scraper</th>
+                <th scope="col">Status</th>
+                <th scope="col">Last heartbeat</th>
+                <th scope="col" class="actions-col">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tenants-body">
+              <tr><td colspan="5" class="board-table__loading">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Live Wire (right rail) -->
+      <section class="live-wire" aria-labelledby="wire-h">
+        <div class="wire__head">
+          <h2 id="wire-h" class="desk-heading">Live Wire</h2>
+          <span id="log-conn" class="wire__conn" data-state="connecting">connecting…</span>
+        </div>
+        <div class="wire__controls">
+          <label class="wire__filter">
+            <span>Tenant</span>
+            <select id="log-tenant-filter" aria-label="Filter logs by tenant">
+              <option value="">All</option>
+            </select>
+          </label>
+          <label class="wire__filter">
+            <span>Severity</span>
+            <select id="log-severity-filter" aria-label="Filter logs by severity">
+              <option value="">All</option>
+              <option value="info">Info+</option>
+              <option value="warn">Warn+</option>
+              <option value="error">Error</option>
+            </select>
+          </label>
+          <button id="log-clear" type="button" class="btn btn--ghost">Clear</button>
+        </div>
+        <ol id="log-feed" class="wire__feed" aria-live="polite" aria-relevant="additions"></ol>
+      </section>
+    </div>
+
+    <section class="admin-articles" aria-labelledby="admin-articles-h">
+      <div class="admin-articles__head">
+        <div>
+          <h2 id="admin-articles-h" class="desk-heading">Latest Articles</h2>
+          <p class="admin-articles__subtitle">Cross-state moderation feed</p>
+        </div>
+        <form method="post" action="/admin/articles/publish-all">
+          <button type="submit" class="btn btn--primary">Publish all drafts</button>
+        </form>
+      </div>
+      <div class="board__scroll" role="region" aria-label="Latest generated articles" tabindex="0">
+        <table class="board-table">
+          <thead>
+            <tr>
+              <th scope="col">Status</th>
+              <th scope="col">State</th>
+              <th scope="col">Headline</th>
+              <th scope="col">Created</th>
+              <th scope="col" class="actions-col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{{ARTICLE_ROWS_HTML}}}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Production settings -->
+    <details class="masthead-settings">
+      <summary class="masthead-settings__summary">Production settings</summary>
+      <div class="masthead-settings__body">
+        <form id="settings-form" class="settings-form">
+          <label>
+            <span>Platform name</span>
+            <input id="setting-platform-name" name="platformName" type="text" autocomplete="off">
+          </label>
+          <label>
+            <span>Root domain</span>
+            <input id="setting-root-domain" name="rootDomain" type="text" autocomplete="off">
+          </label>
+          <label>
+            <span>Admin host</span>
+            <input id="setting-admin-host" name="adminHost" type="text" autocomplete="off">
+          </label>
+          <label>
+            <span>Support email</span>
+            <input id="setting-support-email" name="supportEmail" type="email" autocomplete="off">
+          </label>
+          <label>
+            <span>Launch mode</span>
+            <select id="setting-launch-mode" name="launchMode">
+              <option value="staging">Staging</option>
+              <option value="production">Production</option>
+            </select>
+          </label>
+          <label>
+            <span>TLS mode</span>
+            <select id="setting-tls-mode" name="tlsMode">
+              <option value="self_signed">Self-signed</option>
+              <option value="http_only">HTTP only</option>
+              <option value="single_domain_lets_encrypt">Single-domain Let's Encrypt</option>
+              <option value="wildcard_lets_encrypt">Wildcard Let's Encrypt</option>
+            </select>
+          </label>
+          <label>
+            <span>Database mode</span>
+            <select id="setting-database-mode" name="databaseMode">
+              <option value="local_or_unset">Local or unset</option>
+              <option value="postgres">PostgreSQL</option>
+            </select>
+          </label>
+          <label>
+            <span>Controller mode</span>
+            <select id="setting-controller-mode" name="scraperControllerMode">
+              <option value="manual">Manual</option>
+              <option value="systemd">systemd</option>
+              <option value="cron">cron</option>
+              <option value="agentic_queue">Agentic queue</option>
+            </select>
+          </label>
+          <label class="settings-form__wide">
+            <span>Public disclaimer</span>
+            <textarea id="setting-disclaimer" name="publicDisclaimer" rows="3"></textarea>
+          </label>
+        </form>
+
+        <h3 class="settings-section-heading">Fleet defaults</h3>
+        <form id="fleet-settings-form" class="settings-form settings-form--fleet">
+          <label>
+            <span>Default scraper schedule</span>
+            <input id="setting-scraper-schedule" name="defaultScraperSchedule" type="text" autocomplete="off" placeholder="0 */3 * * *">
+          </label>
+          <label>
+            <span>Max concurrent scrapers</span>
+            <input id="setting-max-concurrent" name="maxConcurrentScrapers" type="number" min="1" max="100" autocomplete="off">
+          </label>
+          <label>
+            <span>Scraper timeout (minutes)</span>
+            <input id="setting-scraper-timeout" name="scraperTimeoutMinutes" type="number" min="1" max="240" autocomplete="off">
+          </label>
+          <label>
+            <span>Max articles per run</span>
+            <input id="setting-max-articles" name="maxArticlesPerRun" type="number" min="1" max="1000" autocomplete="off">
+          </label>
+          <label>
+            <span>Alert webhook URL</span>
+            <input id="setting-alert-webhook" name="alertWebhookUrl" type="url" autocomplete="off">
+          </label>
+          <label>
+            <span>Alert email</span>
+            <input id="setting-alert-email" name="alertEmail" type="email" autocomplete="off">
+          </label>
+          <label class="settings-form__checkbox">
+            <input id="setting-auto-publish" name="autoPublishDrafts" type="checkbox">
+            <span>Auto-publish drafts after ingestion</span>
+          </label>
+        </form>
+        <div class="settings-actions">
+          <button id="settings-save" type="button" class="btn btn--primary">Save settings</button>
+        </div>
+        <div class="readiness-panel">
+          <h3 class="readiness-panel__heading">Readiness</h3>
+          <ul id="readiness-list" class="readiness-list">
+            <li>Loading…</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+  </main>
+</div>
+
+<script src="/static/js/admin.js?v=3" defer></script>
+
+{{> partials/footer}}

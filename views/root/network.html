@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2933">
+  <title>Network Directory - blotter.host</title>
+  <meta name="description" content="Browse every state in the blotter.host network.">
+  <link rel="canonical" href="https://blotter.host/network">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="apex-topbar" role="banner">
+    <a class="apex-topbar__brand" href="/">blotter.host</a>
+    <nav class="apex-topbar__nav" aria-label="Apex">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero hero--landing">
+      <p class="hero__eyebrow">blotter.host</p>
+      <h1 class="hero__title">Network directory</h1>
+      <p class="hero__tagline">
+        Browse every state in the network, jump straight to a subdomain, or search across the full set of public records.
+      </p>
+      <div class="hero__actions">
+        <a class="hero__button" href="/">Home</a>
+        <a class="hero__button hero__button--ghost" href="/about">About</a>
+        <a class="hero__button hero__button--ghost" href="/subscribe">Subscribe</a>
+      </div>
+    </section>
+
+    <section class="landing-panel landing-panel--search" aria-labelledby="network-search-h">
+      <h2 id="network-search-h" class="section-heading">Search the network</h2>
+      <form action="/api/cross-state-search" method="get" class="search__form" role="search">
+        <label class="search__label" for="network-q">Name, keyword, or case identifier</label>
+        <input class="search__input" type="search" id="network-q" name="q" maxlength="200" autocomplete="off" placeholder="Search across all states">
+        <button class="search__submit" type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="landing-panel landing-panel--states" aria-labelledby="network-states-h">
+      <div class="landing-panel__head">
+        <h2 id="network-states-h" class="section-heading">States</h2>
+        <p class="landing-panel__eyebrow">{{ACTIVE_STATE_COUNT}} state feeds</p>
+      </div>
+      <div class="state-grid">
+        {{{STATE_CARDS_HTML}}}
+      </div>
+      <div class="state-pill-wrap">
+        <ul class="state-pills">
+          {{{STATE_LIST_HTML}}}
+        </ul>
+      </div>
+    </section>
+
+    <footer class="apex-footer">
+      <a class="apex-footer__link" href="/admin/login">Operators</a>
+    </footer>
+  </main>
+</body>
+</html>

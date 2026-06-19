@@ -1,0 +1,668 @@
+{
+  "version": 1,
+  "tenants": [
+    {
+      "slug": "alabama",
+      "code": "AL",
+      "name": "Alabama",
+      "public": {
+        "agency": "Alabama Law Enforcement Agency",
+        "tagline": "Public safety blotter for the Heart of Dixie.",
+        "accent": "#7b2d26",
+        "blotters": [
+          { "id": "al-2026-06-05-01", "title": "Montgomery: Traffic stop leads to felony arrest", "date": "2026-06-05", "summary": "A routine stop escalated after deputies recovered a stolen firearm and narcotics." }
+        ]
+      }
+    },
+    {
+      "slug": "alaska",
+      "code": "AK",
+      "name": "Alaska",
+      "public": {
+        "agency": "Alaska State Troopers",
+        "tagline": "Public safety blotter for the Last Frontier.",
+        "accent": "#3a5f8a",
+        "blotters": [
+          { "id": "ak-2026-06-05-01", "title": "Anchorage: Search and rescue call ends safely", "date": "2026-06-05", "summary": "Volunteers located the overdue hikers before conditions worsened." }
+        ]
+      }
+    },
+    {
+      "slug": "arizona",
+      "code": "AZ",
+      "name": "Arizona",
+      "public": {
+        "agency": "Arizona Department of Public Safety",
+        "tagline": "Public safety blotter for the Grand Canyon State.",
+        "accent": "#b85c38",
+        "blotters": [
+          { "id": "az-2026-06-05-01", "title": "Phoenix: DUI task force logs late-night arrest", "date": "2026-06-05", "summary": "Officers reported a high blood-alcohol reading after a freeway stop." }
+        ]
+      }
+    },
+    {
+      "slug": "arkansas",
+      "code": "AR",
+      "name": "Arkansas",
+      "public": {
+        "agency": "Arkansas State Police",
+        "tagline": "Public safety blotter for the Natural State.",
+        "accent": "#8a3a5f",
+        "blotters": [
+          { "id": "ar-2026-06-05-01", "title": "Little Rock: Burglary suspect taken into custody", "date": "2026-06-05", "summary": "A neighborhood alert helped officers identify the suspect within hours." }
+        ]
+      }
+    },
+    {
+      "slug": "california",
+      "code": "CA",
+      "name": "California",
+      "public": {
+        "agency": "California regional news outlets",
+        "tagline": "Public safety blotter for the Golden State.",
+        "accent": "#2f6f8f",
+        "blotters": [
+          { "id": "ca-2026-06-05-01", "title": "Sacramento: Multi-agency pursuit ends without injuries", "date": "2026-06-05", "summary": "The suspect surrendered after a short standoff near downtown." }
+        ]
+      }
+    },
+    {
+      "slug": "colorado",
+      "code": "CO",
+      "name": "Colorado",
+      "public": {
+        "agency": "Colorado State Patrol",
+        "tagline": "Public safety blotter for the Centennial State.",
+        "accent": "#1f5f3a",
+        "blotters": [
+          { "id": "co-2026-06-05-01", "title": "Denver: Highway closure after rollover crash", "date": "2026-06-05", "summary": "Crews reopened the roadway after a brief cleanup and tow operation." }
+        ]
+      }
+    },
+    {
+      "slug": "connecticut",
+      "code": "CT",
+      "name": "Connecticut",
+      "public": {
+        "agency": "Connecticut State Police",
+        "tagline": "Public safety blotter for the Constitution State.",
+        "accent": "#1f4a7a",
+        "blotters": [
+          { "id": "ct-2026-06-05-01", "title": "Hartford: Retail theft ring investigation expands", "date": "2026-06-05", "summary": "Investigators linked several recent incidents to the same suspect group." }
+        ]
+      }
+    },
+    {
+      "slug": "delaware",
+      "code": "DE",
+      "name": "Delaware",
+      "public": {
+        "agency": "Delaware State Police",
+        "tagline": "Public safety blotter for the First State.",
+        "accent": "#3a5a1f",
+        "blotters": [
+          { "id": "de-2026-06-05-01", "title": "Wilmington: Fraud complaint leads to arrest warrant", "date": "2026-06-05", "summary": "Detectives say bank records corroborated the complaint." }
+        ]
+      }
+    },
+    {
+      "slug": "florida",
+      "code": "FL",
+      "name": "Florida",
+      "public": {
+        "agency": "Florida Highway Patrol",
+        "tagline": "Public safety blotter for the Sunshine State.",
+        "accent": "#f08a24",
+        "blotters": [
+          { "id": "fl-2026-06-05-01", "title": "Tampa: Boating stop uncovers felony warrant", "date": "2026-06-05", "summary": "The operator was detained after dispatch confirmed the active warrant." }
+        ]
+      }
+    },
+    {
+      "slug": "georgia",
+      "code": "GA",
+      "name": "Georgia",
+      "public": {
+        "agency": "Georgia State Patrol",
+        "tagline": "Public safety blotter for the Peach State.",
+        "accent": "#b83a3a",
+        "blotters": [
+          { "id": "ga-2026-06-05-01", "title": "Atlanta: Organized retail theft case develops", "date": "2026-06-05", "summary": "Officers recovered merchandise tied to a broader theft pattern." }
+        ]
+      }
+    },
+    {
+      "slug": "hawaii",
+      "code": "HI",
+      "name": "Hawaii",
+      "public": {
+        "agency": "Hawaii Department of Law Enforcement",
+        "tagline": "Public safety blotter for the Aloha State.",
+        "accent": "#2d6f8a",
+        "blotters": [
+          { "id": "hi-2026-06-05-01", "title": "Honolulu: Beach rescue prevents drowning incident", "date": "2026-06-05", "summary": "Lifeguards and EMS coordinated a rapid response at a crowded shoreline." }
+        ]
+      }
+    },
+    {
+      "slug": "idaho",
+      "code": "ID",
+      "name": "Idaho",
+      "heartbeatPath": "/root/blotter-host/data/ingest/idaho/.scraper_heartbeat",
+      "scraperCommand": "node /root/blotter-host/scrapers/idaho-jail-roster.js --source-key ada --out /root/blotter-host/data/ingest/idaho/latest.json --pretty",
+      "scraperCwd": "/root/blotter-host",
+      "notes": "Hosted at idaho.blotter.host. Synthetic data - no live scraper yet.",
+      "public": {
+        "agency": "Idaho State Police",
+        "tagline": "Public safety blotter for the Gem State.",
+        "accent": "#1f5f3a",
+        "blotters": [
+          { "id": "id-2026-06-05-01", "title": "Boise: Two-vehicle collision on I-84 eastbound", "date": "2026-06-05", "summary": "Both drivers transported with non-life-threatening injuries; westbound lanes reopened at 18:42." },
+          { "id": "id-2026-06-05-02", "title": "Coeur d'Alene: Arrest in catalytic converter theft ring", "date": "2026-06-05", "summary": "Three suspects in custody following a six-week investigation by the Kootenai County Sheriff's Office." },
+          { "id": "id-2026-06-04-01", "title": "Twin Falls: Wildfire containment reaches 65%", "date": "2026-06-04", "summary": "Evacuation orders for zones B and C have been lifted; Zone A remains under advisory." }
+        ]
+      }
+    },
+    {
+      "slug": "illinois",
+      "code": "IL",
+      "name": "Illinois",
+      "public": {
+        "agency": "Illinois State Police",
+        "tagline": "Public safety blotter for the Prairie State.",
+        "accent": "#475569",
+        "blotters": [
+          { "id": "il-2026-06-05-01", "title": "Chicago: Highway team investigates expressway shooting", "date": "2026-06-05", "summary": "No serious injuries were reported after the early-morning incident." }
+        ]
+      }
+    },
+    {
+      "slug": "indiana",
+      "code": "IN",
+      "name": "Indiana",
+      "public": {
+        "agency": "Indiana State Police",
+        "tagline": "Public safety blotter for the Hoosier State.",
+        "accent": "#6b7280",
+        "blotters": [
+          { "id": "in-2026-06-05-01", "title": "Indianapolis: Drug interdiction stop yields felony charges", "date": "2026-06-05", "summary": "Troopers reported packaged narcotics and cash recovery." }
+        ]
+      }
+    },
+    {
+      "slug": "iowa",
+      "code": "IA",
+      "name": "Iowa",
+      "public": {
+        "agency": "Iowa State Patrol",
+        "tagline": "Public safety blotter for the Hawkeye State.",
+        "accent": "#3a5a7a",
+        "blotters": [
+          { "id": "ia-2026-06-05-01", "title": "Des Moines: School zone crash under investigation", "date": "2026-06-05", "summary": "Authorities say distraction may have played a role in the collision." }
+        ]
+      }
+    },
+    {
+      "slug": "kansas",
+      "code": "KS",
+      "name": "Kansas",
+      "public": {
+        "agency": "Kansas Highway Patrol",
+        "tagline": "Public safety blotter for the Sunflower State.",
+        "accent": "#8b5e3c",
+        "blotters": [
+          { "id": "ks-2026-06-05-01", "title": "Wichita: Stolen vehicle stop uncovers trafficking probe", "date": "2026-06-05", "summary": "Detectives are coordinating with multiple jurisdictions on the case." }
+        ]
+      }
+    },
+    {
+      "slug": "kentucky",
+      "code": "KY",
+      "name": "Kentucky",
+      "public": {
+        "agency": "Kentucky State Police",
+        "tagline": "Public safety blotter for the Bluegrass State.",
+        "accent": "#1f4a7a",
+        "blotters": [
+          { "id": "ky-2026-06-05-01", "title": "Louisville: Domestic violence arrest follows pursuit", "date": "2026-06-05", "summary": "The suspect was taken into custody after a short foot chase." }
+        ]
+      }
+    },
+    {
+      "slug": "louisiana",
+      "code": "LA",
+      "name": "Louisiana",
+      "public": {
+        "agency": "Louisiana State Police",
+        "tagline": "Public safety blotter for the Pelican State.",
+        "accent": "#8a3a5f",
+        "blotters": [
+          { "id": "la-2026-06-05-01", "title": "Baton Rouge: Felony traffic stop nets firearm seizure", "date": "2026-06-05", "summary": "The driver was booked after officers located an unreported handgun." }
+        ]
+      }
+    },
+    {
+      "slug": "maine",
+      "code": "ME",
+      "name": "Maine",
+      "public": {
+        "agency": "Maine State Police",
+        "tagline": "Public safety blotter for the Pine Tree State.",
+        "accent": "#2f6f4e",
+        "blotters": [
+          { "id": "me-2026-06-05-01", "title": "Portland: Late-night burglary call resolved quickly", "date": "2026-06-05", "summary": "Officers recovered several stolen items and interviewed a suspect." }
+        ]
+      }
+    },
+    {
+      "slug": "maryland",
+      "code": "MD",
+      "name": "Maryland",
+      "public": {
+        "agency": "Maryland State Police",
+        "tagline": "Public safety blotter for the Old Line State.",
+        "accent": "#7b2d26",
+        "blotters": [
+          { "id": "md-2026-06-05-01", "title": "Baltimore: Assault case escalates to warrant service", "date": "2026-06-05", "summary": "Investigators say video evidence supported the affidavit." }
+        ]
+      }
+    },
+    {
+      "slug": "massachusetts",
+      "code": "MA",
+      "name": "Massachusetts",
+      "public": {
+        "agency": "Massachusetts State Police",
+        "tagline": "Public safety blotter for the Bay State.",
+        "accent": "#3a5f8a",
+        "blotters": [
+          { "id": "ma-2026-06-05-01", "title": "Boston: Waterfront disturbance ends with no arrests", "date": "2026-06-05", "summary": "Officers de-escalated the incident and cleared the scene." }
+        ]
+      }
+    },
+    {
+      "slug": "michigan",
+      "code": "MI",
+      "name": "Michigan",
+      "public": {
+        "agency": "Michigan State Police",
+        "tagline": "Public safety blotter for the Great Lakes State.",
+        "accent": "#2d6f8a",
+        "blotters": [
+          { "id": "mi-2026-06-05-01", "title": "Detroit: Stolen vehicle recovery leads to arrest", "date": "2026-06-05", "summary": "The driver was wanted on unrelated probation violations." }
+        ]
+      }
+    },
+    {
+      "slug": "minnesota",
+      "code": "MN",
+      "name": "Minnesota",
+      "public": {
+        "agency": "Minnesota State Patrol",
+        "tagline": "Public safety blotter for the North Star State.",
+        "accent": "#1f5f3a",
+        "blotters": [
+          { "id": "mn-2026-06-05-01", "title": "St. Paul: Crash reconstruction closes busy corridor", "date": "2026-06-05", "summary": "Investigators documented evidence after a multi-car collision." }
+        ]
+      }
+    },
+    {
+      "slug": "mississippi",
+      "code": "MS",
+      "name": "Mississippi",
+      "public": {
+        "agency": "Mississippi Highway Patrol",
+        "tagline": "Public safety blotter for the Magnolia State.",
+        "accent": "#8b5e3c",
+        "blotters": [
+          { "id": "ms-2026-06-05-01", "title": "Jackson: Repeat offender picked up on outstanding warrant", "date": "2026-06-05", "summary": "Officers confirmed the warrant during a traffic investigation." }
+        ]
+      }
+    },
+    {
+      "slug": "missouri",
+      "code": "MO",
+      "name": "Missouri",
+      "public": {
+        "agency": "Missouri State Highway Patrol",
+        "tagline": "Public safety blotter for the Show Me State.",
+        "accent": "#7b2d26",
+        "blotters": [
+          { "id": "mo-2026-06-05-01", "title": "Kansas City: Robbery suspect identified by nearby cameras", "date": "2026-06-05", "summary": "Detectives released a follow-up bulletin seeking additional witnesses." }
+        ]
+      }
+    },
+    {
+      "slug": "montana",
+      "code": "MT",
+      "name": "Montana",
+      "dbPath": "/root/montanablotter/blotter.db",
+      "recordCountSql": "SELECT COUNT(*) AS n FROM records",
+      "heartbeatPath": "/root/montanablotter/.scraper_heartbeat",
+      "scraperCommand": "cd /root/montanablotter && ./venv/bin/python processor.py --scheduled",
+      "scraperCwd": "/root/montanablotter",
+      "notes": "Anchor tenant. Hosted at montana.blotter.host.",
+      "public": {
+        "agency": "Montana DOJ - Division of Criminal Investigation",
+        "tagline": "Big Sky, transparent record.",
+        "accent": "#1c3d5a",
+        "blotters": [
+          { "id": "mt-2026-06-05-01", "title": "Helena: Search warrant executed on felony assault suspect", "date": "2026-06-05", "summary": "One arrest; no injuries to deputies." }
+        ]
+      }
+    },
+    {
+      "slug": "nebraska",
+      "code": "NE",
+      "name": "Nebraska",
+      "public": {
+        "agency": "Nebraska State Patrol",
+        "tagline": "Public safety blotter for the Cornhusker State.",
+        "accent": "#6b7280",
+        "blotters": [
+          { "id": "ne-2026-06-05-01", "title": "Omaha: Pursuit review after stolen truck stop", "date": "2026-06-05", "summary": "The stop ended after spike strips disabled the vehicle." }
+        ]
+      }
+    },
+    {
+      "slug": "nevada",
+      "code": "NV",
+      "name": "Nevada",
+      "public": {
+        "agency": "Nevada Highway Patrol",
+        "tagline": "Public safety blotter for the Silver State.",
+        "accent": "#3a5a7a",
+        "blotters": [
+          { "id": "nv-2026-06-05-01", "title": "Las Vegas: Casino theft investigation yields arrests", "date": "2026-06-05", "summary": "Security footage helped officers identify the suspects." }
+        ]
+      }
+    },
+    {
+      "slug": "new-hampshire",
+      "code": "NH",
+      "name": "New Hampshire",
+      "public": {
+        "agency": "New Hampshire State Police",
+        "tagline": "Public safety blotter for the Granite State.",
+        "accent": "#2f6f8a",
+        "blotters": [
+          { "id": "nh-2026-06-05-01", "title": "Concord: Road rage incident ends with arrest", "date": "2026-06-05", "summary": "Troopers say the suspect admitted to throwing items at another car." }
+        ]
+      }
+    },
+    {
+      "slug": "new-jersey",
+      "code": "NJ",
+      "name": "New Jersey",
+      "public": {
+        "agency": "New Jersey State Police",
+        "tagline": "Public safety blotter for the Garden State.",
+        "accent": "#8a3a5f",
+        "blotters": [
+          { "id": "nj-2026-06-05-01", "title": "Trenton: Drug interdiction case expands statewide", "date": "2026-06-05", "summary": "Investigators say the initial stop uncovered a larger distribution network." }
+        ]
+      }
+    },
+    {
+      "slug": "new-mexico",
+      "code": "NM",
+      "name": "New Mexico",
+      "public": {
+        "agency": "New Mexico State Police",
+        "tagline": "Public safety blotter for the Land of Enchantment.",
+        "accent": "#b85c38",
+        "blotters": [
+          { "id": "nm-2026-06-05-01", "title": "Albuquerque: Night shift assault arrest logged", "date": "2026-06-05", "summary": "The suspect was booked after a witness provided a description." }
+        ]
+      }
+    },
+    {
+      "slug": "new-york",
+      "code": "NY",
+      "name": "New York",
+      "public": {
+        "agency": "New York State Police",
+        "tagline": "Public safety blotter for the Empire State.",
+        "accent": "#1f4a7a",
+        "blotters": [
+          { "id": "ny-2026-06-05-01", "title": "Albany: Multi-agency search ends in warrant arrest", "date": "2026-06-05", "summary": "A coordinated operation located the suspect at a relative's home." }
+        ]
+      }
+    },
+    {
+      "slug": "north-carolina",
+      "code": "NC",
+      "name": "North Carolina",
+      "public": {
+        "agency": "North Carolina State Highway Patrol",
+        "tagline": "Public safety blotter for the Tar Heel State.",
+        "accent": "#3a5f8a",
+        "blotters": [
+          { "id": "nc-2026-06-05-01", "title": "Raleigh: Interstate crash prompts hazmat response", "date": "2026-06-05", "summary": "Crews contained a small fuel spill and reopened lanes by evening." }
+        ]
+      }
+    },
+    {
+      "slug": "north-dakota",
+      "code": "ND",
+      "name": "North Dakota",
+      "public": {
+        "agency": "North Dakota Highway Patrol",
+        "tagline": "Public safety blotter for the Peace Garden State.",
+        "accent": "#7b2d26",
+        "blotters": [
+          { "id": "nd-2026-06-05-01", "title": "Bismarck: Winter-weather rollover investigation posted", "date": "2026-06-05", "summary": "Troopers noted reduced visibility and road conditions in the report." }
+        ]
+      }
+    },
+    {
+      "slug": "ohio",
+      "code": "OH",
+      "name": "Ohio",
+      "public": {
+        "agency": "Ohio State Highway Patrol",
+        "tagline": "Public safety blotter for the Buckeye State.",
+        "accent": "#6b7280",
+        "blotters": [
+          { "id": "oh-2026-06-05-01", "title": "Columbus: Fleeing suspect apprehended after foot chase", "date": "2026-06-05", "summary": "Officers reported minor injuries during the arrest." }
+        ]
+      }
+    },
+    {
+      "slug": "oklahoma",
+      "code": "OK",
+      "name": "Oklahoma",
+      "public": {
+        "agency": "Oklahoma Highway Patrol",
+        "tagline": "Public safety blotter for the Sooner State.",
+        "accent": "#8b5e3c",
+        "blotters": [
+          { "id": "ok-2026-06-05-01", "title": "Oklahoma City: Domestic call turns into warrant arrest", "date": "2026-06-05", "summary": "The suspect was wanted on an unrelated misdemeanor warrant." }
+        ]
+      }
+    },
+    {
+      "slug": "oregon",
+      "code": "OR",
+      "name": "Oregon",
+      "public": {
+        "agency": "Oregon State Police",
+        "tagline": "Public safety blotter for the Beaver State.",
+        "accent": "#2f6f4e",
+        "blotters": [
+          { "id": "or-2026-06-05-01", "title": "Portland: Organized theft ring case goes to grand jury", "date": "2026-06-05", "summary": "Investigators say surveillance links multiple incidents together." }
+        ]
+      }
+    },
+    {
+      "slug": "pennsylvania",
+      "code": "PA",
+      "name": "Pennsylvania",
+      "public": {
+        "agency": "Pennsylvania State Police",
+        "tagline": "Public safety blotter for the Keystone State.",
+        "accent": "#1f5f3a",
+        "blotters": [
+          { "id": "pa-2026-06-05-01", "title": "Harrisburg: Felony warrant served after welfare check", "date": "2026-06-05", "summary": "Troopers found the subject during a routine follow-up call." }
+        ]
+      }
+    },
+    {
+      "slug": "rhode-island",
+      "code": "RI",
+      "name": "Rhode Island",
+      "public": {
+        "agency": "Rhode Island State Police",
+        "tagline": "Public safety blotter for the Ocean State.",
+        "accent": "#3a5a7a",
+        "blotters": [
+          { "id": "ri-2026-06-05-01", "title": "Providence: Downtown disturbance ends in arrest", "date": "2026-06-05", "summary": "Officers reported cooperation after the initial confrontation." }
+        ]
+      }
+    },
+    {
+      "slug": "south-carolina",
+      "code": "SC",
+      "name": "South Carolina",
+      "public": {
+        "agency": "South Carolina Highway Patrol",
+        "tagline": "Public safety blotter for the Palmetto State.",
+        "accent": "#8a3a5f",
+        "blotters": [
+          { "id": "sc-2026-06-05-01", "title": "Columbia: Hit-and-run suspect located by plate readers", "date": "2026-06-05", "summary": "The vehicle was recovered and the driver was questioned." }
+        ]
+      }
+    },
+    {
+      "slug": "south-dakota",
+      "code": "SD",
+      "name": "South Dakota",
+      "public": {
+        "agency": "South Dakota Highway Patrol",
+        "tagline": "Public safety blotter for the Mount Rushmore State.",
+        "accent": "#b85c38",
+        "blotters": [
+          { "id": "sd-2026-06-05-01", "title": "Sioux Falls: Property crime sweep nets multiple arrests", "date": "2026-06-05", "summary": "Investigators recovered stolen tools and electronics." }
+        ]
+      }
+    },
+    {
+      "slug": "tennessee",
+      "code": "TN",
+      "name": "Tennessee",
+      "public": {
+        "agency": "Tennessee Highway Patrol",
+        "tagline": "Public safety blotter for the Volunteer State.",
+        "accent": "#7b2d26",
+        "blotters": [
+          { "id": "tn-2026-06-05-01", "title": "Nashville: Interstate pursuit ends in crash arrest", "date": "2026-06-05", "summary": "The driver was treated at a hospital before booking." }
+        ]
+      }
+    },
+    {
+      "slug": "texas",
+      "code": "TX",
+      "name": "Texas",
+      "public": {
+        "agency": "Texas Department of Public Safety",
+        "tagline": "Public safety blotter for the Lone Star State.",
+        "accent": "#1f4a7a",
+        "blotters": [
+          { "id": "tx-2026-06-05-01", "title": "Austin: Border task force leads to narcotics seizure", "date": "2026-06-05", "summary": "Agents reported a significant quantity of packaged contraband." }
+        ]
+      }
+    },
+    {
+      "slug": "utah",
+      "code": "UT",
+      "name": "Utah",
+      "public": {
+        "agency": "Utah Highway Patrol",
+        "tagline": "Public safety blotter for the Beehive State.",
+        "accent": "#2f6f4e",
+        "blotters": [
+          { "id": "ut-2026-06-05-01", "title": "Salt Lake City: Crash reconstruction slows freeway traffic", "date": "2026-06-05", "summary": "The lane closure lasted only long enough to complete measurements." }
+        ]
+      }
+    },
+    {
+      "slug": "vermont",
+      "code": "VT",
+      "name": "Vermont",
+      "public": {
+        "agency": "Vermont State Police",
+        "tagline": "Public safety blotter for the Green Mountain State.",
+        "accent": "#3a5f8a",
+        "blotters": [
+          { "id": "vt-2026-06-05-01", "title": "Burlington: Search warrant uncovers stolen property", "date": "2026-06-05", "summary": "Detectives recovered items linked to several burglary reports." }
+        ]
+      }
+    },
+    {
+      "slug": "virginia",
+      "code": "VA",
+      "name": "Virginia",
+      "public": {
+        "agency": "Virginia State Police",
+        "tagline": "Public safety blotter for the Old Dominion.",
+        "accent": "#8a3a5f",
+        "blotters": [
+          { "id": "va-2026-06-05-01", "title": "Richmond: Felony traffic stop leads to multiple arrests", "date": "2026-06-05", "summary": "Troopers say a stolen firearm was recovered during the stop." }
+        ]
+      }
+    },
+    {
+      "slug": "washington",
+      "code": "WA",
+      "name": "Washington",
+      "notes": "Hosted at washington.blotter.host. Synthetic data.",
+      "public": {
+        "agency": "Washington State Patrol",
+        "tagline": "Public safety blotter for the Evergreen State.",
+        "accent": "#3a5a1f",
+        "blotters": [
+          { "id": "wa-2026-06-05-01", "title": "Spokane: Multi-county pursuit ends in felony stop", "date": "2026-06-05", "summary": "Driver and passenger in custody; no pursuit-related injuries reported." }
+        ]
+      }
+    },
+    {
+      "slug": "west-virginia",
+      "code": "WV",
+      "name": "West Virginia",
+      "public": {
+        "agency": "West Virginia State Police",
+        "tagline": "Public safety blotter for the Mountain State.",
+        "accent": "#6b7280",
+        "blotters": [
+          { "id": "wv-2026-06-05-01", "title": "Charleston: Search warrant ties suspect to theft ring", "date": "2026-06-05", "summary": "Investigators recovered several items reported stolen in nearby counties." }
+        ]
+      }
+    },
+    {
+      "slug": "wisconsin",
+      "code": "WI",
+      "name": "Wisconsin",
+      "public": {
+        "agency": "Wisconsin State Patrol",
+        "tagline": "Public safety blotter for the Badger State.",
+        "accent": "#1f5f3a",
+        "blotters": [
+          { "id": "wi-2026-06-05-01", "title": "Madison: Impaired driving investigation expands", "date": "2026-06-05", "summary": "Officers say a roadside test supported the arrest." }
+        ]
+      }
+    },
+    {
+      "slug": "wyoming",
+      "code": "WY",
+      "name": "Wyoming",
+      "public": {
+        "agency": "Wyoming Highway Patrol",
+        "tagline": "Public safety blotter for the Equality State.",
+        "accent": "#2f6f4e",
+        "blotters": [
+          { "id": "wy-2026-06-05-01", "title": "Cheyenne: Highway closure after rollover and fuel leak", "date": "2026-06-05", "summary": "Cleanup crews reopened the roadway after the spill was contained." }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "description": "Curated seed list of major news outlets for every US state. Sources are imported as disabled proposals so operators can review and enable them.",
+  "sources": [
+    { "state_slug": "alabama", "source_name": "AL.com", "source_url": "https://www.al.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "alabama", "source_name": "Montgomery Advertiser", "source_url": "https://www.montgomeryadvertiser.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "alabama", "source_name": "Alabama Public Radio", "source_url": "https://www.apr.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "alabama", "source_name": "BirminghamWatch", "source_url": "https://birminghamwatch.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "alaska", "source_name": "Anchorage Daily News", "source_url": "https://www.adn.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "alaska", "source_name": "Alaska Public Media", "source_url": "https://www.alaskapublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "alaska", "source_name": "Juneau Empire", "source_url": "https://www.juneauempire.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "alaska", "source_name": "Fairbanks Daily News-Miner", "source_url": "https://www.newsminer.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "arizona", "source_name": "The Arizona Republic", "source_url": "https://www.azcentral.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "arizona", "source_name": "Arizona Daily Star", "source_url": "https://tucson.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "arizona", "source_name": "Arizona PBS", "source_url": "https://www.azpbs.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "arizona", "source_name": "Phoenix New Times", "source_url": "https://www.phoenixnewtimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "arkansas", "source_name": "Arkansas Democrat-Gazette", "source_url": "https://www.arkansasonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "arkansas", "source_name": "Arkansas Times", "source_url": "https://arktimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "arkansas", "source_name": "Northwest Arkansas Democrat-Gazette", "source_url": "https://www.nwaonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "arkansas", "source_name": "KAIT Region 8 News", "source_url": "https://www.kait8.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "california", "source_name": "Los Angeles Times", "source_url": "https://www.latimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "california", "source_name": "San Francisco Chronicle", "source_url": "https://www.sfchronicle.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "california", "source_name": "The San Diego Union-Tribune", "source_url": "https://www.sandiegouniontribune.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "california", "source_name": "CalMatters", "source_url": "https://calmatters.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "colorado", "source_name": "The Denver Post", "source_url": "https://www.denverpost.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "colorado", "source_name": "Colorado Public Radio", "source_url": "https://www.cpr.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "colorado", "source_name": "Colorado Springs Gazette", "source_url": "https://gazette.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "colorado", "source_name": "The Colorado Sun", "source_url": "https://coloradosun.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "connecticut", "source_name": "Hartford Courant", "source_url": "https://www.courant.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "connecticut", "source_name": "Connecticut Public", "source_url": "https://www.ctpublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "connecticut", "source_name": "The Day", "source_url": "https://www.theday.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "connecticut", "source_name": "CT Mirror", "source_url": "https://ctmirror.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "delaware", "source_name": "The News Journal", "source_url": "https://www.delawareonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "delaware", "source_name": "Delaware Public Media", "source_url": "https://www.delawarepublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "delaware", "source_name": "Delaware Online", "source_url": "https://www.delawareonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "delaware", "source_name": "Cape Gazette", "source_url": "https://www.capegazette.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "florida", "source_name": "Miami Herald", "source_url": "https://www.miamiherald.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "florida", "source_name": "Orlando Sentinel", "source_url": "https://www.orlandosentinel.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "florida", "source_name": "Tampa Bay Times", "source_url": "https://www.tampabay.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "florida", "source_name": "WLRN South Florida", "source_url": "https://www.wlrn.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "georgia", "source_name": "The Atlanta Journal-Constitution", "source_url": "https://www.ajc.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "georgia", "source_name": "Georgia Public Broadcasting", "source_url": "https://www.gpb.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "georgia", "source_name": "Savannah Morning News", "source_url": "https://www.savannahnow.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "georgia", "source_name": "Augusta Chronicle", "source_url": "https://www.augustachronicle.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "hawaii", "source_name": "Honolulu Star-Advertiser", "source_url": "https://www.staradvertiser.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "hawaii", "source_name": "Hawaii News Now", "source_url": "https://www.hawaiinewsnow.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "hawaii", "source_name": "Maui News", "source_url": "https://www.mauinews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "hawaii", "source_name": "Hawaii Public Radio", "source_url": "https://www.hawaiipublicradio.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "idaho", "source_name": "Idaho Statesman", "source_url": "https://www.idahostatesman.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "idaho", "source_name": "Idaho Press", "source_url": "https://www.idahopress.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "idaho", "source_name": "Post Register", "source_url": "https://www.postregister.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "idaho", "source_name": "Idaho Public Television", "source_url": "https://idahoptv.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "illinois", "source_name": "Chicago Tribune", "source_url": "https://www.chicagotribune.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "illinois", "source_name": "Chicago Sun-Times", "source_url": "https://chicago.suntimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "illinois", "source_name": "WBEZ Chicago", "source_url": "https://www.wbez.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "illinois", "source_name": "The Pantagraph", "source_url": "https://www.pantagraph.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "indiana", "source_name": "The Indianapolis Star", "source_url": "https://www.indystar.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "indiana", "source_name": "South Bend Tribune", "source_url": "https://www.southbendtribune.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "indiana", "source_name": "WFIU Public Radio", "source_url": "https://indianapublicmedia.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "indiana", "source_name": "Fort Wayne Journal Gazette", "source_url": "https://www.journalgazette.net", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "iowa", "source_name": "The Des Moines Register", "source_url": "https://www.desmoinesregister.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "iowa", "source_name": "Iowa Public Radio", "source_url": "https://www.iowapublicradio.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "iowa", "source_name": "The Gazette", "source_url": "https://www.thegazette.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "iowa", "source_name": "Quad-City Times", "source_url": "https://qctimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "kansas", "source_name": "The Wichita Eagle", "source_url": "https://www.kansas.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "kansas", "source_name": "Kansas City Star", "source_url": "https://www.kansascity.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "kansas", "source_name": "Kansas Public Radio", "source_url": "https://kansaspublicradio.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "kansas", "source_name": "Lawrence Journal-World", "source_url": "https://www2.ljworld.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "kentucky", "source_name": "Courier Journal", "source_url": "https://www.courier-journal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "kentucky", "source_name": "Lexington Herald-Leader", "source_url": "https://www.kentucky.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "kentucky", "source_name": "WKU Public Radio", "source_url": "https://wkunews.wordpress.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "kentucky", "source_name": "Bowling Green Daily News", "source_url": "https://www.bgdailynews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "louisiana", "source_name": "The Times-Picayune", "source_url": "https://www.nola.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "louisiana", "source_name": "The Advocate", "source_url": "https://www.theadvocate.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "louisiana", "source_name": "Louisiana Public Broadcasting", "source_url": "https://www.lpb.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "louisiana", "source_name": "Shreveport Times", "source_url": "https://www.shreveporttimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "maine", "source_name": "Portland Press Herald", "source_url": "https://www.pressherald.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "maine", "source_name": "Bangor Daily News", "source_url": "https://bangordailynews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "maine", "source_name": "Maine Public", "source_url": "https://www.mainepublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "maine", "source_name": "Sun Journal", "source_url": "https://www.sunjournal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "maryland", "source_name": "The Baltimore Sun", "source_url": "https://www.baltimoresun.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "maryland", "source_name": "Maryland Matters", "source_url": "https://www.marylandmatters.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "maryland", "source_name": "WAMU 88.5", "source_url": "https://wamu.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "maryland", "source_name": "The Capital Gazette", "source_url": "https://www.capitalgazette.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "massachusetts", "source_name": "The Boston Globe", "source_url": "https://www.bostonglobe.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "massachusetts", "source_name": "WBUR", "source_url": "https://www.wbur.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "massachusetts", "source_name": "MassLive", "source_url": "https://www.masslive.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "massachusetts", "source_name": "The Berkshire Eagle", "source_url": "https://www.berkshireeagle.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "michigan", "source_name": "Detroit Free Press", "source_url": "https://www.freep.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "michigan", "source_name": "The Detroit News", "source_url": "https://www.detroitnews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "michigan", "source_name": "Michigan Public Radio", "source_url": "https://www.michiganradio.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "michigan", "source_name": "MLive", "source_url": "https://www.mlive.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "minnesota", "source_name": "Star Tribune", "source_url": "https://www.startribune.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "minnesota", "source_name": "Minnesota Public Radio", "source_url": "https://www.mprnews.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "minnesota", "source_name": "Pioneer Press", "source_url": "https://www.twincities.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "minnesota", "source_name": "MinnPost", "source_url": "https://www.minnpost.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "mississippi", "source_name": "The Clarion-Ledger", "source_url": "https://www.clarionledger.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "mississippi", "source_name": "Mississippi Today", "source_url": "https://mississippitoday.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "mississippi", "source_name": "Sun Herald", "source_url": "https://www.sunherald.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "mississippi", "source_name": "Mississippi Public Broadcasting", "source_url": "https://www.mpbonline.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "missouri", "source_name": "St. Louis Post-Dispatch", "source_url": "https://www.stltoday.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "missouri", "source_name": "The Kansas City Star", "source_url": "https://www.kansascity.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "missouri", "source_name": "Missouri Independent", "source_url": "https://missouriindependent.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "missouri", "source_name": "KSMU Radio", "source_url": "https://www.ksmu.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "montana", "source_name": "Montana Free Press", "source_url": "https://montanafreepress.org", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "montana", "source_name": "Billings Gazette", "source_url": "https://billingsgazette.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "montana", "source_name": "Missoulian", "source_url": "https://missoulian.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "montana", "source_name": "Montana Public Radio", "source_url": "https://www.mtpr.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "nebraska", "source_name": "Omaha World-Herald", "source_url": "https://omaha.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "nebraska", "source_name": "Lincoln Journal Star", "source_url": "https://journalstar.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "nebraska", "source_name": "Nebraska Public Media", "source_url": "https://www.nebraskapublicmedia.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "nebraska", "source_name": "Kearney Hub", "source_url": "https://www.kearneyhub.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "nevada", "source_name": "Las Vegas Review-Journal", "source_url": "https://www.reviewjournal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "nevada", "source_name": "Reno Gazette-Journal", "source_url": "https://www.rgj.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "nevada", "source_name": "Nevada Independent", "source_url": "https://thenevadaindependent.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "nevada", "source_name": "KUNR Public Radio", "source_url": "https://www.kunr.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "new-hampshire", "source_name": "New Hampshire Public Radio", "source_url": "https://www.nhpr.org", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "new-hampshire", "source_name": "Union Leader", "source_url": "https://www.unionleader.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "new-hampshire", "source_name": "Concord Monitor", "source_url": "https://www.concordmonitor.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "new-hampshire", "source_name": "Seacoastonline", "source_url": "https://www.seacoastonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "new-jersey", "source_name": "The Star-Ledger / NJ.com", "source_url": "https://www.nj.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "new-jersey", "source_name": "NJ Spotlight News", "source_url": "https://www.njspotlightnews.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "new-jersey", "source_name": "WHYY", "source_url": "https://whyy.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "new-jersey", "source_name": "Asbury Park Press", "source_url": "https://www.app.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "new-mexico", "source_name": "Albuquerque Journal", "source_url": "https://www.abqjournal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "new-mexico", "source_name": "Santa Fe New Mexican", "source_url": "https://www.santafenewmexican.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "new-mexico", "source_name": "New Mexico PBS", "source_url": "https://www.newmexicopbs.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "new-mexico", "source_name": "Las Cruces Sun-News", "source_url": "https://www.lcsun-news.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "new-york", "source_name": "The New York Times", "source_url": "https://www.nytimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "new-york", "source_name": "New York Daily News", "source_url": "https://www.nydailynews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "new-york", "source_name": "Gothamist", "source_url": "https://gothamist.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "new-york", "source_name": "NY1", "source_url": "https://www.ny1.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "north-carolina", "source_name": "The News & Observer", "source_url": "https://www.newsobserver.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "north-carolina", "source_name": "The Charlotte Observer", "source_url": "https://www.charlotteobserver.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "north-carolina", "source_name": "WUNC", "source_url": "https://www.wunc.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "north-carolina", "source_name": "WRAL", "source_url": "https://www.wral.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "north-dakota", "source_name": "The Forum", "source_url": "https://www.inforum.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "north-dakota", "source_name": "Grand Forks Herald", "source_url": "https://www.grandforksherald.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "north-dakota", "source_name": "Prairie Public Broadcasting", "source_url": "https://www.prairiepublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "north-dakota", "source_name": "Bismarck Tribune", "source_url": "https://bismarcktribune.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "ohio", "source_name": "The Plain Dealer", "source_url": "https://www.cleveland.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "ohio", "source_name": "The Columbus Dispatch", "source_url": "https://www.dispatch.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "ohio", "source_name": "WOSU Public Media", "source_url": "https://news.wosu.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "ohio", "source_name": "Cincinnati Enquirer", "source_url": "https://www.cincinnati.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "oklahoma", "source_name": "The Oklahoman", "source_url": "https://www.oklahoman.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "oklahoma", "source_name": "Tulsa World", "source_url": "https://tulsaworld.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "oklahoma", "source_name": "Oklahoma Watch", "source_url": "https://oklahomawatch.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "oklahoma", "source_name": "KOSU", "source_url": "https://www.kosu.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "oregon", "source_name": "The Oregonian", "source_url": "https://www.oregonlive.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "oregon", "source_name": "Willamette Week", "source_url": "https://www.wweek.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "oregon", "source_name": "Oregon Public Broadcasting", "source_url": "https://www.opb.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "oregon", "source_name": "The Register-Guard", "source_url": "https://www.registerguard.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "pennsylvania", "source_name": "The Philadelphia Inquirer", "source_url": "https://www.inquirer.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "pennsylvania", "source_name": "Pittsburgh Post-Gazette", "source_url": "https://www.post-gazette.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "pennsylvania", "source_name": "PennLive", "source_url": "https://www.pennlive.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "pennsylvania", "source_name": "WHYY", "source_url": "https://whyy.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "rhode-island", "source_name": "The Providence Journal", "source_url": "https://www.providencejournal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "rhode-island", "source_name": "The Public's Radio", "source_url": "https://thepublicsradio.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "rhode-island", "source_name": "Rhode Island Current", "source_url": "https://rhodeislandcurrent.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "rhode-island", "source_name": "East Bay Newspapers", "source_url": "https://www.eastbayri.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "south-carolina", "source_name": "The State", "source_url": "https://www.thestate.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "south-carolina", "source_name": "Post and Courier", "source_url": "https://www.postandcourier.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "south-carolina", "source_name": "South Carolina Public Radio", "source_url": "https://www.southcarolinapublicradio.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "south-carolina", "source_name": "Greenville News", "source_url": "https://www.greenvilleonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "south-dakota", "source_name": "Argus Leader", "source_url": "https://www.argusleader.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "south-dakota", "source_name": "Rapid City Journal", "source_url": "https://www.rapidcityjournal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "south-dakota", "source_name": "South Dakota Public Broadcasting", "source_url": "https://www.sdpb.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "south-dakota", "source_name": "Aberdeen American News", "source_url": "https://www.aberdeennews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "tennessee", "source_name": "The Tennessean", "source_url": "https://www.tennessean.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "tennessee", "source_name": "Commercial Appeal", "source_url": "https://www.commercialappeal.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "tennessee", "source_name": "Knoxville News Sentinel", "source_url": "https://www.knoxnews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "tennessee", "source_name": "WKNO", "source_url": "https://www.wkno.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "texas", "source_name": "The Dallas Morning News", "source_url": "https://www.dallasnews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "texas", "source_name": "Houston Chronicle", "source_url": "https://www.houstonchronicle.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "texas", "source_name": "Texas Tribune", "source_url": "https://www.texastribune.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "texas", "source_name": "KUT Austin", "source_url": "https://www.kut.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "utah", "source_name": "The Salt Lake Tribune", "source_url": "https://www.sltrib.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "utah", "source_name": "Deseret News", "source_url": "https://www.deseret.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "utah", "source_name": "KUER", "source_url": "https://www.kuer.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "utah", "source_name": "St. George News", "source_url": "https://www.stgeorgeutah.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "vermont", "source_name": "VTDigger", "source_url": "https://vtdigger.org", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "vermont", "source_name": "Seven Days", "source_url": "https://www.sevendaysvt.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "vermont", "source_name": "Vermont Public", "source_url": "https://www.vermontpublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "vermont", "source_name": "Rutland Herald", "source_url": "https://www.rutlandherald.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "virginia", "source_name": "The Washington Post", "source_url": "https://www.washingtonpost.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "virginia", "source_name": "Richmond Times-Dispatch", "source_url": "https://richmond.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "virginia", "source_name": "WHRO", "source_url": "https://whro.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "virginia", "source_name": "Virginia Mercury", "source_url": "https://www.virginiamercury.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "washington", "source_name": "The Seattle Times", "source_url": "https://www.seattletimes.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "washington", "source_name": "The Spokesman-Review", "source_url": "https://www.spokesman.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "washington", "source_name": "KUOW", "source_url": "https://www.kuow.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "washington", "source_name": "Crosscut", "source_url": "https://crosscut.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "west-virginia", "source_name": "Charleston Gazette-Mail", "source_url": "https://www.wvgazettemail.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "west-virginia", "source_name": "West Virginia Public Broadcasting", "source_url": "https://www.wvpublic.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "west-virginia", "source_name": "The Herald-Dispatch", "source_url": "https://www.herald-dispatch.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "west-virginia", "source_name": "The Dominion Post", "source_url": "https://www.thedominionpost.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "wisconsin", "source_name": "Milwaukee Journal Sentinel", "source_url": "https://www.jsonline.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "wisconsin", "source_name": "Wisconsin State Journal", "source_url": "https://madison.com", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "wisconsin", "source_name": "Wisconsin Public Radio", "source_url": "https://www.wpr.org", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "wisconsin", "source_name": "Wisconsin Watch", "source_url": "https://wisconsinwatch.org", "source_type": "website", "strategy": "staticBulletin", "priority": 40 },
+
+    { "state_slug": "wyoming", "source_name": "Casper Star-Tribune", "source_url": "https://trib.com", "source_type": "website", "strategy": "staticBulletin", "priority": 10 },
+    { "state_slug": "wyoming", "source_name": "Wyoming Public Media", "source_url": "https://www.wyomingpublicmedia.org", "source_type": "website", "strategy": "staticBulletin", "priority": 20 },
+    { "state_slug": "wyoming", "source_name": "Wyoming Tribune Eagle", "source_url": "https://www.wyomingnews.com", "source_type": "website", "strategy": "staticBulletin", "priority": 30 },
+    { "state_slug": "wyoming", "source_name": "Jackson Hole News&Guide", "source_url": "https://www.jhnewsandguide.com", "source_type": "website", "strategy": "staticBulletin", "priority": 40 }
+  ]
+}

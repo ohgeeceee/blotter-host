@@ -1,0 +1,101 @@
+{{> partials/header}}
+
+<header class="page-header" role="banner">
+  <div class="page-header__inner">
+    <div>
+      <p class="page-header__eyebrow">blotter.host</p>
+      <h1 class="page-header__title">News Sources</h1>
+    </div>
+    <p class="page-header__meta">RSS feeds and news-station websites per state</p>
+  </div>
+</header>
+
+<div class="admin-content">
+  <main id="main" class="news-sources-page">
+    <section class="news-sources-controls" aria-labelledby="controls-h">
+      <h2 id="controls-h" class="desk-heading">Add source</h2>
+      <form id="news-source-form" class="news-source-form">
+        <input type="hidden" id="source-id" value="">
+        <label>
+          <span>State</span>
+          <select id="source-state" required>
+            {{{STATE_OPTIONS_HTML}}}
+          </select>
+        </label>
+        <label>
+          <span>Source name</span>
+          <input id="source-name" type="text" placeholder="e.g. Idaho Statesman" required maxlength="200">
+        </label>
+        <label>
+          <span>URL</span>
+          <input id="source-url" type="url" placeholder="https://www.example.com/feed" required maxlength="2048">
+        </label>
+        <label>
+          <span>Type</span>
+          <select id="source-type">
+            <option value="rss">RSS feed</option>
+            <option value="website">Website / homepage</option>
+          </select>
+        </label>
+        <label>
+          <span>Strategy</span>
+          <select id="source-strategy">
+            <option value="rssBulletin">rssBulletin (parse RSS)</option>
+            <option value="staticBulletin">staticBulletin (scrape static page)</option>
+            <option value="dynamicBulletin">dynamicBulletin (rendered page)</option>
+          </select>
+        </label>
+        <label>
+          <span>Priority</span>
+          <input id="source-priority" type="number" min="0" value="100">
+        </label>
+        <label class="checkbox-inline">
+          <input id="source-enabled" type="checkbox" checked>
+          <span>Enabled</span>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn--primary" id="source-save">Save source</button>
+          <button type="button" class="btn btn--ghost" id="source-cancel" hidden>Cancel</button>
+        </div>
+      </form>
+      <p id="source-form-message" class="form-message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="news-sources-list" aria-labelledby="list-h">
+      <div class="board__head">
+        <h2 id="list-h" class="desk-heading">Configured sources</h2>
+        <div class="filter-row">
+          <label>
+            <span>Filter by state</span>
+            <select id="list-state-filter">
+              {{{STATE_OPTIONS_HTML}}}
+            </select>
+          </label>
+          <button id="sources-run" type="button" class="btn btn--primary">Run scraper for state</button>
+          <button id="sources-refresh" type="button" class="btn btn--ghost">↻ Refresh</button>
+        </div>
+      </div>
+      <div class="board__scroll" role="region" aria-label="News sources table" tabindex="0">
+        <table class="board-table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">State</th>
+              <th scope="col">URL</th>
+              <th scope="col">Type / Strategy</th>
+              <th scope="col">Status</th>
+              <th scope="col" class="actions-col">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="sources-body">
+            {{{SOURCES_ROWS_HTML}}}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="/static/js/news-sources.js?v=1" defer></script>
+
+{{> partials/footer}}

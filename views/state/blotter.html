@@ -1,0 +1,25 @@
+<article class="blotter">
+  {{#if BLOTTER_AGENCY}}
+    <p class="blotter__agency">{{BLOTTER_AGENCY}}</p>
+  {{/if}}
+  <h1 class="blotter__title">{{BLOTTER_TITLE}}</h1>
+  <p class="blotter__meta">
+    Recorded <time datetime="{{BLOTTER_DATE}}">{{BLOTTER_DATE}}</time>
+    {{#if BLOTTER_COUNTY}}
+      &middot; <span class="blotter__county">{{{BLOTTER_COUNTY_HTML}}}</span>
+    {{/if}}
+    &middot; <span class="blotter__id">ID {{BLOTTER_ID}}</span>
+  </p>
+  <div class="blotter__body">
+    <p>{{BLOTTER_SUMMARY}}</p>
+  </div>
+  {{#if BLOTTER_RAW_TEXT}}
+  <section class="blotter__raw">
+    <h2 class="blotter__raw-heading">Source record</h2>
+    <pre class="blotter__raw-text">{{BLOTTER_RAW_TEXT}}</pre>
+  </section>
+  {{/if}}
+  <p class="blotter__back">
+    <a href="/">&larr; Back to recent reports</a>
+  </p>
+</article>

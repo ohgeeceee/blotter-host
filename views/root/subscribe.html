@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2933">
+  <title>Subscribe — blotter.host</title>
+  <meta name="description" content="Subscribe to state-by-state public record updates from blotter.host.">
+  <link rel="canonical" href="https://blotter.host/subscribe">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="apex-topbar" role="banner">
+    <a class="apex-topbar__brand" href="/">blotter.host</a>
+    <nav class="apex-topbar__nav" aria-label="Apex">
+      <a href="/">Home</a>
+      <a href="/network">Network</a>
+      <a href="/about">About</a>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero hero--landing">
+      <p class="hero__eyebrow">blotter.host</p>
+      <h1 class="hero__title">Subscribe to state updates</h1>
+      <p class="hero__tagline">
+        Pick the states you want to follow and get updates when new public-record summaries are published.
+      </p>
+      <div class="hero__actions">
+        <a class="hero__button hero__button--ghost" href="/">Home</a>
+        <a class="hero__button hero__button--ghost" href="/network">Network directory</a>
+      </div>
+    </section>
+
+    {{{NOTICE_HTML}}}
+
+    <section class="landing-panel landing-panel--subscribe" aria-labelledby="subscribe-h">
+      <div class="landing-panel__head">
+        <h2 id="subscribe-h" class="section-heading">Manage subscriptions</h2>
+        <p class="landing-panel__eyebrow">One email, the states you care about.</p>
+      </div>
+      <form action="/api/subscribe" method="post" class="subscribe-form">
+        <label>
+          <span>Email address</span>
+          <input type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          <span>State</span>
+          <select name="state" required>
+            <option value="">Choose a state</option>
+            {{{STATE_OPTIONS_HTML}}}
+          </select>
+        </label>
+        <button type="submit" class="search__submit">Subscribe</button>
+      </form>
+      <p class="landing-panel__note">
+        Subscriptions are stored locally and will be routed to a mail backend when one is configured.
+      </p>
+    </section>
+
+    <section class="landing-panel landing-panel--about" aria-labelledby="about-sub-h">
+      <h2 id="about-sub-h" class="section-heading">Reader accounts</h2>
+      <p>
+        <a href="/register">Create a free reader account</a> to save states, follow feeds, and keep your subscriptions in sync across devices.
+      </p>
+    </section>
+
+    <footer class="apex-footer">
+      <a class="apex-footer__link" href="/admin/login">Operators</a>
+    </footer>
+  </main>
+</body>
+</html>

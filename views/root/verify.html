@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2933">
+  <title>{{PAGE_TITLE}} - blotter.host</title>
+  <meta name="description" content="Verify your blotter.host reader email.">
+  <link rel="canonical" href="https://blotter.host/verify-email">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="apex-topbar" role="banner">
+    <a class="apex-topbar__brand" href="/">blotter.host</a>
+    <nav class="apex-topbar__nav" aria-label="Apex">
+      <a href="/">Home</a>
+      <a href="/network">Network</a>
+      <a href="/about">About</a>
+      <a href="/subscribe">Subscribe</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero hero--landing">
+      <p class="hero__eyebrow">blotter.host</p>
+      <h1 class="hero__title">{{PAGE_TITLE}}</h1>
+      <p class="hero__tagline">{{VERIFY_MESSAGE}}</p>
+
+      <div class="hero__actions" id="join">
+        <a class="hero__button" href="/">Back to blotter.host</a>
+        {{#if VERIFY_SUCCESS}}
+        <a class="hero__button hero__button--ghost" href="/login">Reader login</a>
+        {{else}}
+        <a class="hero__button hero__button--ghost" href="/register">Create account</a>
+        {{/if}}
+      </div>
+    </section>
+
+    <footer class="apex-footer">
+      <a class="apex-footer__link" href="/admin/login">Operators</a>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "blotter-host",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-tenant router for blotter.host and *.blotter.host",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "reset-admin-password": "node scripts/reset-admin-password.js",
+    "rotate-cookie-secret": "node scripts/rotate-cookie-secret.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.19.2",
+    "node-cron": "^4.0.0",
+    "pg": "^8.11.3",
+    "playwright": "^1.60.0",
+    "puppeteer": "^25.1.0",
+    "rss-parser": "^3.13.0"
+  }
+}

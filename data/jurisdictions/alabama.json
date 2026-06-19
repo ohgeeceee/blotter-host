@@ -1,0 +1,346 @@
+{
+  "state": "Alabama",
+  "abbreviation": "AL",
+  "subdomain": "alabama.blotter.host",
+  "metadata": {
+    "total_counties": 67,
+    "capital": "Montgomery"
+  },
+  "counties": [
+    {
+      "name": "Autauga County",
+      "seat": "Prattville",
+      "major_cities_and_towns": ["Prattville", "Autaugaville", "Billingsley", "Marbury", "Verbena"]
+    },
+    {
+      "name": "Baldwin County",
+      "seat": "Bay Minette",
+      "major_cities_and_towns": ["Daphne", "Fairhope", "Foley", "Gulf Shores", "Orange Beach", "Bay Minette", "Robertsdale", "Loxley", "Spanish Fort", "Summerdale", "Silverhill", "Elberta", "Lillian", "Magnolia Springs", "Stapleton"]
+    },
+    {
+      "name": "Barbour County",
+      "seat": "Clayton",
+      "major_cities_and_towns": ["Eufaula", "Clayton", "Louisville", "Clio", "Aliceville", "Blue Springs", "Gammage"]
+    },
+    {
+      "name": "Bibb County",
+      "seat": "Centreville",
+      "major_cities_and_towns": ["Centreville", "Brent", "Woodstock", "West Blocton", "Brierfield"]
+    },
+    {
+      "name": "Blount County",
+      "seat": "Oneonta",
+      "major_cities_and_towns": ["Oneonta", "Hayden", "Locust Fork", "Snead", "Trafford", "Blountsville", "Susan Moore", "Cleveland"]
+    },
+    {
+      "name": "Bullock County",
+      "seat": "Union Springs",
+      "major_cities_and_towns": ["Union Springs", "Midway", "Perote"]
+    },
+    {
+      "name": "Butler County",
+      "seat": "Greenville",
+      "major_cities_and_towns": ["Greenville", "Georgiana", "McKenzie", "Chapman", "Forest Home"]
+    },
+    {
+      "name": "Calhoun County",
+      "seat": "Anniston",
+      "major_cities_and_towns": ["Anniston", "Oxford", "Jacksonville", "Piedmont", "Heflin", "Ohatchee", "Weaver", "Alexandria", "Hobson City", "Eastaboga", "Saks", "Blue Mountain"]
+    },
+    {
+      "name": "Chambers County",
+      "seat": "LaFayette",
+      "major_cities_and_towns": ["LaFayette", "Valley", "Lanett", "Roanoke", "Five Points", "Waverly", "Huguley"]
+    },
+    {
+      "name": "Cherokee County",
+      "seat": "Centre",
+      "major_cities_and_towns": ["Centre", "Gaylesville", "Cedar Bluff", "Leesburg", "Sand Rock"]
+    },
+    {
+      "name": "Chilton County",
+      "seat": "Clanton",
+      "major_cities_and_towns": ["Clanton", "Jemison", "Thorsby", "Maplesville", "Verbena", "Stanton", "Childersburg"]
+    },
+    {
+      "name": "Choctaw County",
+      "seat": "Butler",
+      "major_cities_and_towns": ["Butler", "Gilbertown", "Lisman", "Pennington", "Toxey", "Bladon Springs"]
+    },
+    {
+      "name": "Clarke County",
+      "seat": "Grove Hill",
+      "major_cities_and_towns": ["Grove Hill", "Jackson", "Thomasville", "Coffeeville", "Salitpa", "Whatley"]
+    },
+    {
+      "name": "Clay County",
+      "seat": "Ashland",
+      "major_cities_and_towns": ["Ashland", "Lineville", "Hollins", "Delta"]
+    },
+    {
+      "name": "Cleburne County",
+      "seat": "Heflin",
+      "major_cities_and_towns": ["Heflin", "Edwardsville", "Fruithurst", "Ranburne"]
+    },
+    {
+      "name": "Coffee County",
+      "seat": "Elba",
+      "major_cities_and_towns": ["Enterprise", "Elba", "New Brockton", "Coffee Springs", "Kinston"]
+    },
+    {
+      "name": "Colbert County",
+      "seat": "Tuscumbia",
+      "major_cities_and_towns": ["Muscle Shoals", "Sheffield", "Tuscumbia", "Leighton", "Cherokee", "Littleville", "Hatton"]
+    },
+    {
+      "name": "Conecuh County",
+      "seat": "Evergreen",
+      "major_cities_and_towns": ["Evergreen", "Repton", "Castleberry", "Brewton"]
+    },
+    {
+      "name": "Coosa County",
+      "seat": "Rockford",
+      "major_cities_and_towns": ["Rockford", "Kellyton", "Goodwater", "Weogufka"]
+    },
+    {
+      "name": "Covington County",
+      "seat": "Andalusia",
+      "major_cities_and_towns": ["Andalusia", "Florala", "Opp", "Luverne", "Lockhart", "Red Level", "Gantt"]
+    },
+    {
+      "name": "Crenshaw County",
+      "seat": "Luverne",
+      "major_cities_and_towns": ["Luverne", "Brantley", "Rutledge", "Dozier", "Highland Home"]
+    },
+    {
+      "name": "Cullman County",
+      "seat": "Cullman",
+      "major_cities_and_towns": ["Cullman", "Arab", "Vinemont", "Hanceville", "Addison", "Holly Pond", "Logan", "Baileyton", "Garden City"]
+    },
+    {
+      "name": "Dale County",
+      "seat": "Ozark",
+      "major_cities_and_towns": ["Ozark", "Daleville", "Newton", "Ariton", "Pinckard", "Clayhatchee"]
+    },
+    {
+      "name": "Dallas County",
+      "seat": "Selma",
+      "major_cities_and_towns": ["Selma", "Orrville", "Plantersville", "Sardis", "Valley Grande"]
+    },
+    {
+      "name": "DeKalb County",
+      "seat": "Fort Payne",
+      "major_cities_and_towns": ["Fort Payne", "Rainsville", "Fyffe", "Geraldine", "Crossville", "Sylvania", "Henagar", "Ider", "Powell", "Mentone"]
+    },
+    {
+      "name": "Elmore County",
+      "seat": "Wetumpka",
+      "major_cities_and_towns": ["Wetumpka", "Millbrook", "Prattville", "Elmore", "Tallassee", "Eclectic", "Coosada", "Deatsville", "Equality"]
+    },
+    {
+      "name": "Escambia County",
+      "seat": "Brewton",
+      "major_cities_and_towns": ["Brewton", "Atmore", "Flomaton", "East Brewton", "Pollard", "Riverview", "Mc Kenzie"]
+    },
+    {
+      "name": "Etowah County",
+      "seat": "Gadsden",
+      "major_cities_and_towns": ["Gadsden", "Attalla", "Rainbow City", "Hokes Bluff", "Glencoe", "Southside", "Walnut Grove", "Reece City", "Altoona", "Boaz", "Sardis City"]
+    },
+    {
+      "name": "Fayette County",
+      "seat": "Fayette",
+      "major_cities_and_towns": ["Fayette", "Winfield", "Arley", "Bankston", "Glen Allen"]
+    },
+    {
+      "name": "Franklin County",
+      "seat": "Russellville",
+      "major_cities_and_towns": ["Russellville", "Phil Campbell", "Red Bay", "Belgreen", "Vina", "Spruce Pine"]
+    },
+    {
+      "name": "Geneva County",
+      "seat": "Geneva",
+      "major_cities_and_towns": ["Geneva", "Hartford", "Slocomb", "Samson", "Malvern", "Elba"]
+    },
+    {
+      "name": "Greene County",
+      "seat": "Eutaw",
+      "major_cities_and_towns": ["Eutaw", "Forkland", "Boligee", "Union"]
+    },
+    {
+      "name": "Hale County",
+      "seat": "Greensboro",
+      "major_cities_and_towns": ["Greensboro", "Moundville", "Sawyerville", "Akron", "Newbern"]
+    },
+    {
+      "name": "Henry County",
+      "seat": "Abbeville",
+      "major_cities_and_towns": ["Abbeville", "Headland", "Newville", "Columbia", "Haleburg"]
+    },
+    {
+      "name": "Houston County",
+      "seat": "Dothan",
+      "major_cities_and_towns": ["Dothan", "Ashford", "Columbia", "Cottonwood", "Gordon", "Kinsey", "Rehobeth", "Webb"]
+    },
+    {
+      "name": "Jackson County",
+      "seat": "Scottsboro",
+      "major_cities_and_towns": ["Scottsboro", "Stevenson", "Rainsville", "Bridgeport", "Section", "Pisgah", "Dutton", "Hollywood", "Woodville"]
+    },
+    {
+      "name": "Jefferson County",
+      "seat": "Birmingham",
+      "major_cities_and_towns": ["Birmingham", "Bessemer", "Hoover", "Homewood", "Vestavia Hills", "Gardendale", "Trussville", "Center Point", "Fairfield", "Midfield", "Mountain Brook", "Pelham", "Helena", "Hueytown", "Irondale", "Fultondale", "Pleasant Grove", "Tarrant", "Adamsville", "Brookside", "Cahaba Heights", "Kimberly", "Morris", "Warrior"]
+    },
+    {
+      "name": "Lamar County",
+      "seat": "Vernon",
+      "major_cities_and_towns": ["Vernon", "Sulligent", "Millport", "Kennedy", "Detroit"]
+    },
+    {
+      "name": "Lauderdale County",
+      "seat": "Florence",
+      "major_cities_and_towns": ["Florence", "Killen", "Rogersville", "Lexington", "Waterloo", "Cloverdale", "Anderson", "St. Florian"]
+    },
+    {
+      "name": "Lawrence County",
+      "seat": "Moulton",
+      "major_cities_and_towns": ["Moulton", "Town Creek", "Courtland", "Trinity", "Hillsboro", "Hatton"]
+    },
+    {
+      "name": "Lee County",
+      "seat": "Opelika",
+      "major_cities_and_towns": ["Auburn", "Opelika", "Phenix City", "Salem", "Smiths Station", "Loachapoka", "Notasulga", "Waverly"]
+    },
+    {
+      "name": "Limestone County",
+      "seat": "Athens",
+      "major_cities_and_towns": ["Athens", "Decatur", "Ardmore", "Elkmont", "Lester", "Harvest", "Madison", "Tanner"]
+    },
+    {
+      "name": "Lowndes County",
+      "seat": "Hayneville",
+      "major_cities_and_towns": ["Hayneville", "Fort Deposit", "Lowndesboro", "Gordonville", "White Hall"]
+    },
+    {
+      "name": "Macon County",
+      "seat": "Tuskegee",
+      "major_cities_and_towns": ["Tuskegee", "Notasulga", "Franklin", "Shorter"]
+    },
+    {
+      "name": "Madison County",
+      "seat": "Huntsville",
+      "major_cities_and_towns": ["Huntsville", "Madison", "Gurley", "New Hope", "Hazel Green", "Harvest", "Meridianville", "Hampton Cove", "Triana", "Owens Cross Roads", "Redstone Arsenal", "Ryland"]
+    },
+    {
+      "name": "Marengo County",
+      "seat": "Linden",
+      "major_cities_and_towns": ["Linden", "Demopolis", "Sweet Water", "Thomaston", "Myrtlewood", "Dayton"]
+    },
+    {
+      "name": "Marion County",
+      "seat": "Hamilton",
+      "major_cities_and_towns": ["Hamilton", "Winfield", "Haleyville", "Guin", "Bear Creek", "Brilliant", "Natural Bridge"]
+    },
+    {
+      "name": "Marshall County",
+      "seat": "Guntersville",
+      "major_cities_and_towns": ["Guntersville", "Albertville", "Arab", "Boaz", "Scottsboro", "Grant", "Union Grove", "Douglas", "Horton", "Asbury", "Claysville"]
+    },
+    {
+      "name": "Mobile County",
+      "seat": "Mobile",
+      "major_cities_and_towns": ["Mobile", "Prichard", "Saraland", "Chickasaw", "Satsuma", "Semmes", "Citronelle", "Tillmans Corner", "Eight Mile", "Mount Vernon", "Creola", "Chatom", "Whistler", "Theodore", "Grand Bay", "Irvington", "Chunchula"]
+    },
+    {
+      "name": "Monroe County",
+      "seat": "Monroeville",
+      "major_cities_and_towns": ["Monroeville", "Frisco City", "Beatrice", "Excel", "Repton", "Uriah"]
+    },
+    {
+      "name": "Montgomery County",
+      "seat": "Montgomery",
+      "major_cities_and_towns": ["Montgomery", "Pike Road", "Prattville", "Millbrook", "Wetumpka", "Hope Hull", "Pike Road", "Mathews", "Cecil"]
+    },
+    {
+      "name": "Morgan County",
+      "seat": "Decatur",
+      "major_cities_and_towns": ["Decatur", "Hartselle", "Falkville", "Trinity", "Lacey's Spring", "Eva", "Priceville", "Neel", "Somerville"]
+    },
+    {
+      "name": "Perry County",
+      "seat": "Marion",
+      "major_cities_and_towns": ["Marion", "Uniontown", "Perry", "Gallion", "Hamburg"]
+    },
+    {
+      "name": "Pickens County",
+      "seat": "Carrollton",
+      "major_cities_and_towns": ["Carrollton", "Aliceville", "Gordo", "Reform", "Ethelsville", "Mc Shan"]
+    },
+    {
+      "name": "Pike County",
+      "seat": "Troy",
+      "major_cities_and_towns": ["Troy", "Brundidge", "Banks", "Goshen", "Grady", "Pike Road"]
+    },
+    {
+      "name": "Randolph County",
+      "seat": "Wedowee",
+      "major_cities_and_towns": ["Wedowee", "Roanoke", "Woodland", "Randolph", "Daviston"]
+    },
+    {
+      "name": "Russell County",
+      "seat": "Phenix City",
+      "major_cities_and_towns": ["Phenix City", "Hurtsboro", "Seale", "Georgetown", "Crawford", "Ladonia"]
+    },
+    {
+      "name": "St. Clair County",
+      "seat": "Ashville",
+      "major_cities_and_towns": ["Pell City", "Moody", "Odenville", "Ashville", "Ragland", "Lincoln", "Springville", "Trussville", "Cook Springs", "Margaret"]
+    },
+    {
+      "name": "Shelby County",
+      "seat": "Columbiana",
+      "major_cities_and_towns": ["Alabaster", "Pelham", "Helena", "Calera", "Columbiana", "Chelsea", "Montevallo", "Vincent", "Wilsonville", "Harpersville", "Sterrett", "Westover", "Millerville", "Shelby", "Talladega Springs"]
+    },
+    {
+      "name": "Sumter County",
+      "seat": "Livingston",
+      "major_cities_and_towns": ["Livingston", "York", "Emelle", "Cuba", "Geiger", "Gainesville"]
+    },
+    {
+      "name": "Talladega County",
+      "seat": "Talladega",
+      "major_cities_and_towns": ["Talladega", "Sylacauga", "Lincoln", "Childersburg", "Alpine", "Munford", "Waldo", "Fayetteville", "Sycamore", "Harpersville"]
+    },
+    {
+      "name": "Tallapoosa County",
+      "seat": "Dadeville",
+      "major_cities_and_towns": ["Dadeville", "Alexander City", "Tallassee", "Camp Hill", "Jacksons Gap", "New Site", "Goldville", "Daviston"]
+    },
+    {
+      "name": "Tuscaloosa County",
+      "seat": "Tuscaloosa",
+      "major_cities_and_towns": ["Tuscaloosa", "Northport", "Bessemer", "Cottondale", "Moundville", "Brookwood", "Vance", "Coaling", "Holt", "Duncanville", "Fosters", "Mc Calla", "Buhl", "Coker"]
+    },
+    {
+      "name": "Walker County",
+      "seat": "Jasper",
+      "major_cities_and_towns": ["Jasper", "Cordova", "Sumiton", "Dora", "Carbon Hill", "Oakman", "Parrish", "Eldridge", "Sipsey", "Nauvoo", "Townley", "Beverton"]
+    },
+    {
+      "name": "Washington County",
+      "seat": "Chatom",
+      "major_cities_and_towns": ["Chatom", "McIntosh", "Millry", "Leroy", "Citronelle", "Sunflower"]
+    },
+    {
+      "name": "Wilcox County",
+      "seat": "Camden",
+      "major_cities_and_towns": ["Camden", "Pine Apple", "Pine Hill", "Beatrice", "Coy", "Boykin", "Snow Hill"]
+    },
+    {
+      "name": "Winston County",
+      "seat": "Double Springs",
+      "major_cities_and_towns": ["Double Springs", "Haleyville", "Arley", "Addison", "Lynn", "Nauvoo", "Natural Bridge"]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "state": "Arizona",
+  "abbreviation": "AZ",
+  "subdomain": "arizona.blotter.host",
+  "metadata": {
+    "total_counties": 15,
+    "capital": "Phoenix"
+  },
+  "counties": [
+    {
+      "name": "Apache County",
+      "seat": "St. Johns",
+      "major_cities_and_towns": ["St. Johns", "Springerville", "Eagar", "Show Low", "Greer", "Nutrioso", "Alpine", "Concho", "Sanders", "Window Rock", "Fort Defiance", "Ganado", "Chinle", "Many Farms", "Rough Rock"]
+    },
+    {
+      "name": "Cochise County",
+      "seat": "Bisbee",
+      "major_cities_and_towns": ["Sierra Vista", "Bisbee", "Douglas", "Tombstone", "Willcox", "Benson", "Huachuca City", "Nogales", "Hereford", "Sunsites", "Pearce", "Elfrida", "McNeal", "Portal", "Pirtleville"]
+    },
+    {
+      "name": "Coconino County",
+      "seat": "Flagstaff",
+      "major_cities_and_towns": ["Flagstaff", "Sedona", "Page", "Williams", "Tuba City", "Winslow", "Fredonia", "Kanab", "Cameron", "Kayenta", "Leupp", "Dennehotso", "Shonto", "Supai"]
+    },
+    {
+      "name": "Gila County",
+      "seat": "Globe",
+      "major_cities_and_towns": ["Globe", "Miami", "Payson", "Star Valley", "Whiteriver", "San Carlos", "Young", "Claypool", "Tonto Basin", "Strawberry", "Pine", "Winkelman"]
+    },
+    {
+      "name": "Graham County",
+      "seat": "Safford",
+      "major_cities_and_towns": ["Safford", "Thatcher", "Pima", "Duncan", "Solomon", "Bylas", "Eden"]
+    },
+    {
+      "name": "Greenlee County",
+      "seat": "Clifton",
+      "major_cities_and_towns": ["Clifton", "Morenci", "Duncan", "York", "Mule Creek"]
+    },
+    {
+      "name": "La Paz County",
+      "seat": "Parker",
+      "major_cities_and_towns": ["Parker", "Quartzsite", "Salome", "Wenden", "Ehrenberg", "Bouse", "Poston", "Wickenburg"]
+    },
+    {
+      "name": "Maricopa County",
+      "seat": "Phoenix",
+      "major_cities_and_towns": ["Phoenix", "Mesa", "Chandler", "Gilbert", "Glendale", "Scottsdale", "Tempe", "Peoria", "Surprise", "Goodyear", "Avondale", "Buckeye", "Litchfield Park", "Maricopa", "Queen Creek", "El Mirage", "Tolleson", "Youngtown", "Wickenburg", "Paradise Valley", "Fountain Hills", "Cave Creek", "Carefree", "Apache Junction", "Anthem", "Sun City", "Sun City West", "Sun Lakes", "Laveen", "Rio Verde", "Fort McDowell"]
+    },
+    {
+      "name": "Mohave County",
+      "seat": "Kingman",
+      "major_cities_and_towns": ["Kingman", "Lake Havasu City", "Bullhead City", "Laughlin", "Fort Mohave", "Mohave Valley", "Yucca", "Golden Valley", "Dolan Springs", "Meadview", "Chloride", "Wikieup", "Seligman"]
+    },
+    {
+      "name": "Navajo County",
+      "seat": "Holbrook",
+      "major_cities_and_towns": ["Holbrook", "Show Low", "Pinetop-Lakeside", "Winslow", "Snowflake", "Taylor", "Whiteriver", "Kayenta", "Keams Canyon", "Heber-Overgaard", "Pinedale", "Linden", "McNary"]
+    },
+    {
+      "name": "Pima County",
+      "seat": "Tucson",
+      "major_cities_and_towns": ["Tucson", "Marana", "Oro Valley", "Sahuarita", "South Tucson", "Ajo", "Green Valley", "Arivaca", "Sells", "Robles Ranch", "Three Points", "Tanque Verde", "Casas Adobes", "Catalina", "Flowing Wells"]
+    },
+    {
+      "name": "Pinal County",
+      "seat": "Florence",
+      "major_cities_and_towns": ["Casa Grande", "Apache Junction", "Maricopa", "Coolidge", "Florence", "Eloy", "Superior", "San Tan Valley", "Queen Creek", "Chandler Heights", "Oracle", "Kearny", "Mammoth", "Arizona City", "Sacaton"]
+    },
+    {
+      "name": "Santa Cruz County",
+      "seat": "Nogales",
+      "major_cities_and_towns": ["Nogales", "Rio Rico", "Patagonia", "Sonoita", "Tumacacori-Carmen", "Tubac"]
+    },
+    {
+      "name": "Yavapai County",
+      "seat": "Prescott",
+      "major_cities_and_towns": ["Prescott", "Prescott Valley", "Cottonwood", "Camp Verde", "Sedona", "Jerome", "Chino Valley", "Clarkdale", "Dewey-Humboldt", "Mayer", "Congress", "Williamson Valley", "Cornville", "Page Springs", "Black Canyon City", "Skull Valley"]
+    },
+    {
+      "name": "Yuma County",
+      "seat": "Yuma",
+      "major_cities_and_towns": ["Yuma", "San Luis", "Somerton", "Wellton", "Dateland", "Roll", "Tacna", "Gila Bend", "Ligurta"]
+    }
+  ]
+}

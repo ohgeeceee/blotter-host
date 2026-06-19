@@ -1,0 +1,40 @@
+{{> partials/header.html}}
+
+<main id="main" class="control-room">
+  <section class="metrics" aria-labelledby="metrics-heading">
+    <h2 id="metrics-heading" class="section-heading">Network at a glance</h2>
+    <dl class="metric-grid">
+      {{{METRICS_HTML}}}
+    </dl>
+  </section>
+
+  <section class="state-status" aria-labelledby="states-heading">
+    <div class="state-status__head">
+      <h2 id="states-heading" class="section-heading">State status</h2>
+      <p class="state-status__summary">{{STATUS_SUMMARY}}</p>
+    </div>
+
+    <div class="state-status__table-wrap" role="region" aria-label="State status table" tabindex="0">
+      <table class="state-status__table">
+        <caption class="visually-hidden">
+          One row per tenant subdomain with status, record count, database size, scraper, and last successful run.
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">State</th>
+            <th scope="col">Status</th>
+            <th scope="col" class="num">Records</th>
+            <th scope="col" class="num">DB size</th>
+            <th scope="col">Scraper</th>
+            <th scope="col">Last successful run</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{{TENANT_ROWS_HTML}}}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+{{> partials/footer.html}}

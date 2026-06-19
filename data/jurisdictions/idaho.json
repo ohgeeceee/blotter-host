@@ -1,0 +1,231 @@
+{
+  "state": "Idaho",
+  "abbreviation": "ID",
+  "subdomain": "idaho.blotter.host",
+  "metadata": {
+    "total_counties": 44,
+    "capital": "Boise"
+  },
+  "counties": [
+    {
+      "name": "Ada County",
+      "seat": "Boise",
+      "major_cities_and_towns": ["Boise", "Meridian", "Nampa", "Caldwell", "Eagle", "Kuna", "Star", "Garden City", "Middleton", "Hidden Springs"]
+    },
+    {
+      "name": "Adams County",
+      "seat": "Council",
+      "major_cities_and_towns": ["Council", "Cambridge", "Mesa", "New Meadows"]
+    },
+    {
+      "name": "Bannock County",
+      "seat": "Pocatello",
+      "major_cities_and_towns": ["Pocatello", "Chubbuck", "Inkom", "McCammon", "Lava Hot Springs", "Downey", "Arimo"]
+    },
+    {
+      "name": "Bear Lake County",
+      "seat": "Paris",
+      "major_cities_and_towns": ["Paris", "Montpelier", "Georgetown", "Bloomington", "Fish Haven", "St. Charles"]
+    },
+    {
+      "name": "Benewah County",
+      "seat": "St. Maries",
+      "major_cities_and_towns": ["St. Maries", "Plummer", "Tensed", "Santa", "Emida"]
+    },
+    {
+      "name": "Bingham County",
+      "seat": "Blackfoot",
+      "major_cities_and_towns": ["Blackfoot", "Shelley", "Moreland", "Firth", "Pingree", "Springfield", "Aberdeen", "Rockford"]
+    },
+    {
+      "name": "Blaine County",
+      "seat": "Hailey",
+      "major_cities_and_towns": ["Hailey", "Sun Valley", "Ketchum", "Bellevue", "Carey", "Picabo"]
+    },
+    {
+      "name": "Boise County",
+      "seat": "Idaho City",
+      "major_cities_and_towns": ["Idaho City", "Horseshoe Bend", "Banks", "Lowman", "Placerville"]
+    },
+    {
+      "name": "Bonner County",
+      "seat": "Sandpoint",
+      "major_cities_and_towns": ["Sandpoint", "Priest River", "Dover", "Kootenai", "Ponderay", "Oldtown", "East Hope", "Hope", "Clark Fork"]
+    },
+    {
+      "name": "Bonneville County",
+      "seat": "Idaho Falls",
+      "major_cities_and_towns": ["Idaho Falls", "Ammon", "Ucon", "Iona", "Ririe", "Swan Valley", "Iona"]
+    },
+    {
+      "name": "Boundary County",
+      "seat": "Bonners Ferry",
+      "major_cities_and_towns": ["Bonners Ferry", "Moyie Springs", "Naples", "Porthill"]
+    },
+    {
+      "name": "Butte County",
+      "seat": "Arco",
+      "major_cities_and_towns": ["Arco", "Mackay", "Moore"]
+    },
+    {
+      "name": "Camas County",
+      "seat": "Fairfield",
+      "major_cities_and_towns": ["Fairfield", "Hill City"]
+    },
+    {
+      "name": "Canyon County",
+      "seat": "Caldwell",
+      "major_cities_and_towns": ["Nampa", "Caldwell", "Middleton", "Notus", "Parma", "Wilder", "Melba", "Greenleaf", "Homedale", "Marsing"]
+    },
+    {
+      "name": "Caribou County",
+      "seat": "Soda Springs",
+      "major_cities_and_towns": ["Soda Springs", "Grace", "Bancroft", "Conda"]
+    },
+    {
+      "name": "Cassia County",
+      "seat": "Burley",
+      "major_cities_and_towns": ["Burley", "Rupert", "Heyburn", "Paul", "Declo", "Oakley", "Albion"]
+    },
+    {
+      "name": "Clark County",
+      "seat": "Dubois",
+      "major_cities_and_towns": ["Dubois", "Kilgore", "Terreton"]
+    },
+    {
+      "name": "Clearwater County",
+      "seat": "Orofino",
+      "major_cities_and_towns": ["Orofino", "Kamiah", "Pierce", "Weippe", "Elk River"]
+    },
+    {
+      "name": "Custer County",
+      "seat": "Challis",
+      "major_cities_and_towns": ["Challis", "Stanley", "Patterson", "Mackay"]
+    },
+    {
+      "name": "Elmore County",
+      "seat": "Mountain Home",
+      "major_cities_and_towns": ["Mountain Home", "Glenns Ferry", "Hammett", "Mountain Home AFB"]
+    },
+    {
+      "name": "Franklin County",
+      "seat": "Preston",
+      "major_cities_and_towns": ["Preston", "Franklin", "Clifton", "Dayton", "Richmond"]
+    },
+    {
+      "name": "Fremont County",
+      "seat": "St. Anthony",
+      "major_cities_and_towns": ["St. Anthony", "Rexburg", "Ashton", "Driggs", "Newdale", "Parker", "Teton"]
+    },
+    {
+      "name": "Gem County",
+      "seat": "Emmett",
+      "major_cities_and_towns": ["Emmett", "Letha", "Sweet", "Ola"]
+    },
+    {
+      "name": "Gooding County",
+      "seat": "Gooding",
+      "major_cities_and_towns": ["Gooding", "Bliss", "Hagerman", "Wendell", "Shoshone"]
+    },
+    {
+      "name": "Idaho County",
+      "seat": "Grangeville",
+      "major_cities_and_towns": ["Grangeville", "Kooskia", "Riggins", "White Bird", "Elk City", "Cottonwood", "Nezperce"]
+    },
+    {
+      "name": "Jefferson County",
+      "seat": "Rigby",
+      "major_cities_and_towns": ["Rigby", "Rexburg", "Menan", "Roberts", "Mud Lake", "Lewisville", "Terreton"]
+    },
+    {
+      "name": "Jerome County",
+      "seat": "Jerome",
+      "major_cities_and_towns": ["Jerome", "Eden", "Hazelton", "Milner"]
+    },
+    {
+      "name": "Kootenai County",
+      "seat": "Coeur d'Alene",
+      "major_cities_and_towns": ["Coeur d'Alene", "Post Falls", "Hayden", "Rathdrum", "Spirit Lake", "Dalton Gardens", "Hauser", "Harrison", "Huetter", "Athol", "Fernan Lake Village", "Rockford Bay"]
+    },
+    {
+      "name": "Latah County",
+      "seat": "Moscow",
+      "major_cities_and_towns": ["Moscow", "Troy", "Genesee", "Bovill", "Deary", "Juliaetta", "Kendrick", "Palouse", "Potlatch", "Pullman"]
+    },
+    {
+      "name": "Lemhi County",
+      "seat": "Salmon",
+      "major_cities_and_towns": ["Salmon", "Leadore", "Cobalt", "Tendoy"]
+    },
+    {
+      "name": "Lewis County",
+      "seat": "Nezperce",
+      "major_cities_and_towns": ["Nezperce", "Craigmont", "Kamiah", "Winchester", "Reubens"]
+    },
+    {
+      "name": "Lincoln County",
+      "seat": "Shoshone",
+      "major_cities_and_towns": ["Shoshone", "Richfield", "Dietrich"]
+    },
+    {
+      "name": "Madison County",
+      "seat": "Rexburg",
+      "major_cities_and_towns": ["Rexburg", "Sugar City", "Teton", "Hibbard"]
+    },
+    {
+      "name": "Minidoka County",
+      "seat": "Rupert",
+      "major_cities_and_towns": ["Rupert", "Burley", "Heyburn", "Paul", "Acequia", "Minidoka"]
+    },
+    {
+      "name": "Nez Perce County",
+      "seat": "Lewiston",
+      "major_cities_and_towns": ["Lewiston", "Clarkston", "Lapwai", "Peck", "Culdesac"]
+    },
+    {
+      "name": "Oneida County",
+      "seat": "Malad City",
+      "major_cities_and_towns": ["Malad City", "Holbrook", "Stone"]
+    },
+    {
+      "name": "Owyhee County",
+      "seat": "Murphy",
+      "major_cities_and_towns": ["Murphy", "Homedale", "Marsing", "Bruneau", "Grand View", "Oreana", "Riddle"]
+    },
+    {
+      "name": "Payette County",
+      "seat": "Payette",
+      "major_cities_and_towns": ["Payette", "Ontario", "Fruitland", "New Plymouth"]
+    },
+    {
+      "name": "Power County",
+      "seat": "American Falls",
+      "major_cities_and_towns": ["American Falls", "Rockland", "Stone", "Aberdeen"]
+    },
+    {
+      "name": "Shoshone County",
+      "seat": "Wallace",
+      "major_cities_and_towns": ["Coeur d'Alene", "Wallace", "Kellogg", "Osburn", "Pinehurst", "Smelterville", "Silverton", "Mullan", "Kingston"]
+    },
+    {
+      "name": "Teton County",
+      "seat": "Driggs",
+      "major_cities_and_towns": ["Driggs", "Victor", "Tetonia", "Felt"]
+    },
+    {
+      "name": "Twin Falls County",
+      "seat": "Twin Falls",
+      "major_cities_and_towns": ["Twin Falls", "Buhl", "Filer", "Kimberly", "Hansen", "Castleford", "Murtaugh", "Rock Creek"]
+    },
+    {
+      "name": "Valley County",
+      "seat": "Cascade",
+      "major_cities_and_towns": ["Cascade", "McCall", "Donnelly", "Meadows Valley"]
+    },
+    {
+      "name": "Washington County",
+      "seat": "Weiser",
+      "major_cities_and_towns": ["Weiser", "Midvale", "Cambridge", "Galloway", "Herd Lake"]
+    }
+  ]
+}

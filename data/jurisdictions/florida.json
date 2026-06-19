@@ -1,0 +1,346 @@
+{
+  "state": "Florida",
+  "abbreviation": "FL",
+  "subdomain": "florida.blotter.host",
+  "metadata": {
+    "total_counties": 67,
+    "capital": "Tallahassee"
+  },
+  "counties": [
+    {
+      "name": "Alachua County",
+      "seat": "Gainesville",
+      "major_cities_and_towns": ["Gainesville", "Newberry", "Hawthorne", "Alachua", "High Springs", "Archer", "Micanopy", "LaCrosse", "Waldo", "Windsor"]
+    },
+    {
+      "name": "Baker County",
+      "seat": "Macclenny",
+      "major_cities_and_towns": ["Macclenny", "Glen St. Mary", "Sanderson"]
+    },
+    {
+      "name": "Bay County",
+      "seat": "Panama City",
+      "major_cities_and_towns": ["Panama City", "Panama City Beach", "Lynn Haven", "Callaway", "Springfield", "Parker", "Mexico Beach", "Youngstown", "Bonifay", "Fountain"]
+    },
+    {
+      "name": "Bradford County",
+      "seat": "Starke",
+      "major_cities_and_towns": ["Starke", "Lawtey", "Hampton", "Brooker"]
+    },
+    {
+      "name": "Brevard County",
+      "seat": "Titusville",
+      "major_cities_and_towns": ["Melbourne", "Titusville", "Palm Bay", "Cocoa", "Rockledge", "Merritt Island", "Cocoa Beach", "Viera", "Cape Canaveral", "Satellite Beach", "Indian Harbour Beach", "Indialantic", "Melbourne Beach", "West Melbourne", "Grant-Valkaria", "Malabar", "Palm Shores"]
+    },
+    {
+      "name": "Broward County",
+      "seat": "Fort Lauderdale",
+      "major_cities_and_towns": ["Fort Lauderdale", "Hollywood", "Pembroke Pines", "Miramar", "Coral Springs", "Sunrise", "Plantation", "Pompano Beach", "Deerfield Beach", "Lauderhill", "Weston", "Tamarac", "Margate", "Davie", "Coconut Creek", "North Lauderdale", "Lauderdale Lakes", "Oakland Park", "Hallandale Beach", "Dania Beach", "Cooper City", "Wilton Manors", "Lighthouse Point", "Parkland", "Lazy Lake", "Hillsboro Beach", "Lauderdale-by-the-Sea"]
+    },
+    {
+      "name": "Calhoun County",
+      "seat": "Blountstown",
+      "major_cities_and_towns": ["Blountstown", "Altha", "Clarksville", "Kinard"]
+    },
+    {
+      "name": "Charlotte County",
+      "seat": "Punta Gorda",
+      "major_cities_and_towns": ["Punta Gorda", "Port Charlotte", "Englewood", "Rotonda West", "Murdock", "Cleveland", "Harbour Heights"]
+    },
+    {
+      "name": "Citrus County",
+      "seat": "Inverness",
+      "major_cities_and_towns": ["Inverness", "Crystal River", "Lecanto", "Homosassa", "Floral City", "Beverly Hills", "Citrus Springs"]
+    },
+    {
+      "name": "Clay County",
+      "seat": "Green Cove Springs",
+      "major_cities_and_towns": ["Green Cove Springs", "Orange Park", "Fleming Island", "Oakleaf Plantation", "Middleburg", "Keystone Heights", "Penney Farms"]
+    },
+    {
+      "name": "Collier County",
+      "seat": "Naples",
+      "major_cities_and_towns": ["Naples", "Marco Island", "Immokalee", "Ave Maria", "Everglades City", "Goodland", "Golden Gate", "Lely", "Pelican Bay"]
+    },
+    {
+      "name": "Columbia County",
+      "seat": "Lake City",
+      "major_cities_and_towns": ["Lake City", "Fort White", "Wellborn", "Lulu"]
+    },
+    {
+      "name": "DeSoto County",
+      "seat": "Arcadia",
+      "major_cities_and_towns": ["Arcadia", "Nocatee", "Gardner", "Fort Ogden"]
+    },
+    {
+      "name": "Dixie County",
+      "seat": "Cross City",
+      "major_cities_and_towns": ["Cross City", "Horseshoe Beach", "Old Town", "Suwannee"]
+    },
+    {
+      "name": "Duval County",
+      "seat": "Jacksonville",
+      "major_cities_and_towns": ["Jacksonville", "Jacksonville Beach", "Neptune Beach", "Atlantic Beach", "Baldwin", "Northside", "Westside", "Southside", "Arlington", "Mandarin", "Baymeadows", "Fleming Island", "Orange Park", "Riverside", "Springfield", "San Marco"]
+    },
+    {
+      "name": "Escambia County",
+      "seat": "Pensacola",
+      "major_cities_and_towns": ["Pensacola", "Pensacola Beach", "Ferry Pass", "Brent", "Myrtle Grove", "Warrington", "Ensley", "Bellview", "Century", "Molino", "McDavid", "Beulah"]
+    },
+    {
+      "name": "Flagler County",
+      "seat": "Bunnell",
+      "major_cities_and_towns": ["Palm Coast", "Bunnell", "Flagler Beach", "Beverly Beach", "Marineland"]
+    },
+    {
+      "name": "Franklin County",
+      "seat": "Apalachicola",
+      "major_cities_and_towns": ["Apalachicola", "Carrabelle", "Eastpoint", "Lanark Village"]
+    },
+    {
+      "name": "Gadsden County",
+      "seat": "Quincy",
+      "major_cities_and_towns": ["Quincy", "Gretna", "Havana", "Chattahoochee", "Greensboro", "Midway"]
+    },
+    {
+      "name": "Gilchrist County",
+      "seat": "Trenton",
+      "major_cities_and_towns": ["Trenton", "Fanning Springs", "Bell"]
+    },
+    {
+      "name": "Glades County",
+      "seat": "Moore Haven",
+      "major_cities_and_towns": ["Moore Haven", "Palmdale", "Buckhead Ridge"]
+    },
+    {
+      "name": "Gulf County",
+      "seat": "Port St. Joe",
+      "major_cities_and_towns": ["Port St. Joe", "Wewahitchka", "White City", "Overstreet"]
+    },
+    {
+      "name": "Hamilton County",
+      "seat": "Jasper",
+      "major_cities_and_towns": ["Jasper", "White Springs", "Jennings"]
+    },
+    {
+      "name": "Hardee County",
+      "seat": "Wauchula",
+      "major_cities_and_towns": ["Wauchula", "Bowling Green", "Zolfo Springs", "Avon Park"]
+    },
+    {
+      "name": "Hendry County",
+      "seat": "LaBelle",
+      "major_cities_and_towns": ["LaBelle", "Clewiston", "Harlem", "Felda"]
+    },
+    {
+      "name": "Hernando County",
+      "seat": "Brooksville",
+      "major_cities_and_towns": ["Spring Hill", "Brooksville", "Weeki Wachee", "Ridge Manor", "Masaryktown", "Shady Hills"]
+    },
+    {
+      "name": "Highlands County",
+      "seat": "Sebring",
+      "major_cities_and_towns": ["Sebring", "Avon Park", "Lake Placid", "Lorida", "Highlands Park", "Sun 'n Lake"]
+    },
+    {
+      "name": "Hillsborough County",
+      "seat": "Tampa",
+      "major_cities_and_towns": ["Tampa", "Brandon", "Riverview", "St. Pete", "Plant City", "Temple Terrace", "Valrico", "Seffner", "Sun City Center", "Ruskin", "Apollo Beach", "Lutz", "Carrollwood", "Town 'n' Country", "Northdale", "Citrus Park", "Thonotosassa", "Gibsonton", "Mango", "Lithia"]
+    },
+    {
+      "name": "Holmes County",
+      "seat": "Bonifay",
+      "major_cities_and_towns": ["Bonifay", "Westville", "Noma", "Esto", "Ponce de Leon"]
+    },
+    {
+      "name": "Indian River County",
+      "seat": "Vero Beach",
+      "major_cities_and_towns": ["Vero Beach", "Sebastian", "Fellsmere", "Indian River Shores", "Orchid", "Gifford", "Roseland"]
+    },
+    {
+      "name": "Jackson County",
+      "seat": "Marianna",
+      "major_cities_and_towns": ["Marianna", "Cottondale", "Graceville", "Sneads", "Grand Ridge", "Campbellton", "Greenwood", "Malone"]
+    },
+    {
+      "name": "Jefferson County",
+      "seat": "Monticello",
+      "major_cities_and_towns": ["Monticello", "Wacissa", "Lamont", "Lloyd", "Aucilla"]
+    },
+    {
+      "name": "Lafayette County",
+      "seat": "Mayo",
+      "major_cities_and_towns": ["Mayo", "Day", "Midway", "Wilmarth"]
+    },
+    {
+      "name": "Lake County",
+      "seat": "Tavares",
+      "major_cities_and_towns": ["Clermont", "Leesburg", "Eustis", "Mount Dora", "Tavares", "Groveland", "Mascotte", "Minneola", "Howey-in-the-Hills", "Fruitland Park", "Montverde", "Lady Lake", "Astatula", "Umatilla", "Paisley", "Astor", "Okahumpka"]
+    },
+    {
+      "name": "Lee County",
+      "seat": "Fort Myers",
+      "major_cities_and_towns": ["Fort Myers", "Cape Coral", "Estero", "Lehigh Acres", "Bonita Springs", "Sanibel", "Fort Myers Beach", "North Fort Myers", "Marco Island", "Naples", "Pine Island Center", "Alva", "Captiva"]
+    },
+    {
+      "name": "Leon County",
+      "seat": "Tallahassee",
+      "major_cities_and_towns": ["Tallahassee", "Havana", "Woodville", "Centerville", "Bradfordville", "Capitola", "Miccosukee"]
+    },
+    {
+      "name": "Levy County",
+      "seat": "Bronson",
+      "major_cities_and_towns": ["Bronson", "Chiefland", "Williston", "Cedar Key", "Trenton", "Inglis", "Yankeetown", "Fanning Springs"]
+    },
+    {
+      "name": "Liberty County",
+      "seat": "Bristol",
+      "major_cities_and_towns": ["Bristol", "Hosford", "Telogia"]
+    },
+    {
+      "name": "Madison County",
+      "seat": "Madison",
+      "major_cities_and_towns": ["Madison", "Greenville", "Lee", "Pinetta"]
+    },
+    {
+      "name": "Manatee County",
+      "seat": "Bradenton",
+      "major_cities_and_towns": ["Bradenton", "Sarasota", "Lakewood Ranch", "Palmetto", "Anna Maria", "Holmes Beach", "Bradenton Beach", "Longboat Key", "Myakka City", "Ellenton", "Parrish", "Memphis", "Oneco", "West Bradenton"]
+    },
+    {
+      "name": "Marion County",
+      "seat": "Ocala",
+      "major_cities_and_towns": ["Ocala", "Dunnellon", "Belleview", "Silver Springs", "Reddick", "Citra", "McIntosh", "Micanopy", "Anthony", "Sparr", "Weirsdale", "Morriston"]
+    },
+    {
+      "name": "Martin County",
+      "seat": "Stuart",
+      "major_cities_and_towns": ["Stuart", "Palm City", "Jensen Beach", "Hobe Sound", "Port Salerno", "Indiantown", "Tequesta", "Jupiter Island"]
+    },
+    {
+      "name": "Miami-Dade County",
+      "seat": "Miami",
+      "major_cities_and_towns": ["Miami", "Hialeah", "Miami Gardens", "Miami Beach", "Homestead", "Coral Gables", "Doral", "Aventura", "North Miami", "Pembroke Pines", "Miami Lakes", "Cutler Bay", "Medley", "Sweetwater", "North Miami Beach", "Opa-locka", "Palmetto Bay", "Pinecrest", "South Miami", "Key Biscayne", "Bal Harbour", "Bay Harbor Islands", "Biscayne Park", "El Portal", "Florida City", "Golden Beach", "Indian Creek", "Islandia", "Medley", "Miami Shores", "Miami Springs", "Surfside", "Virginia Gardens", "West Miami", "Westchester", "Kendall", "Richmond Heights", "Princeton", "Naranja", "Goulds", "Perrine", "South Miami Heights", "Leisure City"]
+    },
+    {
+      "name": "Monroe County",
+      "seat": "Key West",
+      "major_cities_and_towns": ["Key West", "Marathon", "Islamorada", "Key Largo", "Layton", "Key Colony Beach", "Homestead", "Big Pine Key", "Tavernier", "Summerland Key"]
+    },
+    {
+      "name": "Nassau County",
+      "seat": "Fernandina Beach",
+      "major_cities_and_towns": ["Fernandina Beach", "Yulee", "Hilliard", "Callahan", "Bryceville", "Nassau Village-Ratliff"]
+    },
+    {
+      "name": "Okaloosa County",
+      "seat": "Crestview",
+      "major_cities_and_towns": ["Fort Walton Beach", "Crestview", "Niceville", "Destin", "Mary Esther", "Valparaiso", "Shalimar", "Ocean City", "Wright", "Cinco Bayou", "Laurel Hill", "Baker"]
+    },
+    {
+      "name": "Okeechobee County",
+      "seat": "Okeechobee",
+      "major_cities_and_towns": ["Okeechobee", "Basinger", "Kenansville"]
+    },
+    {
+      "name": "Orange County",
+      "seat": "Orlando",
+      "major_cities_and_towns": ["Orlando", "Kissimmee", "Sanford", "Maitland", "Winter Garden", "Apopka", "Ocoee", "Winter Park", "Eatonville", "Edgewood", "Belle Isle", "Oakland", "Windermere", "Azalea Park", "Goldenrod", "Lockhart", "Pine Castle", "Union Park", "Holden Heights", "Pine Hills", "Doctor Phillips", "Lake Nona", "Avalon Park"]
+    },
+    {
+      "name": "Osceola County",
+      "seat": "Kissimmee",
+      "major_cities_and_towns": ["Kissimmee", "St. Cloud", "Celebration", "Poinciana", "Intercession City", "Harmony", "Loughman", "Kenansville"]
+    },
+    {
+      "name": "Palm Beach County",
+      "seat": "West Palm Beach",
+      "major_cities_and_towns": ["West Palm Beach", "Boca Raton", "Boynton Beach", "Delray Beach", "Palm Beach Gardens", "Lake Worth Beach", "Wellington", "Jupiter", "Riviera Beach", "Greenacres", "North Palm Beach", "Palm Beach", "Palm Springs", "Belle Glade", "Pahokee", "South Bay", "Tequesta", "Royal Palm Beach", "Juno Beach", "Lake Park", "Loxahatchee", "The Acreage", "Gun Club Estates"]
+    },
+    {
+      "name": "Pasco County",
+      "seat": "New Port Richey",
+      "major_cities_and_towns": ["New Port Richey", "Wesley Chapel", "Land O'Lakes", "Zephyrhills", "Dade City", "Port Richey", "Holiday", "Hudson", "Bayonet Point", "Elfers", "New Port Richey East", "Odessa", "Lutz", "Aripeka"]
+    },
+    {
+      "name": "Pinellas County",
+      "seat": "Clearwater",
+      "major_cities_and_towns": ["St. Petersburg", "Clearwater", "Largo", "Pinellas Park", "Tarpon Springs", "Dunedin", "Palm Harbor", "Safety Harbor", "Seminole", "Gulfport", "St. Pete Beach", "Belleair", "Belleair Beach", "Indian Rocks Beach", "Indian Shores", "Madeira Beach", "North Redington Beach", "Oldsmar", "Redington Beach", "South Pasadena", "Treasure Island", "Belleair Bluffs", "Belleair Shore", "Kenneth City", "Lealman"]
+    },
+    {
+      "name": "Polk County",
+      "seat": "Bartow",
+      "major_cities_and_towns": ["Lakeland", "Winter Haven", "Bartow", "Haines City", "Auburndale", "Davenport", "Lake Wales", "Dundee", "Mulberry", "Polk City", "Frostproof", "Fort Meade", "Babson Park", "Eagle Lake", "Kathleen", "Poinciana", "Four Corners"]
+    },
+    {
+      "name": "Putnam County",
+      "seat": "Palatka",
+      "major_cities_and_towns": ["Palatka", "Crescent City", "Interlachen", "San Mateo", "Pomona Park", "Satsuma", "Hawthorne"]
+    },
+    {
+      "name": "St. Johns County",
+      "seat": "St. Augustine",
+      "major_cities_and_towns": ["St. Augustine", "St. Augustine Beach", "Palm Valley", "Nocatee", "Ponte Vedra Beach", "Fruit Cove", "Switzerland", "Elkton", "Hastings"]
+    },
+    {
+      "name": "St. Lucie County",
+      "seat": "Fort Pierce",
+      "major_cities_and_towns": ["Fort Pierce", "Port St. Lucie", "St. Lucie West", "Tradition", "White City", "Lakewood Park", "Torino"]
+    },
+    {
+      "name": "Santa Rosa County",
+      "seat": "Milton",
+      "major_cities_and_towns": ["Milton", "Gulf Breeze", "Navarre", "Pace", "Jay", "Bagdad", "East Milton"]
+    },
+    {
+      "name": "Sarasota County",
+      "seat": "Sarasota",
+      "major_cities_and_towns": ["Sarasota", "Venice", "North Port", "Englewood", "Osprey", "Nokomis", "Siesta Key", "Longboat Key", "Laurel", "Fruitville", "Bee Ridge", "Kensington Park", "South Gate Ridge"]
+    },
+    {
+      "name": "Seminole County",
+      "seat": "Sanford",
+      "major_cities_and_towns": ["Sanford", "Oviedo", "Lake Mary", "Casselberry", "Altamonte Springs", "Longwood", "Winter Springs", "Geneva", "Goldenrod", "Midway"]
+    },
+    {
+      "name": "Sumter County",
+      "seat": "Bushnell",
+      "major_cities_and_towns": ["Bushnell", "Webster", "The Villages", "Coleman", "Center Hill", "Lake Panasoffkee", "Wildwood"]
+    },
+    {
+      "name": "Suwannee County",
+      "seat": "Live Oak",
+      "major_cities_and_towns": ["Live Oak", "Branford", "Wellborn", "Lee", "Jasper"]
+    },
+    {
+      "name": "Taylor County",
+      "seat": "Perry",
+      "major_cities_and_towns": ["Perry", "Steinhatchee", "Shady Grove", "Salem"]
+    },
+    {
+      "name": "Union County",
+      "seat": "Lake Butler",
+      "major_cities_and_towns": ["Lake Butler", "Raiford", "Worthington Springs", "New River", "Raiford"]
+    },
+    {
+      "name": "Volusia County",
+      "seat": "DeLand",
+      "major_cities_and_towns": ["Daytona Beach", "DeLand", "Port Orange", "Deltona", "New Smyrna Beach", "Holly Hill", "Ormond Beach", "Edgewater", "Debary", "South Daytona", "Orange City", "Lake Helen", "Daytona Beach Shores", "Pierson", "Ponce Inlet", "Osteen"]
+    },
+    {
+      "name": "Wakulla County",
+      "seat": "Crawfordville",
+      "major_cities_and_towns": ["Crawfordville", "Sopchoppy", "Panacea", "St. Marks", "Medart"]
+    },
+    {
+      "name": "Walton County",
+      "seat": "DeFuniak Springs",
+      "major_cities_and_towns": ["DeFuniak Springs", "Destin", "Freeport", "Niceville", "Paxton", "Crestview", "Argyle"]
+    },
+    {
+      "name": "Washington County",
+      "seat": "Chipley",
+      "major_cities_and_towns": ["Chipley", "Bonifay", "Marianna", "Caryville", "Wausau", "Vernon"]
+    }
+  ]
+}

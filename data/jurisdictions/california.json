@@ -1,0 +1,301 @@
+{
+  "state": "California",
+  "abbreviation": "CA",
+  "subdomain": "california.blotter.host",
+  "metadata": {
+    "total_counties": 58,
+    "capital": "Sacramento"
+  },
+  "counties": [
+    {
+      "name": "Alameda County",
+      "seat": "Oakland",
+      "major_cities_and_towns": ["Oakland", "Fremont", "Hayward", "Berkeley", "San Leandro", "Livermore", "Pleasanton", "Emeryville", "Newark", "Union City", "Piedmont", "Castro Valley", "San Lorenzo", "Ashland", "Cherryland", "Dublin", "Sunol"]
+    },
+    {
+      "name": "Alpine County",
+      "seat": "Markleeville",
+      "major_cities_and_towns": ["Markleeville", "Woodfords", "Bear Valley", "Lake Alpine"]
+    },
+    {
+      "name": "Amador County",
+      "seat": "Jackson",
+      "major_cities_and_towns": ["Jackson", "Sutter Creek", "Ione", "Plymouth", "Amador City", "Pine Grove", "Pioneer", "Drytown"]
+    },
+    {
+      "name": "Butte County",
+      "seat": "Oroville",
+      "major_cities_and_towns": ["Chico", "Oroville", "Paradise", "Gridley", "Biggs", "Palermo", "Durham", "Magalia", "Cohasset", "Forest Ranch", "Bangor", "Berry Creek"]
+    },
+    {
+      "name": "Calaveras County",
+      "seat": "San Andreas",
+      "major_cities_and_towns": ["San Andreas", "Angels Camp", "Copperopolis", "Arnold", "Murphys", "West Point", "Altaville", "Mokelumne Hill"]
+    },
+    {
+      "name": "Colusa County",
+      "seat": "Colusa",
+      "major_cities_and_towns": ["Colusa", "Williams", "Orland", "Arbuckle", "Maxwell", "Princeton", "Sites"]
+    },
+    {
+      "name": "Contra Costa County",
+      "seat": "Martinez",
+      "major_cities_and_towns": ["Concord", "Richmond", "Antioch", "Walnut Creek", "Brentwood", "San Ramon", "Pittsburg", "Martinez", "Hercules", "Pinole", "El Cerrito", "Oakley", "Orinda", "Lafayette", "Pleasant Hill", "Clayton", "Danville", "Moraga", "San Pablo", "Rodeo", "Discovery Bay", "Kensington", "El Sobrante"]
+    },
+    {
+      "name": "Del Norte County",
+      "seat": "Crescent City",
+      "major_cities_and_towns": ["Crescent City", "Gasquet", "Smith River", "Klamath", "Fort Dick"]
+    },
+    {
+      "name": "El Dorado County",
+      "seat": "Placerville",
+      "major_cities_and_towns": ["South Lake Tahoe", "Placerville", "El Dorado Hills", "Shingle Springs", "Cameron Park", "Rescue", "El Dorado", "Georgetown", "Coloma", "Pollock Pines", "Meyers", "Diamond Springs", "Garden Valley"]
+    },
+    {
+      "name": "Fresno County",
+      "seat": "Fresno",
+      "major_cities_and_towns": ["Fresno", "Clovis", "Sanger", "Selma", "Reedley", "Kingsburg", "Coalinga", "Madera", "Fowler", "Kerman", "Parlier", "Orange Cove", "Huron", "Mendota", "San Joaquin", "Easton", "Caruthers", "Auberry", "Shaver Lake", "Dunlap"]
+    },
+    {
+      "name": "Glenn County",
+      "seat": "Willows",
+      "major_cities_and_towns": ["Willows", "Orland", "Hamilton City", "Artois", "Elk Creek"]
+    },
+    {
+      "name": "Humboldt County",
+      "seat": "Eureka",
+      "major_cities_and_towns": ["Eureka", "Arcata", "Fortuna", "McKinleyville", "Ferndale", "Trinidad", "Blue Lake", "Rio Dell", "Loleta", "Garberville", "Willow Creek", "Hoopa", "Westhaven-Moonstone"]
+    },
+    {
+      "name": "Imperial County",
+      "seat": "El Centro",
+      "major_cities_and_towns": ["El Centro", "Calexico", "Brawley", "Imperial", "Indio", "Holtville", "Westmorland", "Calipatria", "El Centro", "Seeley", "Heber"]
+    },
+    {
+      "name": "Inyo County",
+      "seat": "Independence",
+      "major_cities_and_towns": ["Bishop", "Independence", "Big Pine", "Lone Pine", "Death Valley", "Tecopa", "Olancha"]
+    },
+    {
+      "name": "Kern County",
+      "seat": "Bakersfield",
+      "major_cities_and_towns": ["Bakersfield", "Ridgecrest", "Delano", "Lancaster", "Wasco", "Tehachapi", "Taft", "McFarland", "Shafter", "California City", "Arvin", "Oildale", "Mojave", "Stallion Springs", "Golden Hills", "Lamont", "Bear Valley Springs", "Boron"]
+    },
+    {
+      "name": "Kings County",
+      "seat": "Hanford",
+      "major_cities_and_towns": ["Hanford", "Corcoran", "Lemoore", "Avenal", "Stratford", "Armona", "Kettleman City"]
+    },
+    {
+      "name": "Lake County",
+      "seat": "Lakeport",
+      "major_cities_and_towns": ["Clearlake", "Lakeport", "Clearlake Oaks", "Middletown", "Kelseyville", "Lucerne", "Cobb", "Hidden Valley Lake", "Lower Lake", "Nice"]
+    },
+    {
+      "name": "Lassen County",
+      "seat": "Susanville",
+      "major_cities_and_towns": ["Susanville", "Herlong", "Westwood", "Bieber", "Alturas"]
+    },
+    {
+      "name": "Los Angeles County",
+      "seat": "Los Angeles",
+      "major_cities_and_towns": ["Los Angeles", "Long Beach", "Glendale", "Santa Clarita", "Palmdale", "Pomona", "Torrance", "Pasadena", "El Monte", "Downey", "Inglewood", "West Covina", "Norwalk", "Burbank", "South Gate", "Compton", "Carson", "Hawthorne", "Whittier", "Alhambra", "Santa Monica", "Lakewood", "Bellflower", "Baldwin Park", "Lynwood", "Redondo Beach", "Rancho Cucamonga", "Pico Rivera", "Montebello", "Monterey Park", "Arcadia", "Diamond Bar", "Thousand Oaks", "Murrieta", "Simi Valley", "Lancaster", "Covina", "Inglewood", "Culver City", "Santa Fe Springs", "Gardena", "Hermosa Beach", "Manhattan Beach", "Venice", "Boyle Heights", "El Segundo", "Paramount", "Watts", "Malibu", "Agoura Hills", "Azusa", "Bell", "Bellflower", "Beverly Hills", "Calabasas", "Cerritos", "Chatsworth", "Claremont", "Duarte", "Glendora", "La Canada Flintridge", "La Habra Heights", "La Mirada", "La Puente", "La Verne", "Lawndale", "Monrovia", "Rolling Hills Estates", "San Dimas", "San Fernando", "San Gabriel", "San Marino", "Sierra Madre", "Signal Hill", "South El Monte", "Temple City", "Vernon", "Walnut", "West Hollywood"]
+    },
+    {
+      "name": "Madera County",
+      "seat": "Madera",
+      "major_cities_and_towns": ["Madera", "Chowchilla", "Oakhurst", "Madera Acres", "North Fork", "Ahwahnee", "Coarsegold", "O'Neals"]
+    },
+    {
+      "name": "Marin County",
+      "seat": "San Rafael",
+      "major_cities_and_towns": ["San Rafael", "Novato", "Mill Valley", "Fairfax", "Corte Madera", "San Anselmo", "Tiburon", "Belvedere", "Larkspur", "Ross", "Sausalito", "Greenbrae", "Kentfield", "Forest Knolls", "Woodacre", "Point Reyes Station"]
+    },
+    {
+      "name": "Mariposa County",
+      "seat": "Mariposa",
+      "major_cities_and_towns": ["Mariposa", "El Portal", "Midpines", "Coulterville", "Hornitos"]
+    },
+    {
+      "name": "Mendocino County",
+      "seat": "Ukiah",
+      "major_cities_and_towns": ["Ukiah", "Fort Bragg", "Willits", "Point Arena", "Covelo", "Laytonville", "Hopland", "Redwood Valley", "Philo", "Leggett"]
+    },
+    {
+      "name": "Merced County",
+      "seat": "Merced",
+      "major_cities_and_towns": ["Merced", "Los Banos", "Atwater", "Turlock", "Livingston", "Winton", "Dos Palos", "Delhi", "Gustine", "Planada"]
+    },
+    {
+      "name": "Modoc County",
+      "seat": "Alturas",
+      "major_cities_and_towns": ["Alturas", "Cedarville", "Canby", "Davis Creek", "Tulelake"]
+    },
+    {
+      "name": "Mono County",
+      "seat": "Bridgeport",
+      "major_cities_and_towns": ["Mammoth Lakes", "Bridgeport", "June Lake", "Lee Vining", "Benton", "Walker"]
+    },
+    {
+      "name": "Monterey County",
+      "seat": "Salinas",
+      "major_cities_and_towns": ["Salinas", "Monterey", "Santa Cruz", "Pacific Grove", "Seaside", "Marina", "Carmel-by-the-Sea", "King City", "Gonzales", "Greenfield", "Soledad", "Del Rey Oaks", "Sand City", "Castroville", "Pajaro", "Prunedale"]
+    },
+    {
+      "name": "Napa County",
+      "seat": "Napa",
+      "major_cities_and_towns": ["Napa", "St. Helena", "Calistoga", "Yountville", "American Canyon", "Pope Valley", "Angwin", "Rutherford", "Oakville"]
+    },
+    {
+      "name": "Nevada County",
+      "seat": "Nevada City",
+      "major_cities_and_towns": ["Grass Valley", "Nevada City", "Truckee", "Penn Valley", "Rough and Ready", "North San Juan", "Smartsville", "Alta Sierra"]
+    },
+    {
+      "name": "Orange County",
+      "seat": "Santa Ana",
+      "major_cities_and_towns": ["Anaheim", "Santa Ana", "Irvine", "Huntington Beach", "Garden Grove", "Fullerton", "Orange", "Costa Mesa", "Mission Viejo", "Westminster", "Buena Park", "Newport Beach", "Lake Forest", "Tustin", "Yorba Linda", "Rancho Santa Margarita", "San Clemente", "Laguna Niguel", "Brea", "La Habra", "Fountain Valley", "Placentia", "Aliso Viejo", "Laguna Beach", "Laguna Hills", "Stanton", "Seal Beach", "Dana Point", "Cypress", "Los Alamitos", "Villa Park", "Laguna Woods", "San Juan Capistrano", "La Palma"]
+    },
+    {
+      "name": "Placer County",
+      "seat": "Auburn",
+      "major_cities_and_towns": ["Roseville", "Rocklin", "Auburn", "Folsom", "Lincoln", "Granite Bay", "Loomis", "Citrus Heights", "Colfax", "Penryn", "Meadow Vista", "Sheridan", "Foresthill", "Lake Tahoe", "Kings Beach", "Tahoe City"]
+    },
+    {
+      "name": "Plumas County",
+      "seat": "Quincy",
+      "major_cities_and_towns": ["Quincy", "Portola", "Greenville", "Chester", "Blairsden-Graeagle", "Taylorsville"]
+    },
+    {
+      "name": "Riverside County",
+      "seat": "Riverside",
+      "major_cities_and_towns": ["Riverside", "San Bernardino", "Moreno Valley", "Corona", "Murrieta", "Temecula", "Hemet", "Menifee", "Lake Elsinore", "Perris", "Indio", "Coachella", "Palm Desert", "Cathedral City", "Palm Springs", "La Quinta", "Rancho Mirage", "Indian Wells", "Desert Hot Springs", "Beaumont", "Banning", "Norco", "Jurupa Valley", "Eastvale", "Wildomar", "San Jacinto", "Blythe", "Calimesa", "Canyon Lake", "Thousand Palms"]
+    },
+    {
+      "name": "Sacramento County",
+      "seat": "Sacramento",
+      "major_cities_and_towns": ["Sacramento", "Elk Grove", "Roseville", "Folsom", "Citrus Heights", "Rancho Cordova", "Galt", "Isleton", "Arden-Arcade", "Antelope", "North Highlands", "Fair Oaks", "Orangevale", "Foothill Farms", "Gold River", "Carmichael", "Rosemont", "Florin", "Vineyard"]
+    },
+    {
+      "name": "San Benito County",
+      "seat": "Hollister",
+      "major_cities_and_towns": ["Hollister", "San Juan Bautista", "Tres Pinos", "Paicines", "Pinnacles"]
+    },
+    {
+      "name": "San Bernardino County",
+      "seat": "San Bernardino",
+      "major_cities_and_towns": ["San Bernardino", "Fontana", "Moreno Valley", "Rancho Cucamonga", "Ontario", "Victorville", "Rialto", "Hesperia", "Chino", "Chino Hills", "Upland", "Apple Valley", "Redlands", "Colton", "Yucaipa", "Highland", "Barstow", "Twentynine Palms", "Yucca Valley", "Adelanto", "Big Bear Lake", "Loma Linda", "Montclair", "Grand Terrace", "Needles", "Blythe", "Big Bear City", "Crestline", "Lake Arrowhead"]
+    },
+    {
+      "name": "San Diego County",
+      "seat": "San Diego",
+      "major_cities_and_towns": ["San Diego", "Chula Vista", "Escondido", "Oceanside", "El Cajon", "Carlsbad", "Vista", "San Marcos", "Santee", "National City", "Poway", "La Mesa", "Spring Valley", "Encinitas", "Lemon Grove", "Coronado", "Lakeside", "Fallbrook", "Ramona", "Del Mar", "Solana Beach", "Imperial Beach", "Lemon Grove", "El Cajon", "Jamul", "Bonsall", "Rainbow", "Borrego Springs", "Campo", "Alpine"]
+    },
+    {
+      "name": "San Francisco County",
+      "seat": "San Francisco",
+      "major_cities_and_towns": ["San Francisco", "Daly City", "South San Francisco", "Colma"]
+    },
+    {
+      "name": "San Joaquin County",
+      "seat": "Stockton",
+      "major_cities_and_towns": ["Stockton", "Tracy", "Lodi", "Manteca", "Turlock", "Ripon", "Escalon", "Lathrop", "Woodbridge", "Acampo", "Lockeford", "Clements"]
+    },
+    {
+      "name": "San Luis Obispo County",
+      "seat": "San Luis Obispo",
+      "major_cities_and_towns": ["San Luis Obispo", "Paso Robles", "Arroyo Grande", "Atascadero", "Morro Bay", "Grover Beach", "Pismo Beach", "Cambria", "Los Osos", "Templeton", "Nipomo", "Oceano", "Cayucos"]
+    },
+    {
+      "name": "San Mateo County",
+      "seat": "Redwood City",
+      "major_cities_and_towns": ["Daly City", "San Mateo", "Redwood City", "South San Francisco", "San Bruno", "Menlo Park", "Foster City", "Burlingame", "Millbrae", "San Carlos", "Belmont", "Pacifica", "Brisbane", "Colma", "East Palo Alto", "Half Moon Bay", "Portola Valley", "Woodside", "Atherton", "Hillsborough"]
+    },
+    {
+      "name": "Santa Barbara County",
+      "seat": "Santa Barbara",
+      "major_cities_and_towns": ["Santa Barbara", "Santa Maria", "Lompoc", "Goleta", "Carpinteria", "Solvang", "Buellton", "Guadalupe", "Orcutt", "Los Alamos", "Vandenberg Village"]
+    },
+    {
+      "name": "Santa Clara County",
+      "seat": "San Jose",
+      "major_cities_and_towns": ["San Jose", "Sunnyvale", "Santa Clara", "Mountain View", "Cupertino", "Gilroy", "Milpitas", "Los Gatos", "Campbell", "Morgan Hill", "Los Altos", "Saratoga", "Palo Alto", "Alviso", "Monte Sereno", "Los Altos Hills"]
+    },
+    {
+      "name": "Santa Cruz County",
+      "seat": "Santa Cruz",
+      "major_cities_and_towns": ["Santa Cruz", "Watsonville", "Scotts Valley", "Capitola", "Felton", "Aptos", "Ben Lomond", "Boulder Creek", "Live Oak", "Soquel"]
+    },
+    {
+      "name": "Shasta County",
+      "seat": "Redding",
+      "major_cities_and_towns": ["Redding", "Anderson", "Shasta Lake", "Cottonwood", "Oak Run", "Round Mountain", "Palo Cedro", "Shingletown", "Burney"]
+    },
+    {
+      "name": "Sierra County",
+      "seat": "Downieville",
+      "major_cities_and_towns": ["Downieville", "Loyalton", "Sierra City", "Sierraville"]
+    },
+    {
+      "name": "Siskiyou County",
+      "seat": "Yreka",
+      "major_cities_and_towns": ["Yreka", "Mt. Shasta", "Weed", "Tulelake", "Dunsmuir", "Dorris", "Etna", "Fort Jones", "Happy Camp"]
+    },
+    {
+      "name": "Solano County",
+      "seat": "Fairfield",
+      "major_cities_and_towns": ["Fairfield", "Vallejo", "Vacaville", "Napa", "Benicia", "Suisun City", "Dixon", "Rio Vista", "American Canyon", "Winters"]
+    },
+    {
+      "name": "Sonoma County",
+      "seat": "Santa Rosa",
+      "major_cities_and_towns": ["Santa Rosa", "Petaluma", "Rohnert Park", "Windsor", "Healdsburg", "Sebastopol", "Sonoma", "Cloverdale", "Cotati", "Guerneville", "Ukiah", "Bodega Bay", "Forestville", "Occidental", "Kenwood"]
+    },
+    {
+      "name": "Stanislaus County",
+      "seat": "Modesto",
+      "major_cities_and_towns": ["Modesto", "Turlock", "Ceres", "Riverbank", "Oakdale", "Waterford", "Patterson", "Newman", "Empire", "Salida", "Hughson", "Keyes"]
+    },
+    {
+      "name": "Sutter County",
+      "seat": "Yuba City",
+      "major_cities_and_towns": ["Yuba City", "Live Oak", "Marysville", "Meridian", "Robbins", "Nicolaus"]
+    },
+    {
+      "name": "Tehama County",
+      "seat": "Red Bluff",
+      "major_cities_and_towns": ["Red Bluff", "Corning", "Tehama", "Gerber", "Los Molinos", "Proberta", "Cottonwood"]
+    },
+    {
+      "name": "Trinity County",
+      "seat": "Weaverville",
+      "major_cities_and_towns": ["Weaverville", "Hayfork", "Lewiston", "Douglas City", "Hyampom", "Mad River"]
+    },
+    {
+      "name": "Tulare County",
+      "seat": "Visalia",
+      "major_cities_and_towns": ["Visalia", "Tulare", "Porterville", "Hanford", "Lindsay", "Dinuba", "Exeter", "Farmersville", "Woodlake", "Cutler-Orosi", "Three Rivers", "Lemon Cove", "Ivanhoe", "Tipton", "Terra Bella"]
+    },
+    {
+      "name": "Tuolumne County",
+      "seat": "Sonora",
+      "major_cities_and_towns": ["Sonora", "Tuolumne", "Jamestown", "Columbia", "Groveland", "Big Oak Flat", "Mi-Wuk Village", "Chinese Camp"]
+    },
+    {
+      "name": "Ventura County",
+      "seat": "Ventura",
+      "major_cities_and_towns": ["Oxnard", "Thousand Oaks", "Simi Valley", "Ventura", "Camarillo", "Moorpark", "Santa Paula", "Fillmore", "Ojai", "Port Hueneme", "El Rio", "Saticoy", "Oak Park", "Newbury Park"]
+    },
+    {
+      "name": "Yolo County",
+      "seat": "Woodland",
+      "major_cities_and_towns": ["Davis", "Woodland", "Winters", "West Sacramento", "Esparto", "Yolo", "Clarksburg", "Knights Landing"]
+    },
+    {
+      "name": "Yuba County",
+      "seat": "Marysville",
+      "major_cities_and_towns": ["Marysville", "Wheatland", "Linda", "Olivehurst", "Plumas Lake", "Dobbins", "Oregon House"]
+    }
+  ]
+}

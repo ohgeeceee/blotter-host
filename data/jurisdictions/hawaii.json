@@ -1,0 +1,36 @@
+{
+  "state": "Hawaii",
+  "abbreviation": "HI",
+  "subdomain": "hawaii.blotter.host",
+  "metadata": {
+    "total_counties": 5,
+    "capital": "Honolulu"
+  },
+  "counties": [
+    {
+      "name": "Hawaii County",
+      "seat": "Hilo",
+      "major_cities_and_towns": ["Hilo", "Kona", "Kailua-Kona", "Waimea", "Keaau", "Pahoa", "Captain Cook", "Holualoa", "Naalehu", "Hawaiian Ocean View", "Waikoloa Village", "Mountain View", "Leilani Estates", "Ainaloa", "Lanipuna", "Eden Roc", "Discovery Harbour"]
+    },
+    {
+      "name": "Honolulu County",
+      "seat": "Honolulu",
+      "major_cities_and_towns": ["Honolulu", "Pearl City", "Hilo", "Kailua", "Kaneohe", "Ewa Beach", "Mililani Town", "Aiea", "Kapolei", "Waipahu", "Makakilo", "Mililani Mauka", "Waimalu", "Halawa", "Ewa Gentry", "Royal Kunia", "Village Park", "Wahiawa", "Waipio", "Schofield Barracks", "Maunawili", "Waimea", "Laie", "Hauula", "Punaluu", "Kahuku", "Kawela Bay"]
+    },
+    {
+      "name": "Kalawao County",
+      "seat": "Kalaupapa",
+      "major_cities_and_towns": ["Kalaupapa", "Kalawao"]
+    },
+    {
+      "name": "Kauai County",
+      "seat": "Lihue",
+      "major_cities_and_towns": ["Lihue", "Kapaa", "Waimea", "Hanapepe", "Kilauea", "Princeville", "Hanalei", "Poipu", "Koloa", "Eleele", "Kekaha", "Anahola", "Wailua"]
+    },
+    {
+      "name": "Maui County",
+      "seat": "Wailuku",
+      "major_cities_and_towns": ["Kahului", "Wailuku", "Kihei", "Lahaina", "Makawao", "Kula", "Haiku-Pauwela", "Paia", "Hana", "Hoolehua", "Lanai City", "Puunene", "Maalaea", "Kapalua", "Napili-Honokowai", "Wailea-Makena"]
+    }
+  ]
+}

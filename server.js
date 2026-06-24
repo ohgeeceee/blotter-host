@@ -92,6 +92,9 @@ app.get('/__tenant-test', (req, res, next) => {
   return res.status(200).send(`Welcome to the ${label} blotter`);
 });
 
+// Public chat assistant (available on apex + tenant surfaces)
+app.use('/api/chat', require('./src/routes/chat'));
+
 // The administration portal is exposed only on the exact apex Host header.
 app.use('/admin', (req, res, next) => {
   if (!isAdminHost(req)) {

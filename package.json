@@ -17,7 +17,7 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "better-sqlite3": "^11.10.0",
-    "express": "^4.19.2",
+    "express": "^4.22.3",
     "node-cron": "^4.0.0",
     "pg": "^8.11.3",
     "playwright": "^1.60.0",
